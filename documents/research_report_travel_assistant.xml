@@ -1,0 +1,127 @@
+<VSCode.Cell language="markdown">
+# Research Report: Multilingual Conversational Travel Assistant
+
+This research documents the design, implementation, and iterative improvement of a multilingual conversational travel assistant. The assistant is capable of understanding and responding to travel-related queries in both English and German, extracting structured information (slots) for downstream services such as weather, flight, and hotel APIs.
+
+</VSCode.Cell>
+<VSCode.Cell language="markdown">
+## 1. Project Overview
+
+The project aims to build a robust chatbot that can:
+- Accept free-form user questions about travel (weather, flights, hotels).
+- Extract intent and relevant slots (e.g., city, dates, origin, destination).
+- Support both English and German queries.
+- Integrate with real-world APIs for weather, flights, and hotels.
+- Provide fallback mechanisms and normalization for ambiguous or incomplete user input.
+
+</VSCode.Cell>
+<VSCode.Cell language="markdown">
+## 2. Data Collection and Annotation
+
+### 2.1. Initial Data Sources
+- English and German travel queries were collected, covering a variety of scenarios (single-date, date-range, city, origin/destination).
+- Existing datasets such as GermEval and synthetic data were used as a base.
+
+### 2.2. German Data Expansion
+- Additional German queries were manually crafted and annotated, ensuring coverage of:
+  - Flight booking (with and without date ranges)
+  - Hotel booking (with adults/children, breakfast, etc.)
+  - Weather queries (single date, date range, month)
+- Example annotation:
+  ```
+  {
+    "text": "Ich will einen Flug von Hamburg nach Zürich am 12. September",
+    "slots": [
+      {"slot": "origin", "value": "Hamburg"},
+      {"slot": "destination", "value": "Zürich"},
+      {"slot": "date", "value": "12. September"}
+    ]
+  }
+  ```
+
+### 2.3. Merging Datasets
+- All annotated data was merged using a custom script to create a comprehensive, multilingual slot NER dataset.
+
+</VSCode.Cell>
+<VSCode.Cell language="markdown">
+## 3. Model Training
+
+### 3.1. Slot NER Model
+- A transformer-based model (e.g., BERT) was trained for slot extraction.
+- The model was retrained after each data expansion, with validation on both English and German queries.
+- The training script supports both single-date and date-range slot annotation.
+
+### 3.2. Intent Classification
+- A separate intent classifier was trained to distinguish between weather, flight, hotel, and other queries.
+
+### 3.3. Evaluation
+- The models were evaluated using accuracy and F1-score on a held-out validation set.
+- Manual and automated tests were run using a diverse set of queries in both languages.
+
+</VSCode.Cell>
+<VSCode.Cell language="markdown">
+## 4. Chatbot Logic and Slot Normalization
+
+### 4.1. Core Pipeline
+- User input is first checked for language and translated if necessary.
+- Intent and slots are extracted using the trained models.
+- Slot normalization logic ensures:
+  - If only `date` is present, it is used for both `start_date` and `end_date`.
+  - If only one of `start_date` or `end_date` is present, it is treated as a single-date query.
+  - Fallback regex is used for flight queries to extract `origin` and `destination` if the model misses them.
+  - German month names are normalized to English for downstream processing.
+
+### 4.2. API Integration
+- Weather, flight, and hotel information is fetched using real APIs (OpenWeatherMap, Google Flights, Booking.com).
+- City names are mapped to IATA codes for flight queries.
+
+### 4.3. Debugging and Testing
+- Extensive debug output is provided for slot extraction and normalization.
+- A test suite with 20+ scenarios (English and German) validates the end-to-end pipeline.
+
+</VSCode.Cell>
+<VSCode.Cell language="markdown">
+## 5. Iterative Improvement
+
+### 5.1. Error Analysis
+- Test results were analyzed to identify failure cases (e.g., missing slots, ambiguous dates).
+- The training data was expanded and normalization logic improved based on these findings.
+
+### 5.2. Robustness
+- The chatbot is robust to incomplete or ambiguous input, thanks to normalization and fallback logic.
+- Multilingual support is achieved through both translation and direct annotation.
+
+</VSCode.Cell>
+<VSCode.Cell language="markdown">
+## 6. Final Step: The Bot in Action
+
+The final chatbot is capable of:
+- Understanding and responding to travel queries in both English and German.
+- Extracting structured information for downstream APIs.
+- Handling a wide range of date formats and slot ambiguities.
+- Providing real-time travel advice, including weather, flight, and hotel information.
+
+**Example interaction:**
+
+- **User:** "Finde Flüge von Berlin nach Rom vom 1. Juli bis 10. Juli"
+- **Bot:** Returns flight options, weather for both cities, and hotel suggestions for the specified dates.
+
+**Testing:**  
+A comprehensive test suite ensures the bot performs well on both English and German queries, with debug output for further improvement.
+
+</VSCode.Cell>
+<VSCode.Cell language="markdown">
+## 7. Conclusion
+
+This project demonstrates a practical approach to building a multilingual, robust conversational travel assistant. Key success factors include:
+- Iterative data expansion and annotation.
+- Careful slot normalization and fallback logic.
+- Integration with real-world APIs.
+- Comprehensive testing and debugging.
+
+Future work could include:
+- Expanding to more languages.
+- Improving NER-aware translation.
+- Adding more advanced context handling and dialogue management.
+
+</VSCode.Cell>

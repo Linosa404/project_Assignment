@@ -1,0 +1,344 @@
+/Users/osamaalabaji/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Some weights of the model checkpoint at roberta-large-mnli were not used when initializing RobertaForSequenceClassification: ['roberta.pooler.dense.bias', 'roberta.pooler.dense.weight']
+- This IS expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Device set to use mps:0
+/Users/osamaalabaji/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:380: InconsistentVersionWarning: Trying to unpickle estimator TfidfTransformer from version 1.7.0 when using version 1.6.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/Users/osamaalabaji/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:380: InconsistentVersionWarning: Trying to unpickle estimator TfidfVectorizer from version 1.7.0 when using version 1.6.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/Users/osamaalabaji/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:380: InconsistentVersionWarning: Trying to unpickle estimator LogisticRegression from version 1.7.0 when using version 1.6.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+DEBUG: intent=flight_search, slots={'start_date': '2025-07-01', 'end_date': '2025-07-10'}
+DEBUG: origin=Find flights from berlin, destination=rome, start_date=2025-07-01, end_date=2025-07-10
+Input: Find flights from Berlin to Rome from July 1 to July 10
+Response: Flight Info: <b>Google Flights Results:</b><br>
+
+Top Hotels:
+🏨 Dumitranas Retreat (?⭐)
+🏨 Hotel Magurele (1.0⭐)
+🏨 Premium Wellness Institute (3.4⭐)
+
+Top Restaurants:
+🍽️ Restaurant Matis (4.7⭐)
+🍽️ Hanul Oltenesc (5.0⭐)
+🍽️ Palloma Cafe (5.0⭐)
+----------------------------------------
+DEBUG: intent=weather, slots={'city': 'London', 'end_date': None}
+DEBUG: origin=None, destination=None, start_date=None, end_date=None
+Input: What's the weather in London from December 16 to 23, 2025?
+Response: Weather Info: Current weather in London: broken clouds, 17.88°C
+
+Top Restaurants:
+🍽️ Casey's (4.7⭐)
+----------------------------------------
+DEBUG: intent=hotel_booking, slots={'city': 'Paris', 'start_date': '2025-08-05', 'end_date': '2025-08-10'}
+DEBUG: origin=None, destination=None, start_date=2025-08-05, end_date=2025-08-10
+DEBUG: get_hotel_advice called with city=Paris, start_date=2025-08-05, end_date=2025-08-10, num_adults=2, num_children=1
+Input: Book a hotel in Paris for 2 adults and 1 child from August 5 to August 10
+Response: Hotel Info: 🏨 <b>Résidence Nell Paris</b> (8.2/10)<br>Address: 60 rue Richer<br>Price: <b>2364.95 EUR</b> for your stay<br>Please note that your credit card will be pre-authorised of EUR 50/night before arrival.
+
+Please note that when booking 4 rooms or more, special conditions and additional fees may apply.
+
+When travelling with pets, please note that an extra charge of 25€ per pet, per night applies.
+
+The credit card used to pay for the reservation must be presented upon arrival at the hotel. Otherwise payment will be required again.<br>Children policy: <br><a href='https://www.booking.com/hotel/fr/ra-c-sidence-nell.html'>View on Booking.com</a>
+
+Top Hotels:
+🏨 Casa Vlad (?⭐)
+🏨 Boutique 23 (4.5⭐)
+🏨 Blaxy Residence (3.2⭐)
+
+Top Restaurants:
+🍽️ Popasul Pescarilor (3.8⭐)
+🍽️ Clos des Colombes (3.6⭐)
+🍽️ Cherhana (4.5⭐)
+----------------------------------------
+DEBUG: intent=hotel_search, slots={'city': 'Munich'}
+DEBUG: origin=None, destination=None, start_date=None, end_date=None
+DEBUG: get_hotel_advice called with city=Munich, start_date=None, end_date=None, num_adults=1, num_children=0
+Input: Show me parks in Munich
+Response: Hotel Info: No hotels found for 'Munich' for the given dates.
+
+Top Hotels:
+🏨 Hampton Inn & Suites Show Low-Pinetop (4.7⭐)
+🏨 Quality Inn Show Low (4.3⭐)
+🏨 Holiday Inn Express Show Low, an IHG hotel (4.5⭐)
+
+Top Restaurants:
+🍽️ The House (4.4⭐)
+🍽️ Cattlemen's Steakhouse and Lounge (4.2⭐)
+🍽️ Persnikkity's Cafe (4.4⭐)
+
+Top Attractions:
+📍 Fool Hollow Lake Recreation Area (4.6⭐)
+📍 Show Low City Park (4.7⭐)
+📍 Show Low Historical Museum (4.7⭐)
+----------------------------------------
+DEBUG: intent=restrictions, slots={}
+DEBUG: origin=None, destination=None, start_date=None, end_date=None
+Input: Random unrelated question
+Response: Top Hotels:
+🏨 Wisconsin-aire Motel By Oyo Random Lake (3.7⭐)
+🏨 Timberlake Inn (?⭐)
+🏨 Madison Avenue Inn (5.0⭐)
+
+Top Restaurants:
+🍽️ Random Lake Pizzeria (4.8⭐)
+🍽️ Five Pillars Restaurant & Banquet Hall (3.9⭐)
+🍽️ Diego's Mexican Restaurant & Cantina (4.1⭐)
+
+Top Attractions:
+📍 Mirror Bar (5.0⭐)
+📍 Silver Creek Pottery & Forge (?⭐)
+📍 Kircher Park (?⭐)
+----------------------------------------
+DEBUG: intent=restrictions, slots={}
+DEBUG: origin=None, destination=None, start_date=None, end_date=None
+Input: 
+Response: Sorry, I couldn't find any travel information for your request.
+----------------------------------------
+DEBUG: intent=restrictions, slots={}
+DEBUG: origin=None, destination=None, start_date=None, end_date=None
+Input: 
+Response: Sorry, I couldn't find any travel information for your request.
+----------------------------------------
+DEBUG: intent=flight_search, slots={'origin': 'Berlin', 'destination': 'Rome', 'start_date': '2025-07-01', 'end_date': '2025-07-10'}
+DEBUG: origin=Berlin, destination=Rome, start_date=2025-07-01, end_date=2025-07-10
+Input: Finde Flüge von Berlin nach Rom vom 1. Juli bis 10. Juli
+Response: Flight Info: <b>Google Flights Results:</b><br>Eurowings EW 8040: Berlin Brandenburg Airport (2025-7-1 07:15) → Duesseldorf Airport (2025-7-1 08:20), Price: 247<br>Ryanair FR 134: Berlin Brandenburg Airport (2025-7-1 08:35) → Leonardo da Vinci International Airport (2025-7-1 10:45), Price: 275<br>Lufthansa LH 1961: Berlin Brandenburg Airport (2025-7-1 06:20) → Munich International Airport (2025-7-1 07:30), Price: 285<br>Austrian OS 232: Berlin Brandenburg Airport (2025-7-1 16:55) → Vienna International Airport (2025-7-1 18:10), Price: 286<br>Ryanair FR 40: Berlin Brandenburg Airport (2025-7-1 18:40) → Leonardo da Vinci International Airport (2025-7-1 20:50), Price: 382
+
+Top Hotels:
+🏨 Ha'Bait BaMata (5.0⭐)
+🏨 Zvlt L Nvr (?⭐)
+🏨 Rika (3.5⭐)
+
+Top Restaurants:
+🍽️ Biennale pizza arte (4.8⭐)
+🍽️ Noor - Restaurant and Cafe (4.4⭐)
+🍽️ סטרמבוליאנו (4.8⭐)
+
+Top Attractions:
+📍 Al- Muna Gardens (4.8⭐)
+📍 Str Razor Tours (?⭐)
+----------------------------------------
+DEBUG: intent=restrictions, slots={'city': 'London', 'end_date': None}
+DEBUG: origin=None, destination=None, start_date=None, end_date=None
+Input: Wie ist das Wetter in London vom 16. bis 23. Dezember 2025?
+Response: Top Hotels:
+🏨 Casa Alexandru si Alexandra (3.5⭐)
+🏨 Pensiunea Paradise Delta House (3.7⭐)
+🏨 Casa Eric (2.5⭐)
+
+Top Restaurants:
+🍽️ La Bufet (4.0⭐)
+🍽️ La Bufet (?⭐)
+
+Top Attractions:
+📍 Museum Ivan Patzaichin (5.0⭐)
+----------------------------------------
+DEBUG: intent=hotel_booking, slots={'city': 'Paris', 'start_date': '2025-08-05'}
+DEBUG: origin=None, destination=None, start_date=2025-08-05, end_date=2025-08-05
+DEBUG: get_hotel_advice called with city=Paris, start_date=2025-08-05, end_date=2025-08-05, num_adults=2, num_children=1
+Input: Buche ein Hotel in Paris für 2 Erwachsene und 1 Kind vom 5. bis 10. August
+Response: Hotel Info: No hotels found for 'Paris' for the given dates.
+
+Top Hotels:
+🏨 Hotel Malte - Astotel (4.9⭐)
+🏨 Hotel Astoria - Astotel (4.7⭐)
+🏨 Hotel Maison Mere (4.9⭐)
+
+Top Restaurants:
+🍽️ Pizzeria Arrivederci (4.9⭐)
+🍽️ Bagel Way (5.0⭐)
+🍽️ Il Etait Un Square (4.8⭐)
+
+Top Attractions:
+📍 Musee d'Orsay (4.7⭐)
+📍 Cathedrale Notre-Dame de Paris (4.6⭐)
+📍 Sainte-Chapelle (4.6⭐)
+----------------------------------------
+DEBUG: intent=hotel_search, slots={'city': 'Munich'}
+DEBUG: origin=None, destination=None, start_date=None, end_date=None
+DEBUG: get_hotel_advice called with city=Munich, start_date=None, end_date=None, num_adults=1, num_children=0
+Input: Zeig mir Parks in München
+Response: Hotel Info: No hotels found for 'Munich' for the given dates.
+
+Top Attractions:
+📍 Riverwalk in Downtown Estes Park (4.8⭐)
+----------------------------------------
+DEBUG: intent=flight_price, slots={'origin': 'Munich', 'destination': 'Vienna', 'date': '2025-08-27'}
+DEBUG: origin=Munich, destination=Vienna, start_date=2025-08-27, end_date=2025-08-27
+Input: Ich möchte einen Flug von München nach Wien am 15. August buchen
+Response: Flight Info: <b>Google Flights Results:</b><br>Austrian OS 102: Munich International Airport (2025-8-27 11:30) → Vienna International Airport (2025-8-27 12:35), Price: 239<br>Austrian OS 104: Munich International Airport (2025-8-27 15:30) → Vienna International Airport (2025-8-27 16:35), Price: 239<br>Austrian OS 116: Munich International Airport (2025-8-27 19:25) → Vienna International Airport (2025-8-27 20:30), Price: 239
+
+Top Hotels:
+🏨 Sran Fort (5.0⭐)
+🏨 Rajvi Palace Hotel (4.4⭐)
+🏨 SPOT ON Vd Marriott Hotel & Restaurant (?⭐)
+----------------------------------------
+DEBUG: intent=weather, slots={'city': 'Berlin'}
+DEBUG: origin=None, destination=None, start_date=None, end_date=None
+Input: Wie ist die Temperatur in Berlin nächste Woche?
+Response: Weather Info: Current weather in Berlin: few clouds, 20.63°C
+
+Top Restaurants:
+🍽️ Junge Die Backerei. Berlin Drive In (3.7⭐)
+----------------------------------------
+DEBUG: intent=flight_search, slots={'origin': 'Frankfurt', 'destination': 'Madrid'}
+DEBUG: origin=Frankfurt, destination=Madrid, start_date=None, end_date=None
+Input: Gibt es günstige Flüge von Frankfurt nach Madrid im September?
+Response: Flight Info: <b>Google Flights Results:</b><br>Air Europa UX 1506: Frankfurt Airport (2025-6-28 19:10) → Adolfo Suárez Madrid–Barajas Airport (2025-6-28 21:55), Price: 243<br>Lufthansa LH 1112: Frankfurt Airport (2025-6-28 09:35) → Adolfo Suárez Madrid–Barajas Airport (2025-6-28 12:15), Price: 319<br>Iberia IB 1332: Frankfurt Airport (2025-6-28 06:30) → Adolfo Suárez Madrid–Barajas Airport (2025-6-28 09:20), Price: 329
+
+Top Restaurants:
+🍽️ Im Herzen Afrikas (4.4⭐)
+----------------------------------------
+DEBUG: intent=restrictions, slots={'city': 'Hamburg', 'start_date': '2025-10-10', 'end_date': '2025-10-15'}
+DEBUG: origin=None, destination=None, start_date=2025-10-10, end_date=2025-10-15
+Input: Brauche ein Hotel in Hamburg vom 10. bis 15. Oktober mit Frühstück
+Response: Top Restaurants:
+🍽️ Castello Restaurant and Cafe (5.0⭐)
+🍽️ Asmak El Hot Restaurant (4.3⭐)
+🍽️ Koshary El Emprator (4.5⭐)
+
+Top Attractions:
+📍 Borussia Club Egypt (?⭐)
+📍 رحلات نيلية متحركة (?⭐)
+----------------------------------------
+DEBUG: intent=flight_price, slots={'origin': 'Düsseldorf', 'destination': 'Zurich', 'date': '2025-07-20'}
+DEBUG: origin=Düsseldorf, destination=Zurich, start_date=2025-07-20, end_date=2025-07-20
+Input: Was kostet ein Flug von Düsseldorf nach Zürich am 20. Juli?
+Response: Flight Info: <b>Google Flights Results:</b><br>
+
+Top Attractions:
+📍 Golf Rx (?⭐)
+----------------------------------------
+DEBUG: intent=restrictions, slots={'city': 'Köln', 'end_date': '2025-06-03'}
+DEBUG: origin=None, destination=None, start_date=2025-06-03, end_date=2025-06-03
+Input: Wettervorhersage für Köln vom 1. bis 3. März
+Response: Top Restaurants:
+🍽️ Lad's Dining Shinjuku (4.9⭐)
+🍽️ Mo-mo-paradise Shinjuku Higashiguchi (4.9⭐)
+🍽️ Nabezo Shinjuku-Sanchome (4.8⭐)
+
+Top Attractions:
+📍 Isetan Shinjuku Store (4.2⭐)
+📍 Shinjuku Suehirotei (4.3⭐)
+📍 Suica's Penguin Park (4.0⭐)
+----------------------------------------
+DEBUG: intent=flight_search, slots={'origin': 'Stuttgart', 'destination': 'Barcelona', 'start_date': '2025-06-02', 'date': '2025-04-27'}
+DEBUG: origin=Stuttgart, destination=Barcelona, start_date=2025-06-02, end_date=2025-06-02
+Input: Finde Flüge von Stuttgart nach Barcelona für 2 Erwachsene am 12. April
+Response: Flight Info: <b>Google Flights Results (raw):</b><br>{"status":false,"message":[{"outbound_date":"Date cannot be in the past."}]}
+
+Top Hotels:
+🏨 Belambra Clubs, Les Deux Alpes, Les Cretes (3.8⭐)
+🏨 Hotel Les 2 Alpes L'Oree Des Pistes (4.4⭐)
+🏨 The People - Les Deux Alpes (3.7⭐)
+
+Top Restaurants:
+🍽️ Le Tribeca (4.9⭐)
+🍽️ Restaurant The Soul Kitchen (4.9⭐)
+🍽️ Le Rustique (4.8⭐)
+
+Top Attractions:
+📍 Les 2 Alpes (4.0⭐)
+📍 Bonsai Ski (5.0⭐)
+📍 Glacier Cave (3.7⭐)
+----------------------------------------
+DEBUG: intent=restrictions, slots={'city': 'Munich', 'start_date': '2025-05-03', 'end_date': '2025-05-07'}
+DEBUG: origin=None, destination=None, start_date=2025-05-03, end_date=2025-05-07
+Input: Hotel in München für 1 Erwachsenen und 2 Kinder vom 3. bis 7. Mai
+Response: Top Hotels:
+🏨 Amadeus Residence (4.4⭐)
+🏨 Luuma Beach Resort (5.0⭐)
+🏨 Vila Rafael si Robert (5.0⭐)
+
+Top Restaurants:
+🍽️ Black sea La Petya (3.8⭐)
+🍽️ Micul golf (3.7⭐)
+🍽️ Pizzeria Il Sole 2 Mai (5.0⭐)
+
+Top Attractions:
+📍 Plaja 2 Mai (3.4⭐)
+📍 Biserica Roznov (?⭐)
+📍 Arcas (?⭐)
+----------------------------------------
+DEBUG: intent=weather, slots={'city': 'Paris', 'date': '2025-06-14'}
+DEBUG: origin=None, destination=None, start_date=2025-06-14, end_date=2025-06-14
+Input: Wie ist das Wetter in Paris am 14. Februar?
+Response: Weather Info: 2025-06-14: clear sky, Max 22.82°C, Min 20.77°C
+
+Top Restaurants:
+🍽️ Pizzeria Arrivederci (4.9⭐)
+🍽️ Bagel Way (5.0⭐)
+🍽️ Il Etait Un Square (4.8⭐)
+
+Top Attractions:
+📍 Musee d'Orsay (4.7⭐)
+📍 Cathedrale Notre-Dame de Paris (4.6⭐)
+📍 Sainte-Chapelle (4.6⭐)
+----------------------------------------
+DEBUG: intent=flight_search, slots={'origin': 'Bremen', 'destination': 'Oslo', 'date': '2025-12-22'}
+DEBUG: origin=Bremen, destination=Oslo, start_date=2025-12-22, end_date=2025-12-22
+Input: Flug von Bremen nach Oslo am 22. Dezember gesucht
+Response: Flight Info: <b>Google Flights Results:</b><br>
+
+Top Restaurants:
+🍽️ Ha Long Restaurant (4.4⭐)
+🍽️ Pivovarska Restaurant (3.9⭐)
+🍽️ Cafe 22 Creperie (4.1⭐)
+
+Top Attractions:
+📍 Prague Foodies (4.9⭐)
+📍 SmartGuide (4.9⭐)
+📍 BUGGYNY s.r.o. (5.0⭐)
+----------------------------------------
+DEBUG: intent=restrictions, slots={'city': 'Vienna', 'start_date': '2025-06-08', 'end_date': '2025-06-12'}
+DEBUG: origin=None, destination=None, start_date=2025-06-08, end_date=2025-06-12
+Input: Gibt es Hotels in Wien mit Parkmöglichkeit vom 8. bis 12. Juni?
+Response: Top Restaurants:
+🍽️ Moto Laurie Cafe (5.0⭐)
+🍽️ Sagar Indian Cuisine Da Lạt (5.0⭐)
+🍽️ Anna's Coffee House (4.9⭐)
+
+Top Attractions:
+📍 Kokoro Spa (?⭐)
+📍 La Dứa- Arts & Craft Gift Shop (?⭐)
+📍 Kokoro Spa (?⭐)
+----------------------------------------
+DEBUG: intent=flight_search, slots={'origin': 'Hanover', 'destination': 'Prague', 'date': '2025-09-30'}
+DEBUG: origin=Hanover, destination=Prague, start_date=2025-09-30, end_date=2025-09-30
+Input: Ich brauche einen Flug von Hannover nach Prag am 30. September
+Response: Flight Info: <b>Google Flights Results:</b><br>
+
+Top Hotels:
+🏨 Bolatbek (?⭐)
+🏨 Olympic Hotel (?⭐)
+🏨 Comfort Hotel (2.3⭐)
+----------------------------------------
+DEBUG: intent=hotel_booking, slots={'city': 'Düsseldorf', 'start_date': '2025-11-27'}
+DEBUG: origin=None, destination=None, start_date=2025-11-27, end_date=2025-11-27
+DEBUG: get_hotel_advice called with city=Düsseldorf, start_date=2025-11-27, end_date=2025-11-27, num_adults=1, num_children=0
+Input: Buche ein Hotel in Düsseldorf für 3 Nächte ab dem 5. November
+Response: Hotel Info: No hotels found for 'Düsseldorf' for the given dates.
+
+Top Hotels:
+🏨 Tokyu Stay Shinjuku (4.5⭐)
+🏨 Hotel Access In Shinjuku (3.3⭐)
+🏨 Central Hotel Tokyo (3.7⭐)
+
+Top Restaurants:
+🍽️ Lad's Dining Shinjuku (4.9⭐)
+🍽️ Mo-mo-paradise Shinjuku Higashiguchi (4.9⭐)
+🍽️ Nabezo Shinjuku-Sanchome (4.8⭐)
+
+Top Attractions:
+📍 Isetan Shinjuku Store (4.2⭐)
+📍 Shinjuku Suehirotei (4.3⭐)
+📍 Suica's Penguin Park (4.0⭐)
+----------------------------------------

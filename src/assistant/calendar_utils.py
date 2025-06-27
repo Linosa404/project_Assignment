@@ -1,0 +1,3 @@
+# Renamed from calendar.py to calendar_utils.py to avoid conflict with Python standard library
+from google.auth.transport.requests import Request
+# ...existing code...

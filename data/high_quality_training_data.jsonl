@@ -1,0 +1,798 @@
+{"text": "Things to do in Vienna", "intent": "attractions", "slots": {"city": "Vienna"}}
+{"text": "Attraktionen in London", "intent": "attractions", "slots": {"city": "London"}}
+{"text": "Looking for flights from Frankfurt to Hamburg from 2026-01-19 to 2026-02-01", "intent": "flight_search", "slots": {"origin": "Frankfurt", "destination": "Hamburg", "start_date": "2026-01-19", "end_date": "2026-02-01"}}
+{"text": "Weather forecast for Vienna from June 1 to June 7", "intent": "weather", "slots": {"city": "Vienna", "start_date": "2025-06-01", "end_date": "2025-06-07"}}
+{"text": "Find hotels in Prague from September 20 to September 25", "intent": "hotel_search", "slots": {"city": "Prague", "start_date": "2025-09-20", "end_date": "2025-09-25"}}
+{"text": "Weather forecast for Berlin from March 15 to March 20", "intent": "weather", "slots": {"city": "Berlin", "start_date": "2025-03-15", "end_date": "2025-03-20"}}
+{"text": "Weather forecast for Madrid from August 5 to August 10", "intent": "weather", "slots": {"city": "Madrid", "start_date": "2025-08-05", "end_date": "2025-08-10"}}
+{"text": "Weather forecast for London from August 5 to August 10", "intent": "weather", "slots": {"city": "London", "start_date": "2025-08-05", "end_date": "2025-08-10"}}
+{"text": "Weather in Hamburg", "intent": "weather", "slots": {"city": "Hamburg"}}
+{"text": "Show me flights from Budapest to Stockholm", "intent": "flight_search", "slots": {"origin": "Budapest", "destination": "Stockholm"}}
+{"text": "Search for flights from Munich to Budapest from 2025-07-07 to 2025-07-18", "intent": "flight_search", "slots": {"origin": "Munich", "destination": "Budapest", "start_date": "2025-07-07", "end_date": "2025-07-18"}}
+{"text": "Any flights from Prague to Hamburg? from 2025-08-30 to 2025-09-07", "intent": "flight_search", "slots": {"origin": "Prague", "destination": "Hamburg", "start_date": "2025-08-30", "end_date": "2025-09-07"}}
+{"text": "Weather forecast for Paris from June 1 to June 7", "intent": "weather", "slots": {"city": "Paris", "start_date": "2025-06-01", "end_date": "2025-06-07"}}
+{"text": "Hotels in Vienna for families", "intent": "hotel_search", "slots": {"city": "Vienna"}}
+{"text": "Museums in Vienna", "intent": "attractions", "slots": {"city": "Vienna"}}
+{"text": "Book a hotel in Rome from August 5 to August 10", "intent": "hotel_booking", "slots": {"city": "Rome", "start_date": "2025-08-05", "end_date": "2025-08-10"}}
+{"text": "Weather forecast for Rome from December 16 to December 23", "intent": "weather", "slots": {"city": "Rome", "start_date": "2025-12-16", "end_date": "2025-12-23"}}
+{"text": "Hotels in Madrid", "intent": "hotel_search", "slots": {"city": "Madrid"}}
+{"text": "Get me a flight from Berlin to Frankfurt next week", "intent": "flight_search", "slots": {"origin": "Berlin", "destination": "Frankfurt", "date": "next week"}}
+{"text": "I need a flight from Warsaw to Zurich on 2025-08-02", "intent": "flight_search", "slots": {"origin": "Warsaw", "destination": "Zurich", "date": "2025-08-02"}}
+{"text": "What's the weather in Vienna from October 10 to October 15?", "intent": "weather", "slots": {"city": "Vienna", "start_date": "2025-10-10", "end_date": "2025-10-15"}}
+{"text": "Search for flights from Vienna to Stockholm next month", "intent": "flight_search", "slots": {"origin": "Vienna", "destination": "Stockholm", "date": "next month"}}
+{"text": "Find hotels in Prague from December 16 to December 23", "intent": "hotel_search", "slots": {"city": "Prague", "start_date": "2025-12-16", "end_date": "2025-12-23"}}
+{"text": "I need accommodation in Vienna from September 20 to September 25", "intent": "hotel_booking", "slots": {"city": "Vienna", "start_date": "2025-09-20", "end_date": "2025-09-25"}}
+{"text": "Find flights from Frankfurt to London on July 15", "intent": "flight_search", "slots": {"origin": "Frankfurt", "destination": "London", "date": "July 15"}}
+{"text": "What's the weather in Paris from January 10 to January 15?", "intent": "weather", "slots": {"city": "Paris", "start_date": "2025-01-10", "end_date": "2025-01-15"}}
+{"text": "What's the weather in Prague from March 15 to March 20?", "intent": "weather", "slots": {"city": "Prague", "start_date": "2025-03-15", "end_date": "2025-03-20"}}
+{"text": "Buche ein Hotel in Berlin für 2 Erwachsene", "intent": "hotel_booking", "slots": {"city": "Berlin", "adults": 2}}
+{"text": "I need accommodation in Madrid from January 10 to January 15", "intent": "hotel_booking", "slots": {"city": "Madrid", "start_date": "2025-01-10", "end_date": "2025-01-15"}}
+{"text": "Was kann man in Rome sehen?", "intent": "attractions", "slots": {"city": "Rome"}}
+{"text": "Flights from Munich to Prague please on July 15", "intent": "flight_search", "slots": {"origin": "Munich", "destination": "Prague", "date": "July 15"}}
+{"text": "What's the weather in Paris from October 10 to October 15?", "intent": "weather", "slots": {"city": "Paris", "start_date": "2025-10-10", "end_date": "2025-10-15"}}
+{"text": "I need a flight from Frankfurt to Copenhagen next month", "intent": "flight_search", "slots": {"origin": "Frankfurt", "destination": "Copenhagen", "date": "next month"}}
+{"text": "Find cheap flights from Budapest to Berlin tomorrow", "intent": "flight_search", "slots": {"origin": "Budapest", "destination": "Berlin", "date": "tomorrow"}}
+{"text": "What's the weather in Hamburg?", "intent": "weather", "slots": {"city": "Hamburg"}}
+{"text": "Find cheap flights from Hamburg to Prague tomorrow", "intent": "flight_search", "slots": {"origin": "Hamburg", "destination": "Prague", "date": "tomorrow"}}
+{"text": "Find hotels in Paris from December 16 to December 23", "intent": "hotel_search", "slots": {"city": "Paris", "start_date": "2025-12-16", "end_date": "2025-12-23"}}
+{"text": "Find flights from Munich to Zurich next week", "intent": "flight_search", "slots": {"origin": "Munich", "destination": "Zurich", "date": "next week"}}
+{"text": "Any flights from Warsaw to Madrid? tomorrow", "intent": "flight_search", "slots": {"origin": "Warsaw", "destination": "Madrid", "date": "tomorrow"}}
+{"text": "Parks in Vienna", "intent": "attractions", "slots": {"city": "Vienna"}}
+{"text": "Buche ein Hotel in Rome für 2 Erwachsene", "intent": "hotel_booking", "slots": {"city": "Rome", "adults": 2}}
+{"text": "Tell me the weather in Berlin", "intent": "weather", "slots": {"city": "Berlin"}}
+{"text": "Wetter in Paris", "intent": "weather", "slots": {"city": "Paris"}}
+{"text": "Wettervorhersage für Hamburg", "intent": "weather", "slots": {"city": "Hamburg"}}
+{"text": "What's the weather in Berlin from September 20 to September 25?", "intent": "weather", "slots": {"city": "Berlin", "start_date": "2025-09-20", "end_date": "2025-09-25"}}
+{"text": "What's the weather in Vienna?", "intent": "weather", "slots": {"city": "Vienna"}}
+{"text": "Search for flights from Budapest to Hamburg next week", "intent": "flight_search", "slots": {"origin": "Budapest", "destination": "Hamburg", "date": "next week"}}
+{"text": "Find cheap flights from Prague to Madrid from 2025-12-16 to 2025-12-18", "intent": "flight_search", "slots": {"origin": "Prague", "destination": "Madrid", "start_date": "2025-12-16", "end_date": "2025-12-18"}}
+{"text": "What's the weather in Madrid from June 1 to June 7?", "intent": "weather", "slots": {"city": "Madrid", "start_date": "2025-06-01", "end_date": "2025-06-07"}}
+{"text": "Find hotels in Rome from July 1 to July 10", "intent": "hotel_search", "slots": {"city": "Rome", "start_date": "2025-07-01", "end_date": "2025-07-10"}}
+{"text": "Book a hotel in Vienna from June 1 to June 7", "intent": "hotel_booking", "slots": {"city": "Vienna", "start_date": "2025-06-01", "end_date": "2025-06-07"}}
+{"text": "I need accommodation in London from October 10 to October 15", "intent": "hotel_booking", "slots": {"city": "London", "start_date": "2025-10-10", "end_date": "2025-10-15"}}
+{"text": "Find flights from Paris to Oslo next week", "intent": "flight_search", "slots": {"origin": "Paris", "destination": "Oslo", "date": "next week"}}
+{"text": "Museen in Vienna", "intent": "attractions", "slots": {"city": "Vienna"}}
+{"text": "What's the weather in Madrid from January 10 to January 15?", "intent": "weather", "slots": {"city": "Madrid", "start_date": "2025-01-10", "end_date": "2025-01-15"}}
+{"text": "Brauche ein Hotel in London", "intent": "hotel_booking", "slots": {"city": "London"}}
+{"text": "Find flights from Prague to Brussels tomorrow", "intent": "flight_search", "slots": {"origin": "Prague", "destination": "Brussels", "date": "tomorrow"}}
+{"text": "Looking for flights from Berlin to Zurich tomorrow", "intent": "flight_search", "slots": {"origin": "Berlin", "destination": "Zurich", "date": "tomorrow"}}
+{"text": "Book a hotel in London from June 1 to June 7", "intent": "hotel_booking", "slots": {"city": "London", "start_date": "2025-06-01", "end_date": "2025-06-07"}}
+{"text": "Book a hotel in Madrid from June 1 to June 7", "intent": "hotel_booking", "slots": {"city": "Madrid", "start_date": "2025-06-01", "end_date": "2025-06-07"}}
+{"text": "Find hotels in London from October 10 to October 15", "intent": "hotel_search", "slots": {"city": "London", "start_date": "2025-10-10", "end_date": "2025-10-15"}}
+{"text": "Find parks in Munich", "intent": "attractions", "slots": {"city": "Munich"}}
+{"text": "Find hotels in Vienna from October 10 to October 15", "intent": "hotel_search", "slots": {"city": "Vienna", "start_date": "2025-10-10", "end_date": "2025-10-15"}}
+{"text": "Current weather in Vienna", "intent": "weather", "slots": {"city": "Vienna"}}
+{"text": "Was kann man in London sehen?", "intent": "attractions", "slots": {"city": "London"}}
+{"text": "Find flights from Paris to Hamburg next month", "intent": "flight_search", "slots": {"origin": "Paris", "destination": "Hamburg", "date": "next month"}}
+{"text": "Weather forecast for Berlin from January 10 to January 15", "intent": "weather", "slots": {"city": "Berlin", "start_date": "2025-01-10", "end_date": "2025-01-15"}}
+{"text": "Hotels in Munich for families", "intent": "hotel_search", "slots": {"city": "Munich"}}
+{"text": "Sehenswürdigkeiten in Paris", "intent": "attractions", "slots": {"city": "Paris"}}
+{"text": "Find flights from Barcelona to Hamburg next month", "intent": "flight_search", "slots": {"origin": "Barcelona", "destination": "Hamburg", "date": "next month"}}
+{"text": "Sightseeing in Paris", "intent": "attractions", "slots": {"city": "Paris"}}
+{"text": "Wettervorhersage für Madrid", "intent": "weather", "slots": {"city": "Madrid"}}
+{"text": "Book accommodation in Vienna", "intent": "hotel_booking", "slots": {"city": "Vienna"}}
+{"text": "Get me a flight from Warsaw to Paris from July 1 to July 10", "intent": "flight_search", "slots": {"origin": "Warsaw", "destination": "Paris", "start_date": "July 1", "end_date": "July 10"}}
+{"text": "Hotels in London", "intent": "hotel_search", "slots": {"city": "London"}}
+{"text": "Regnet es in Rome?", "intent": "weather", "slots": {"city": "Rome"}}
+{"text": "Find parks in London", "intent": "attractions", "slots": {"city": "London"}}
+{"text": "Weather forecast for Paris from December 16 to December 23", "intent": "weather", "slots": {"city": "Paris", "start_date": "2025-12-16", "end_date": "2025-12-23"}}
+{"text": "I need a hotel in Vienna", "intent": "hotel_booking", "slots": {"city": "Vienna"}}
+{"text": "I need accommodation in Rome from March 15 to March 20", "intent": "hotel_booking", "slots": {"city": "Rome", "start_date": "2025-03-15", "end_date": "2025-03-20"}}
+{"text": "Weather forecast for Rome from March 15 to March 20", "intent": "weather", "slots": {"city": "Rome", "start_date": "2025-03-15", "end_date": "2025-03-20"}}
+{"text": "Book a hotel in Vienna from July 1 to July 10", "intent": "hotel_booking", "slots": {"city": "Vienna", "start_date": "2025-07-01", "end_date": "2025-07-10"}}
+{"text": "Weather forecast for Berlin from June 1 to June 7", "intent": "weather", "slots": {"city": "Berlin", "start_date": "2025-06-01", "end_date": "2025-06-07"}}
+{"text": "Show me attractions in Munich", "intent": "attractions", "slots": {"city": "Munich"}}
+{"text": "I need accommodation in Madrid from December 16 to December 23", "intent": "hotel_booking", "slots": {"city": "Madrid", "start_date": "2025-12-16", "end_date": "2025-12-23"}}
+{"text": "Looking for flights from Prague to Berlin", "intent": "flight_search", "slots": {"origin": "Prague", "destination": "Berlin"}}
+{"text": "I need a flight from London to Budapest", "intent": "flight_search", "slots": {"origin": "London", "destination": "Budapest"}}
+{"text": "Hotel in Berlin für 2 Erwachsene und 1 Kind", "intent": "hotel_booking", "slots": {"city": "Berlin", "adults": 2, "children": 1}}
+{"text": "Weather in Paris", "intent": "weather", "slots": {"city": "Paris"}}
+{"text": "Book a flight from Budapest to Rome on 2026-01-19", "intent": "flight_search", "slots": {"origin": "Budapest", "destination": "Rome", "date": "2026-01-19"}}
+{"text": "What's the weather in Berlin from August 5 to August 10?", "intent": "weather", "slots": {"city": "Berlin", "start_date": "2025-08-05", "end_date": "2025-08-10"}}
+{"text": "Sehenswürdigkeiten in Madrid", "intent": "attractions", "slots": {"city": "Madrid"}}
+{"text": "Weather in Berlin", "intent": "weather", "slots": {"city": "Berlin"}}
+{"text": "Book a hotel in Berlin from June 1 to June 7", "intent": "hotel_booking", "slots": {"city": "Berlin", "start_date": "2025-06-01", "end_date": "2025-06-07"}}
+{"text": "Hotels in Berlin for families", "intent": "hotel_search", "slots": {"city": "Berlin"}}
+{"text": "Places to visit in Madrid", "intent": "attractions", "slots": {"city": "Madrid"}}
+{"text": "Book a hotel in Vienna from December 16 to December 23", "intent": "hotel_booking", "slots": {"city": "Vienna", "start_date": "2025-12-16", "end_date": "2025-12-23"}}
+{"text": "Weather forecast for Paris from January 10 to January 15", "intent": "weather", "slots": {"city": "Paris", "start_date": "2025-01-10", "end_date": "2025-01-15"}}
+{"text": "I need accommodation in Madrid from June 1 to June 7", "intent": "hotel_booking", "slots": {"city": "Madrid", "start_date": "2025-06-01", "end_date": "2025-06-07"}}
+{"text": "Looking for flights from Brussels to Vienna on 2026-06-21", "intent": "flight_search", "slots": {"origin": "Brussels", "destination": "Vienna", "date": "2026-06-21"}}
+{"text": "Temperature in Munich", "intent": "weather", "slots": {"city": "Munich"}}
+{"text": "Find cheap flights from Rome to Madrid next month", "intent": "flight_search", "slots": {"origin": "Rome", "destination": "Madrid", "date": "next month"}}
+{"text": "I need a flight from Paris to Madrid", "intent": "flight_search", "slots": {"origin": "Paris", "destination": "Madrid"}}
+{"text": "I need a flight from Berlin to Madrid on July 15", "intent": "flight_search", "slots": {"origin": "Berlin", "destination": "Madrid", "date": "July 15"}}
+{"text": "Buche ein Hotel in Paris für 2 Erwachsene", "intent": "hotel_booking", "slots": {"city": "Paris", "adults": 2}}
+{"text": "Find flights from Copenhagen to Vienna next week", "intent": "flight_search", "slots": {"origin": "Copenhagen", "destination": "Vienna", "date": "next week"}}
+{"text": "Weather forecast for Madrid from December 16 to December 23", "intent": "weather", "slots": {"city": "Madrid", "start_date": "2025-12-16", "end_date": "2025-12-23"}}
+{"text": "I need accommodation in Rome from June 1 to June 7", "intent": "hotel_booking", "slots": {"city": "Rome", "start_date": "2025-06-01", "end_date": "2025-06-07"}}
+{"text": "Hotel in Rome für 2 Erwachsene und 1 Kind", "intent": "hotel_booking", "slots": {"city": "Rome", "adults": 2, "children": 1}}
+{"text": "I need accommodation in Prague from September 20 to September 25", "intent": "hotel_booking", "slots": {"city": "Prague", "start_date": "2025-09-20", "end_date": "2025-09-25"}}
+{"text": "Book a hotel in London from September 20 to September 25", "intent": "hotel_booking", "slots": {"city": "London", "start_date": "2025-09-20", "end_date": "2025-09-25"}}
+{"text": "Show me parks in Rome", "intent": "attractions", "slots": {"city": "Rome"}}
+{"text": "Weather forecast for Prague from June 1 to June 7", "intent": "weather", "slots": {"city": "Prague", "start_date": "2025-06-01", "end_date": "2025-06-07"}}
+{"text": "Search for flights from Copenhagen to Budapest next month", "intent": "flight_search", "slots": {"origin": "Copenhagen", "destination": "Budapest", "date": "next month"}}
+{"text": "Weather forecast for Berlin", "intent": "weather", "slots": {"city": "Berlin"}}
+{"text": "Weather in London", "intent": "weather", "slots": {"city": "London"}}
+{"text": "Sehenswürdigkeiten in London", "intent": "attractions", "slots": {"city": "London"}}
+{"text": "Find hotels in Prague from October 10 to October 15", "intent": "hotel_search", "slots": {"city": "Prague", "start_date": "2025-10-10", "end_date": "2025-10-15"}}
+{"text": "Flights from Berlin to Budapest please from July 1 to July 10", "intent": "flight_search", "slots": {"origin": "Berlin", "destination": "Budapest", "start_date": "July 1", "end_date": "July 10"}}
+{"text": "Find hotels in Madrid from June 1 to June 7", "intent": "hotel_search", "slots": {"city": "Madrid", "start_date": "2025-06-01", "end_date": "2025-06-07"}}
+{"text": "I need a flight from Vienna to Warsaw on 2026-05-21", "intent": "flight_search", "slots": {"origin": "Vienna", "destination": "Warsaw", "date": "2026-05-21"}}
+{"text": "I need accommodation in Rome from July 1 to July 10", "intent": "hotel_booking", "slots": {"city": "Rome", "start_date": "2025-07-01", "end_date": "2025-07-10"}}
+{"text": "Hotels in Madrid for families", "intent": "hotel_search", "slots": {"city": "Madrid"}}
+{"text": "I need accommodation in Vienna from March 15 to March 20", "intent": "hotel_booking", "slots": {"city": "Vienna", "start_date": "2025-03-15", "end_date": "2025-03-20"}}
+{"text": "Any flights from Paris to Zurich?", "intent": "flight_search", "slots": {"origin": "Paris", "destination": "Zurich"}}
+{"text": "Parks in Paris", "intent": "attractions", "slots": {"city": "Paris"}}
+{"text": "Book a flight from Prague to Warsaw from 2026-02-28 to 2026-03-11", "intent": "flight_search", "slots": {"origin": "Prague", "destination": "Warsaw", "start_date": "2026-02-28", "end_date": "2026-03-11"}}
+{"text": "Buche ein Hotel in Munich für 2 Erwachsene", "intent": "hotel_booking", "slots": {"city": "Munich", "adults": 2}}
+{"text": "Any flights from Barcelona to Amsterdam? tomorrow", "intent": "flight_search", "slots": {"origin": "Barcelona", "destination": "Amsterdam", "date": "tomorrow"}}
+{"text": "Best sights in Paris", "intent": "attractions", "slots": {"city": "Paris"}}
+{"text": "I need accommodation in Berlin from June 1 to June 7", "intent": "hotel_booking", "slots": {"city": "Berlin", "start_date": "2025-06-01", "end_date": "2025-06-07"}}
+{"text": "Find hotels in Vienna from January 10 to January 15", "intent": "hotel_search", "slots": {"city": "Vienna", "start_date": "2025-01-10", "end_date": "2025-01-15"}}
+{"text": "I need accommodation in Paris from January 10 to January 15", "intent": "hotel_booking", "slots": {"city": "Paris", "start_date": "2025-01-10", "end_date": "2025-01-15"}}
+{"text": "Flights from Rome to Paris please from July 1 to July 10", "intent": "flight_search", "slots": {"origin": "Rome", "destination": "Paris", "start_date": "July 1", "end_date": "July 10"}}
+{"text": "Weather forecast for Madrid from October 10 to October 15", "intent": "weather", "slots": {"city": "Madrid", "start_date": "2025-10-10", "end_date": "2025-10-15"}}
+{"text": "Temperatur in Berlin", "intent": "weather", "slots": {"city": "Berlin"}}
+{"text": "Temperature in Madrid", "intent": "weather", "slots": {"city": "Madrid"}}
+{"text": "Accommodation in Paris", "intent": "hotel_search", "slots": {"city": "Paris"}}
+{"text": "What's the weather in London from January 10 to January 15?", "intent": "weather", "slots": {"city": "London", "start_date": "2025-01-10", "end_date": "2025-01-15"}}
+{"text": "Search for flights from Frankfurt to Warsaw on July 15", "intent": "flight_search", "slots": {"origin": "Frankfurt", "destination": "Warsaw", "date": "July 15"}}
+{"text": "Find hotels in Berlin from January 10 to January 15", "intent": "hotel_search", "slots": {"city": "Berlin", "start_date": "2025-01-10", "end_date": "2025-01-15"}}
+{"text": "Hotel in Madrid für 2 Erwachsene und 1 Kind", "intent": "hotel_booking", "slots": {"city": "Madrid", "adults": 2, "children": 1}}
+{"text": "Parks in Berlin", "intent": "attractions", "slots": {"city": "Berlin"}}
+{"text": "I need accommodation in Vienna from October 10 to October 15", "intent": "hotel_booking", "slots": {"city": "Vienna", "start_date": "2025-10-10", "end_date": "2025-10-15"}}
+{"text": "Museen in Munich", "intent": "attractions", "slots": {"city": "Munich"}}
+{"text": "Get me a flight from Rome to Munich tomorrow", "intent": "flight_search", "slots": {"origin": "Rome", "destination": "Munich", "date": "tomorrow"}}
+{"text": "Book a hotel in Rome from September 20 to September 25", "intent": "hotel_booking", "slots": {"city": "Rome", "start_date": "2025-09-20", "end_date": "2025-09-25"}}
+{"text": "Hotels in Rome", "intent": "hotel_search", "slots": {"city": "Rome"}}
+{"text": "Show me flights from Frankfurt to Munich on 2025-07-13", "intent": "flight_search", "slots": {"origin": "Frankfurt", "destination": "Munich", "date": "2025-07-13"}}
+{"text": "I need accommodation in Vienna from December 16 to December 23", "intent": "hotel_booking", "slots": {"city": "Vienna", "start_date": "2025-12-16", "end_date": "2025-12-23"}}
+{"text": "Show me flights from Berlin to Prague next month", "intent": "flight_search", "slots": {"origin": "Berlin", "destination": "Prague", "date": "next month"}}
+{"text": "Weather forecast for London from January 10 to January 15", "intent": "weather", "slots": {"city": "London", "start_date": "2025-01-10", "end_date": "2025-01-15"}}
+{"text": "I need accommodation in Vienna from June 1 to June 7", "intent": "hotel_booking", "slots": {"city": "Vienna", "start_date": "2025-06-01", "end_date": "2025-06-07"}}
+{"text": "Find parks in Paris", "intent": "attractions", "slots": {"city": "Paris"}}
+{"text": "Flights from Prague to Budapest please tomorrow", "intent": "flight_search", "slots": {"origin": "Prague", "destination": "Budapest", "date": "tomorrow"}}
+{"text": "Is it raining in Vienna?", "intent": "weather", "slots": {"city": "Vienna"}}
+{"text": "Places to visit in Amsterdam", "intent": "attractions", "slots": {"city": "Amsterdam"}}
+{"text": "Weather forecast for Rome from June 1 to June 7", "intent": "weather", "slots": {"city": "Rome", "start_date": "2025-06-01", "end_date": "2025-06-07"}}
+{"text": "Weather forecast for Berlin from August 5 to August 10", "intent": "weather", "slots": {"city": "Berlin", "start_date": "2025-08-05", "end_date": "2025-08-10"}}
+{"text": "Get me a flight from Budapest to Stockholm from July 1 to July 10", "intent": "flight_search", "slots": {"origin": "Budapest", "destination": "Stockholm", "start_date": "July 1", "end_date": "July 10"}}
+{"text": "Find cheap flights from Rome to London on July 15", "intent": "flight_search", "slots": {"origin": "Rome", "destination": "London", "date": "July 15"}}
+{"text": "Search for flights from Munich to Hamburg tomorrow", "intent": "flight_search", "slots": {"origin": "Munich", "destination": "Hamburg", "date": "tomorrow"}}
+{"text": "Find cheap flights from London to Hamburg next week", "intent": "flight_search", "slots": {"origin": "London", "destination": "Hamburg", "date": "next week"}}
+{"text": "Places to visit in Munich", "intent": "attractions", "slots": {"city": "Munich"}}
+{"text": "Weather forecast for Berlin from December 16 to December 23", "intent": "weather", "slots": {"city": "Berlin", "start_date": "2025-12-16", "end_date": "2025-12-23"}}
+{"text": "Find hotels in Prague from July 1 to July 10", "intent": "hotel_search", "slots": {"city": "Prague", "start_date": "2025-07-01", "end_date": "2025-07-10"}}
+{"text": "Book a hotel in Munich for 2 adults and 1 child", "intent": "hotel_booking", "slots": {"city": "Munich", "adults": 2, "children": 1}}
+{"text": "Find hotels in Paris from March 15 to March 20", "intent": "hotel_search", "slots": {"city": "Paris", "start_date": "2025-03-15", "end_date": "2025-03-20"}}
+{"text": "Weather forecast for Madrid from September 20 to September 25", "intent": "weather", "slots": {"city": "Madrid", "start_date": "2025-09-20", "end_date": "2025-09-25"}}
+{"text": "Flights from Zurich to Amsterdam please next week", "intent": "flight_search", "slots": {"origin": "Zurich", "destination": "Amsterdam", "date": "next week"}}
+{"text": "Search for flights from Stockholm to Frankfurt from July 1 to July 10", "intent": "flight_search", "slots": {"origin": "Stockholm", "destination": "Frankfurt", "start_date": "July 1", "end_date": "July 10"}}
+{"text": "Museums in Paris", "intent": "attractions", "slots": {"city": "Paris"}}
+{"text": "Hotel in Vienna für 2 Erwachsene und 1 Kind", "intent": "hotel_booking", "slots": {"city": "Vienna", "adults": 2, "children": 1}}
+{"text": "Weather forecast for Berlin from July 1 to July 10", "intent": "weather", "slots": {"city": "Berlin", "start_date": "2025-07-01", "end_date": "2025-07-10"}}
+{"text": "Weather forecast for Vienna from October 10 to October 15", "intent": "weather", "slots": {"city": "Vienna", "start_date": "2025-10-10", "end_date": "2025-10-15"}}
+{"text": "Tourist attractions in Madrid", "intent": "attractions", "slots": {"city": "Madrid"}}
+{"text": "Best sights in Madrid", "intent": "attractions", "slots": {"city": "Madrid"}}
+{"text": "I need accommodation in Madrid from March 15 to March 20", "intent": "hotel_booking", "slots": {"city": "Madrid", "start_date": "2025-03-15", "end_date": "2025-03-20"}}
+{"text": "What's the weather in London from March 15 to March 20?", "intent": "weather", "slots": {"city": "London", "start_date": "2025-03-15", "end_date": "2025-03-20"}}
+{"text": "What's the weather in Rome from October 10 to October 15?", "intent": "weather", "slots": {"city": "Rome", "start_date": "2025-10-10", "end_date": "2025-10-15"}}
+{"text": "Weather forecast for Madrid from June 1 to June 7", "intent": "weather", "slots": {"city": "Madrid", "start_date": "2025-06-01", "end_date": "2025-06-07"}}
+{"text": "Book a hotel in Paris from June 1 to June 7", "intent": "hotel_booking", "slots": {"city": "Paris", "start_date": "2025-06-01", "end_date": "2025-06-07"}}
+{"text": "Tell me the weather in Vienna", "intent": "weather", "slots": {"city": "Vienna"}}
+{"text": "I need a flight from Frankfurt to Barcelona next month", "intent": "flight_search", "slots": {"origin": "Frankfurt", "destination": "Barcelona", "date": "next month"}}
+{"text": "I need a hotel in Berlin", "intent": "hotel_booking", "slots": {"city": "Berlin"}}
+{"text": "Search for flights from Stockholm to Amsterdam tomorrow", "intent": "flight_search", "slots": {"origin": "Stockholm", "destination": "Amsterdam", "date": "tomorrow"}}
+{"text": "Search for flights from Copenhagen to Oslo next month", "intent": "flight_search", "slots": {"origin": "Copenhagen", "destination": "Oslo", "date": "next month"}}
+{"text": "Things to do in Amsterdam", "intent": "attractions", "slots": {"city": "Amsterdam"}}
+{"text": "Any flights from Copenhagen to Warsaw?", "intent": "flight_search", "slots": {"origin": "Copenhagen", "destination": "Warsaw"}}
+{"text": "I need accommodation in Prague from August 5 to August 10", "intent": "hotel_booking", "slots": {"city": "Prague", "start_date": "2025-08-05", "end_date": "2025-08-10"}}
+{"text": "Find hotels in Vienna from July 1 to July 10", "intent": "hotel_search", "slots": {"city": "Vienna", "start_date": "2025-07-01", "end_date": "2025-07-10"}}
+{"text": "Find hotels in Prague from August 5 to August 10", "intent": "hotel_search", "slots": {"city": "Prague", "start_date": "2025-08-05", "end_date": "2025-08-10"}}
+{"text": "List attractions in Rome", "intent": "attractions", "slots": {"city": "Rome"}}
+{"text": "Book a flight from Munich to London from July 1 to July 10", "intent": "flight_search", "slots": {"origin": "Munich", "destination": "London", "start_date": "July 1", "end_date": "July 10"}}
+{"text": "Wie ist das Wetter in Vienna?", "intent": "weather", "slots": {"city": "Vienna"}}
+{"text": "Is it raining in Munich?", "intent": "weather", "slots": {"city": "Munich"}}
+{"text": "Wie ist das Wetter in Berlin?", "intent": "weather", "slots": {"city": "Berlin"}}
+{"text": "Any flights from Zurich to Barcelona? from 2026-02-04 to 2026-02-14", "intent": "flight_search", "slots": {"origin": "Zurich", "destination": "Barcelona", "start_date": "2026-02-04", "end_date": "2026-02-14"}}
+{"text": "Hotels in Vienna", "intent": "hotel_search", "slots": {"city": "Vienna"}}
+{"text": "Find flights from London to Barcelona on 2025-10-13", "intent": "flight_search", "slots": {"origin": "London", "destination": "Barcelona", "date": "2025-10-13"}}
+{"text": "I need a flight from Zurich to Barcelona next month", "intent": "flight_search", "slots": {"origin": "Zurich", "destination": "Barcelona", "date": "next month"}}
+{"text": "Weather in Vienna", "intent": "weather", "slots": {"city": "Vienna"}}
+{"text": "Get me a flight from Warsaw to Budapest", "intent": "flight_search", "slots": {"origin": "Warsaw", "destination": "Budapest"}}
+{"text": "I need a hotel in Rome", "intent": "hotel_booking", "slots": {"city": "Rome"}}
+{"text": "Book a hotel in Prague from December 16 to December 23", "intent": "hotel_booking", "slots": {"city": "Prague", "start_date": "2025-12-16", "end_date": "2025-12-23"}}
+{"text": "What's the weather in Paris from March 15 to March 20?", "intent": "weather", "slots": {"city": "Paris", "start_date": "2025-03-15", "end_date": "2025-03-20"}}
+{"text": "Find flights from Madrid to Munich from 2025-10-13 to 2025-10-23", "intent": "flight_search", "slots": {"origin": "Madrid", "destination": "Munich", "start_date": "2025-10-13", "end_date": "2025-10-23"}}
+{"text": "Sehenswürdigkeiten in Rome", "intent": "attractions", "slots": {"city": "Rome"}}
+{"text": "Wettervorhersage für Paris", "intent": "weather", "slots": {"city": "Paris"}}
+{"text": "I need accommodation in Rome from December 16 to December 23", "intent": "hotel_booking", "slots": {"city": "Rome", "start_date": "2025-12-16", "end_date": "2025-12-23"}}
+{"text": "I need a flight from Zurich to Copenhagen on 2025-07-26", "intent": "flight_search", "slots": {"origin": "Zurich", "destination": "Copenhagen", "date": "2025-07-26"}}
+{"text": "Weather forecast for London from March 15 to March 20", "intent": "weather", "slots": {"city": "London", "start_date": "2025-03-15", "end_date": "2025-03-20"}}
+{"text": "Wie ist das Wetter in Rome?", "intent": "weather", "slots": {"city": "Rome"}}
+{"text": "Accommodation in Vienna", "intent": "hotel_search", "slots": {"city": "Vienna"}}
+{"text": "What's the weather in Vienna from September 20 to September 25?", "intent": "weather", "slots": {"city": "Vienna", "start_date": "2025-09-20", "end_date": "2025-09-25"}}
+{"text": "Tourist attractions in Amsterdam", "intent": "attractions", "slots": {"city": "Amsterdam"}}
+{"text": "Zeig mir Parks in Amsterdam", "intent": "attractions", "slots": {"city": "Amsterdam"}}
+{"text": "Museen in London", "intent": "attractions", "slots": {"city": "London"}}
+{"text": "Brauche ein Hotel in Rome", "intent": "hotel_booking", "slots": {"city": "Rome"}}
+{"text": "Weather forecast for Prague from March 15 to March 20", "intent": "weather", "slots": {"city": "Prague", "start_date": "2025-03-15", "end_date": "2025-03-20"}}
+{"text": "I need accommodation in London from January 10 to January 15", "intent": "hotel_booking", "slots": {"city": "London", "start_date": "2025-01-10", "end_date": "2025-01-15"}}
+{"text": "What's the weather in Madrid?", "intent": "weather", "slots": {"city": "Madrid"}}
+{"text": "What's the weather in Vienna from March 15 to March 20?", "intent": "weather", "slots": {"city": "Vienna", "start_date": "2025-03-15", "end_date": "2025-03-20"}}
+{"text": "Weather forecast for Rome from October 10 to October 15", "intent": "weather", "slots": {"city": "Rome", "start_date": "2025-10-10", "end_date": "2025-10-15"}}
+{"text": "Show me flights from Barcelona to Zurich tomorrow", "intent": "flight_search", "slots": {"origin": "Barcelona", "destination": "Zurich", "date": "tomorrow"}}
+{"text": "Buche ein Hotel in Vienna für 2 Erwachsene", "intent": "hotel_booking", "slots": {"city": "Vienna", "adults": 2}}
+{"text": "Best sights in Vienna", "intent": "attractions", "slots": {"city": "Vienna"}}
+{"text": "Best sights in Amsterdam", "intent": "attractions", "slots": {"city": "Amsterdam"}}
+{"text": "Find hotels in Prague from January 10 to January 15", "intent": "hotel_search", "slots": {"city": "Prague", "start_date": "2025-01-10", "end_date": "2025-01-15"}}
+{"text": "I need accommodation in London from September 20 to September 25", "intent": "hotel_booking", "slots": {"city": "London", "start_date": "2025-09-20", "end_date": "2025-09-25"}}
+{"text": "Weather forecast for London from October 10 to October 15", "intent": "weather", "slots": {"city": "London", "start_date": "2025-10-10", "end_date": "2025-10-15"}}
+{"text": "Book a hotel in Rome from December 16 to December 23", "intent": "hotel_booking", "slots": {"city": "Rome", "start_date": "2025-12-16", "end_date": "2025-12-23"}}
+{"text": "Museums in Amsterdam", "intent": "attractions", "slots": {"city": "Amsterdam"}}
+{"text": "Find hotels in Paris from September 20 to September 25", "intent": "hotel_search", "slots": {"city": "Paris", "start_date": "2025-09-20", "end_date": "2025-09-25"}}
+{"text": "Find hotels in Paris from January 10 to January 15", "intent": "hotel_search", "slots": {"city": "Paris", "start_date": "2025-01-10", "end_date": "2025-01-15"}}
+{"text": "Search for flights from Munich to Brussels on July 15", "intent": "flight_search", "slots": {"origin": "Munich", "destination": "Brussels", "date": "July 15"}}
+{"text": "What's the weather in Rome from March 15 to March 20?", "intent": "weather", "slots": {"city": "Rome", "start_date": "2025-03-15", "end_date": "2025-03-20"}}
+{"text": "Weather forecast for Paris from August 5 to August 10", "intent": "weather", "slots": {"city": "Paris", "start_date": "2025-08-05", "end_date": "2025-08-10"}}
+{"text": "Show me flights from Frankfurt to Budapest from 2025-08-08 to 2025-08-12", "intent": "flight_search", "slots": {"origin": "Frankfurt", "destination": "Budapest", "start_date": "2025-08-08", "end_date": "2025-08-12"}}
+{"text": "Regnet es in Hamburg?", "intent": "weather", "slots": {"city": "Hamburg"}}
+{"text": "Parks in Amsterdam", "intent": "attractions", "slots": {"city": "Amsterdam"}}
+{"text": "Flights from Amsterdam to London please tomorrow", "intent": "flight_search", "slots": {"origin": "Amsterdam", "destination": "London", "date": "tomorrow"}}
+{"text": "Current weather in London", "intent": "weather", "slots": {"city": "London"}}
+{"text": "Find hotels in London from August 5 to August 10", "intent": "hotel_search", "slots": {"city": "London", "start_date": "2025-08-05", "end_date": "2025-08-10"}}
+{"text": "Is it raining in Madrid?", "intent": "weather", "slots": {"city": "Madrid"}}
+{"text": "Show me flights from Stockholm to Madrid from 2025-10-12 to 2025-10-22", "intent": "flight_search", "slots": {"origin": "Stockholm", "destination": "Madrid", "start_date": "2025-10-12", "end_date": "2025-10-22"}}
+{"text": "Get me a flight from Hamburg to Oslo tomorrow", "intent": "flight_search", "slots": {"origin": "Hamburg", "destination": "Oslo", "date": "tomorrow"}}
+{"text": "I need a hotel in Paris", "intent": "hotel_booking", "slots": {"city": "Paris"}}
+{"text": "Find flights from Berlin to Rome from July 1 to July 10", "intent": "flight_search", "slots": {"origin": "Berlin", "destination": "Rome", "start_date": "July 1", "end_date": "July 10"}}
+{"text": "Sightseeing in Madrid", "intent": "attractions", "slots": {"city": "Madrid"}}
+{"text": "Find cheap flights from Munich to Prague tomorrow", "intent": "flight_search", "slots": {"origin": "Munich", "destination": "Prague", "date": "tomorrow"}}
+{"text": "Temperatur in Rome", "intent": "weather", "slots": {"city": "Rome"}}
+{"text": "Search for flights from Brussels to Copenhagen next month", "intent": "flight_search", "slots": {"origin": "Brussels", "destination": "Copenhagen", "date": "next month"}}
+{"text": "Tell me the weather in Hamburg", "intent": "weather", "slots": {"city": "Hamburg"}}
+{"text": "Weather forecast for Prague from January 10 to January 15", "intent": "weather", "slots": {"city": "Prague", "start_date": "2025-01-10", "end_date": "2025-01-15"}}
+{"text": "What's the weather in Madrid from March 15 to March 20?", "intent": "weather", "slots": {"city": "Madrid", "start_date": "2025-03-15", "end_date": "2025-03-20"}}
+{"text": "Search for flights from Paris to Rome from July 1 to July 10", "intent": "flight_search", "slots": {"origin": "Paris", "destination": "Rome", "start_date": "July 1", "end_date": "July 10"}}
+{"text": "I need accommodation in Paris from December 16 to December 23", "intent": "hotel_booking", "slots": {"city": "Paris", "start_date": "2025-12-16", "end_date": "2025-12-23"}}
+{"text": "Weather forecast for Paris from March 15 to March 20", "intent": "weather", "slots": {"city": "Paris", "start_date": "2025-03-15", "end_date": "2025-03-20"}}
+{"text": "Attraktionen in Vienna", "intent": "attractions", "slots": {"city": "Vienna"}}
+{"text": "Find hotels in Paris from October 10 to October 15", "intent": "hotel_search", "slots": {"city": "Paris", "start_date": "2025-10-10", "end_date": "2025-10-15"}}
+{"text": "Find hotels in Vienna from March 15 to March 20", "intent": "hotel_search", "slots": {"city": "Vienna", "start_date": "2025-03-15", "end_date": "2025-03-20"}}
+{"text": "Find hotels in London from September 20 to September 25", "intent": "hotel_search", "slots": {"city": "London", "start_date": "2025-09-20", "end_date": "2025-09-25"}}
+{"text": "Weather forecast for London from June 1 to June 7", "intent": "weather", "slots": {"city": "London", "start_date": "2025-06-01", "end_date": "2025-06-07"}}
+{"text": "I need a flight from London to Hamburg tomorrow", "intent": "flight_search", "slots": {"origin": "London", "destination": "Hamburg", "date": "tomorrow"}}
+{"text": "Hotels in London for families", "intent": "hotel_search", "slots": {"city": "London"}}
+{"text": "Find hotels in London for 2 adults", "intent": "hotel_search", "slots": {"city": "London", "adults": 2}}
+{"text": "Get me a flight from Hamburg to Zurich on 2026-02-23", "intent": "flight_search", "slots": {"origin": "Hamburg", "destination": "Zurich", "date": "2026-02-23"}}
+{"text": "Find hotels in Berlin for 2 adults", "intent": "hotel_search", "slots": {"city": "Berlin", "adults": 2}}
+{"text": "Flights from Stockholm to Hamburg please next week", "intent": "flight_search", "slots": {"origin": "Stockholm", "destination": "Hamburg", "date": "next week"}}
+{"text": "What's the weather in Vienna from December 16 to December 23?", "intent": "weather", "slots": {"city": "Vienna", "start_date": "2025-12-16", "end_date": "2025-12-23"}}
+{"text": "Book a hotel in Vienna from August 5 to August 10", "intent": "hotel_booking", "slots": {"city": "Vienna", "start_date": "2025-08-05", "end_date": "2025-08-10"}}
+{"text": "Book a hotel in Berlin from July 1 to July 10", "intent": "hotel_booking", "slots": {"city": "Berlin", "start_date": "2025-07-01", "end_date": "2025-07-10"}}
+{"text": "How's the weather in Paris?", "intent": "weather", "slots": {"city": "Paris"}}
+{"text": "Any flights from Oslo to Rome? next week", "intent": "flight_search", "slots": {"origin": "Oslo", "destination": "Rome", "date": "next week"}}
+{"text": "What's the weather in Munich?", "intent": "weather", "slots": {"city": "Munich"}}
+{"text": "Show me parks in Berlin", "intent": "attractions", "slots": {"city": "Berlin"}}
+{"text": "Find cheap flights from Rome to Zurich next week", "intent": "flight_search", "slots": {"origin": "Rome", "destination": "Zurich", "date": "next week"}}
+{"text": "Sehenswürdigkeiten in Vienna", "intent": "attractions", "slots": {"city": "Vienna"}}
+{"text": "Find hotels in Prague from June 1 to June 7", "intent": "hotel_search", "slots": {"city": "Prague", "start_date": "2025-06-01", "end_date": "2025-06-07"}}
+{"text": "Current weather in Rome", "intent": "weather", "slots": {"city": "Rome"}}
+{"text": "What's the weather in Rome from August 5 to August 10?", "intent": "weather", "slots": {"city": "Rome", "start_date": "2025-08-05", "end_date": "2025-08-10"}}
+{"text": "Search for flights from Warsaw to Frankfurt next month", "intent": "flight_search", "slots": {"origin": "Warsaw", "destination": "Frankfurt", "date": "next month"}}
+{"text": "What parks are in Paris?", "intent": "attractions", "slots": {"city": "Paris"}}
+{"text": "Regnet es in Paris?", "intent": "weather", "slots": {"city": "Paris"}}
+{"text": "Best sights in Berlin", "intent": "attractions", "slots": {"city": "Berlin"}}
+{"text": "Book a hotel in London from July 1 to July 10", "intent": "hotel_booking", "slots": {"city": "London", "start_date": "2025-07-01", "end_date": "2025-07-10"}}
+{"text": "Book a flight from Berlin to Vienna from July 1 to July 10", "intent": "flight_search", "slots": {"origin": "Berlin", "destination": "Vienna", "start_date": "July 1", "end_date": "July 10"}}
+{"text": "I need accommodation in Vienna from August 5 to August 10", "intent": "hotel_booking", "slots": {"city": "Vienna", "start_date": "2025-08-05", "end_date": "2025-08-10"}}
+{"text": "What's the weather in Paris?", "intent": "weather", "slots": {"city": "Paris"}}
+{"text": "I need a hotel in Madrid", "intent": "hotel_booking", "slots": {"city": "Madrid"}}
+{"text": "Book accommodation in Munich", "intent": "hotel_booking", "slots": {"city": "Munich"}}
+{"text": "Looking for flights from Amsterdam to Zurich", "intent": "flight_search", "slots": {"origin": "Amsterdam", "destination": "Zurich"}}
+{"text": "Weather forecast for Rome from September 20 to September 25", "intent": "weather", "slots": {"city": "Rome", "start_date": "2025-09-20", "end_date": "2025-09-25"}}
+{"text": "Museums in London", "intent": "attractions", "slots": {"city": "London"}}
+{"text": "Book a hotel in Madrid from August 5 to August 10", "intent": "hotel_booking", "slots": {"city": "Madrid", "start_date": "2025-08-05", "end_date": "2025-08-10"}}
+{"text": "Find flights from Berlin to Stockholm next week", "intent": "flight_search", "slots": {"origin": "Berlin", "destination": "Stockholm", "date": "next week"}}
+{"text": "What's the weather in London from August 5 to August 10?", "intent": "weather", "slots": {"city": "London", "start_date": "2025-08-05", "end_date": "2025-08-10"}}
+{"text": "What's the weather in Rome from September 20 to September 25?", "intent": "weather", "slots": {"city": "Rome", "start_date": "2025-09-20", "end_date": "2025-09-25"}}
+{"text": "I need a flight from Warsaw to Prague tomorrow", "intent": "flight_search", "slots": {"origin": "Warsaw", "destination": "Prague", "date": "tomorrow"}}
+{"text": "Search for flights from Frankfurt to Paris next week", "intent": "flight_search", "slots": {"origin": "Frankfurt", "destination": "Paris", "date": "next week"}}
+{"text": "Looking for flights from Oslo to Prague next week", "intent": "flight_search", "slots": {"origin": "Oslo", "destination": "Prague", "date": "next week"}}
+{"text": "Book a flight from Rome to Stockholm next month", "intent": "flight_search", "slots": {"origin": "Rome", "destination": "Stockholm", "date": "next month"}}
+{"text": "Brauche ein Hotel in Munich", "intent": "hotel_booking", "slots": {"city": "Munich"}}
+{"text": "What's the weather in Vienna from June 1 to June 7?", "intent": "weather", "slots": {"city": "Vienna", "start_date": "2025-06-01", "end_date": "2025-06-07"}}
+{"text": "I need accommodation in Berlin from August 5 to August 10", "intent": "hotel_booking", "slots": {"city": "Berlin", "start_date": "2025-08-05", "end_date": "2025-08-10"}}
+{"text": "Show me attractions in Rome", "intent": "attractions", "slots": {"city": "Rome"}}
+{"text": "Weather forecast for London from December 16 to December 23", "intent": "weather", "slots": {"city": "London", "start_date": "2025-12-16", "end_date": "2025-12-23"}}
+{"text": "Attraktionen in Rome", "intent": "attractions", "slots": {"city": "Rome"}}
+{"text": "Search for flights from Warsaw to Vienna tomorrow", "intent": "flight_search", "slots": {"origin": "Warsaw", "destination": "Vienna", "date": "tomorrow"}}
+{"text": "Find parks in Berlin", "intent": "attractions", "slots": {"city": "Berlin"}}
+{"text": "Temperatur in London", "intent": "weather", "slots": {"city": "London"}}
+{"text": "I need accommodation in Prague from December 16 to December 23", "intent": "hotel_booking", "slots": {"city": "Prague", "start_date": "2025-12-16", "end_date": "2025-12-23"}}
+{"text": "I need accommodation in Berlin from December 16 to December 23", "intent": "hotel_booking", "slots": {"city": "Berlin", "start_date": "2025-12-16", "end_date": "2025-12-23"}}
+{"text": "Find cheap flights from Hamburg to Zurich tomorrow", "intent": "flight_search", "slots": {"origin": "Hamburg", "destination": "Zurich", "date": "tomorrow"}}
+{"text": "Wie ist das Wetter in Hamburg?", "intent": "weather", "slots": {"city": "Hamburg"}}
+{"text": "What to see in Rome?", "intent": "attractions", "slots": {"city": "Rome"}}
+{"text": "Weather forecast for Prague from September 20 to September 25", "intent": "weather", "slots": {"city": "Prague", "start_date": "2025-09-20", "end_date": "2025-09-25"}}
+{"text": "Find hotels in Berlin from August 5 to August 10", "intent": "hotel_search", "slots": {"city": "Berlin", "start_date": "2025-08-05", "end_date": "2025-08-10"}}
+{"text": "Places to visit in Rome", "intent": "attractions", "slots": {"city": "Rome"}}
+{"text": "What parks are in Vienna?", "intent": "attractions", "slots": {"city": "Vienna"}}
+{"text": "What's the weather in Berlin from June 1 to June 7?", "intent": "weather", "slots": {"city": "Berlin", "start_date": "2025-06-01", "end_date": "2025-06-07"}}
+{"text": "Accommodation in London", "intent": "hotel_search", "slots": {"city": "London"}}
+{"text": "Looking for flights from Zurich to Madrid next week", "intent": "flight_search", "slots": {"origin": "Zurich", "destination": "Madrid", "date": "next week"}}
+{"text": "Tourist attractions in Vienna", "intent": "attractions", "slots": {"city": "Vienna"}}
+{"text": "Find flights from Amsterdam to Berlin next week", "intent": "flight_search", "slots": {"origin": "Amsterdam", "destination": "Berlin", "date": "next week"}}
+{"text": "Parks in Madrid", "intent": "attractions", "slots": {"city": "Madrid"}}
+{"text": "Tell me the weather in Paris", "intent": "weather", "slots": {"city": "Paris"}}
+{"text": "Show me flights from Hamburg to Rome from 2025-08-25 to 2025-09-03", "intent": "flight_search", "slots": {"origin": "Hamburg", "destination": "Rome", "start_date": "2025-08-25", "end_date": "2025-09-03"}}
+{"text": "Wetter in Vienna", "intent": "weather", "slots": {"city": "Vienna"}}
+{"text": "What parks are in Amsterdam?", "intent": "attractions", "slots": {"city": "Amsterdam"}}
+{"text": "Find cheap flights from Budapest to Munich from 2026-01-15 to 2026-01-29", "intent": "flight_search", "slots": {"origin": "Budapest", "destination": "Munich", "start_date": "2026-01-15", "end_date": "2026-01-29"}}
+{"text": "Wettervorhersage für London", "intent": "weather", "slots": {"city": "London"}}
+{"text": "Get me a flight from Brussels to Madrid from July 1 to July 10", "intent": "flight_search", "slots": {"origin": "Brussels", "destination": "Madrid", "start_date": "July 1", "end_date": "July 10"}}
+{"text": "Weather forecast for Rome", "intent": "weather", "slots": {"city": "Rome"}}
+{"text": "Tourist attractions in Paris", "intent": "attractions", "slots": {"city": "Paris"}}
+{"text": "Find parks in Madrid", "intent": "attractions", "slots": {"city": "Madrid"}}
+{"text": "Find flights from Zurich to Barcelona from 2026-02-01 to 2026-02-15", "intent": "flight_search", "slots": {"origin": "Zurich", "destination": "Barcelona", "start_date": "2026-02-01", "end_date": "2026-02-15"}}
+{"text": "Book accommodation in London", "intent": "hotel_booking", "slots": {"city": "London"}}
+{"text": "What to see in Berlin?", "intent": "attractions", "slots": {"city": "Berlin"}}
+{"text": "Weather in Rome", "intent": "weather", "slots": {"city": "Rome"}}
+{"text": "Show me flights from Oslo to Paris on 2025-09-02", "intent": "flight_search", "slots": {"origin": "Oslo", "destination": "Paris", "date": "2025-09-02"}}
+{"text": "Weather forecast for Prague from October 10 to October 15", "intent": "weather", "slots": {"city": "Prague", "start_date": "2025-10-10", "end_date": "2025-10-15"}}
+{"text": "Book a hotel in Rome from January 10 to January 15", "intent": "hotel_booking", "slots": {"city": "Rome", "start_date": "2025-01-10", "end_date": "2025-01-15"}}
+{"text": "Sightseeing in Amsterdam", "intent": "attractions", "slots": {"city": "Amsterdam"}}
+{"text": "Weather forecast for Vienna from August 5 to August 10", "intent": "weather", "slots": {"city": "Vienna", "start_date": "2025-08-05", "end_date": "2025-08-10"}}
+{"text": "Flights from Paris to Brussels please on 2025-10-14", "intent": "flight_search", "slots": {"origin": "Paris", "destination": "Brussels", "date": "2025-10-14"}}
+{"text": "Show me flights from Rome to Stockholm", "intent": "flight_search", "slots": {"origin": "Rome", "destination": "Stockholm"}}
+{"text": "Is it raining in Berlin?", "intent": "weather", "slots": {"city": "Berlin"}}
+{"text": "Get me a flight from Vienna to Copenhagen from July 1 to July 10", "intent": "flight_search", "slots": {"origin": "Vienna", "destination": "Copenhagen", "start_date": "July 1", "end_date": "July 10"}}
+{"text": "Find hotels in Berlin from December 16 to December 23", "intent": "hotel_search", "slots": {"city": "Berlin", "start_date": "2025-12-16", "end_date": "2025-12-23"}}
+{"text": "Looking for flights from Prague to Munich", "intent": "flight_search", "slots": {"origin": "Prague", "destination": "Munich"}}
+{"text": "Wetter in Hamburg", "intent": "weather", "slots": {"city": "Hamburg"}}
+{"text": "Book a hotel in Prague from August 5 to August 10", "intent": "hotel_booking", "slots": {"city": "Prague", "start_date": "2025-08-05", "end_date": "2025-08-10"}}
+{"text": "Regnet es in Madrid?", "intent": "weather", "slots": {"city": "Madrid"}}
+{"text": "Museen in Madrid", "intent": "attractions", "slots": {"city": "Madrid"}}
+{"text": "Flights from London to Barcelona please next month", "intent": "flight_search", "slots": {"origin": "London", "destination": "Barcelona", "date": "next month"}}
+{"text": "What's the weather in Berlin from December 16 to December 23?", "intent": "weather", "slots": {"city": "Berlin", "start_date": "2025-12-16", "end_date": "2025-12-23"}}
+{"text": "Find hotels in Vienna from June 1 to June 7", "intent": "hotel_search", "slots": {"city": "Vienna", "start_date": "2025-06-01", "end_date": "2025-06-07"}}
+{"text": "Weather forecast for Vienna from July 1 to July 10", "intent": "weather", "slots": {"city": "Vienna", "start_date": "2025-07-01", "end_date": "2025-07-10"}}
+{"text": "Show me parks in Madrid", "intent": "attractions", "slots": {"city": "Madrid"}}
+{"text": "Regnet es in Berlin?", "intent": "weather", "slots": {"city": "Berlin"}}
+{"text": "I need accommodation in Rome from September 20 to September 25", "intent": "hotel_booking", "slots": {"city": "Rome", "start_date": "2025-09-20", "end_date": "2025-09-25"}}
+{"text": "Weather forecast for London from September 20 to September 25", "intent": "weather", "slots": {"city": "London", "start_date": "2025-09-20", "end_date": "2025-09-25"}}
+{"text": "What to see in Amsterdam?", "intent": "attractions", "slots": {"city": "Amsterdam"}}
+{"text": "What's the weather in Rome from January 10 to January 15?", "intent": "weather", "slots": {"city": "Rome", "start_date": "2025-01-10", "end_date": "2025-01-15"}}
+{"text": "Flights from Vienna to Frankfurt please from July 1 to July 10", "intent": "flight_search", "slots": {"origin": "Vienna", "destination": "Frankfurt", "start_date": "July 1", "end_date": "July 10"}}
+{"text": "Wetter in Madrid", "intent": "weather", "slots": {"city": "Madrid"}}
+{"text": "Show me flights from Copenhagen to London from July 1 to July 10", "intent": "flight_search", "slots": {"origin": "Copenhagen", "destination": "London", "start_date": "July 1", "end_date": "July 10"}}
+{"text": "Parks in London", "intent": "attractions", "slots": {"city": "London"}}
+{"text": "Weather forecast for Madrid", "intent": "weather", "slots": {"city": "Madrid"}}
+{"text": "I need a flight from Amsterdam to Budapest on July 15", "intent": "flight_search", "slots": {"origin": "Amsterdam", "destination": "Budapest", "date": "July 15"}}
+{"text": "Accommodation in Rome", "intent": "hotel_search", "slots": {"city": "Rome"}}
+{"text": "Get me a flight from Frankfurt to Zurich next month", "intent": "flight_search", "slots": {"origin": "Frankfurt", "destination": "Zurich", "date": "next month"}}
+{"text": "Book a hotel in Vienna for 2 adults and 1 child", "intent": "hotel_booking", "slots": {"city": "Vienna", "adults": 2, "children": 1}}
+{"text": "Find hotels in Madrid from August 5 to August 10", "intent": "hotel_search", "slots": {"city": "Madrid", "start_date": "2025-08-05", "end_date": "2025-08-10"}}
+{"text": "Weather forecast for Paris", "intent": "weather", "slots": {"city": "Paris"}}
+{"text": "Find hotels in Madrid from March 15 to March 20", "intent": "hotel_search", "slots": {"city": "Madrid", "start_date": "2025-03-15", "end_date": "2025-03-20"}}
+{"text": "Weather forecast for Rome from January 10 to January 15", "intent": "weather", "slots": {"city": "Rome", "start_date": "2025-01-10", "end_date": "2025-01-15"}}
+{"text": "What parks are in Berlin?", "intent": "attractions", "slots": {"city": "Berlin"}}
+{"text": "Weather forecast for Rome from July 1 to July 10", "intent": "weather", "slots": {"city": "Rome", "start_date": "2025-07-01", "end_date": "2025-07-10"}}
+{"text": "Book a hotel in Prague from January 10 to January 15", "intent": "hotel_booking", "slots": {"city": "Prague", "start_date": "2025-01-10", "end_date": "2025-01-15"}}
+{"text": "Book a flight from Paris to Brussels tomorrow", "intent": "flight_search", "slots": {"origin": "Paris", "destination": "Brussels", "date": "tomorrow"}}
+{"text": "Temperatur in Hamburg", "intent": "weather", "slots": {"city": "Hamburg"}}
+{"text": "I need accommodation in Prague from June 1 to June 7", "intent": "hotel_booking", "slots": {"city": "Prague", "start_date": "2025-06-01", "end_date": "2025-06-07"}}
+{"text": "Show me attractions in Berlin", "intent": "attractions", "slots": {"city": "Berlin"}}
+{"text": "Brauche ein Hotel in Vienna", "intent": "hotel_booking", "slots": {"city": "Vienna"}}
+{"text": "I need accommodation in Berlin from October 10 to October 15", "intent": "hotel_booking", "slots": {"city": "Berlin", "start_date": "2025-10-10", "end_date": "2025-10-15"}}
+{"text": "Book a hotel in Berlin for 2 adults and 1 child", "intent": "hotel_booking", "slots": {"city": "Berlin", "adults": 2, "children": 1}}
+{"text": "Search for flights from Stockholm to Copenhagen next month", "intent": "flight_search", "slots": {"origin": "Stockholm", "destination": "Copenhagen", "date": "next month"}}
+{"text": "Find parks in Rome", "intent": "attractions", "slots": {"city": "Rome"}}
+{"text": "Sightseeing in Vienna", "intent": "attractions", "slots": {"city": "Vienna"}}
+{"text": "Book a flight from Vienna to Brussels next week", "intent": "flight_search", "slots": {"origin": "Vienna", "destination": "Brussels", "date": "next week"}}
+{"text": "I need accommodation in Berlin from July 1 to July 10", "intent": "hotel_booking", "slots": {"city": "Berlin", "start_date": "2025-07-01", "end_date": "2025-07-10"}}
+{"text": "Hotels in Berlin", "intent": "hotel_search", "slots": {"city": "Berlin"}}
+{"text": "Find hotels in Vienna from September 20 to September 25", "intent": "hotel_search", "slots": {"city": "Vienna", "start_date": "2025-09-20", "end_date": "2025-09-25"}}
+{"text": "Weather in Munich", "intent": "weather", "slots": {"city": "Munich"}}
+{"text": "Show me attractions in London", "intent": "attractions", "slots": {"city": "London"}}
+{"text": "I need accommodation in Prague from January 10 to January 15", "intent": "hotel_booking", "slots": {"city": "Prague", "start_date": "2025-01-10", "end_date": "2025-01-15"}}
+{"text": "What's the weather in Prague from September 20 to September 25?", "intent": "weather", "slots": {"city": "Prague", "start_date": "2025-09-20", "end_date": "2025-09-25"}}
+{"text": "What's the weather in Berlin from July 1 to July 10?", "intent": "weather", "slots": {"city": "Berlin", "start_date": "2025-07-01", "end_date": "2025-07-10"}}
+{"text": "Book a flight from London to Barcelona", "intent": "flight_search", "slots": {"origin": "London", "destination": "Barcelona"}}
+{"text": "Looking for flights from Zurich to Amsterdam on July 15", "intent": "flight_search", "slots": {"origin": "Zurich", "destination": "Amsterdam", "date": "July 15"}}
+{"text": "Find flights from Prague to Stockholm next month", "intent": "flight_search", "slots": {"origin": "Prague", "destination": "Stockholm", "date": "next month"}}
+{"text": "Wetter in Berlin", "intent": "weather", "slots": {"city": "Berlin"}}
+{"text": "Weather forecast for Madrid from March 15 to March 20", "intent": "weather", "slots": {"city": "Madrid", "start_date": "2025-03-15", "end_date": "2025-03-20"}}
+{"text": "Flights from Hamburg to Prague please tomorrow", "intent": "flight_search", "slots": {"origin": "Hamburg", "destination": "Prague", "date": "tomorrow"}}
+{"text": "Search for flights from Paris to Frankfurt next week", "intent": "flight_search", "slots": {"origin": "Paris", "destination": "Frankfurt", "date": "next week"}}
+{"text": "Temperature in Paris", "intent": "weather", "slots": {"city": "Paris"}}
+{"text": "Book a flight from Rome to Frankfurt", "intent": "flight_search", "slots": {"origin": "Rome", "destination": "Frankfurt"}}
+{"text": "I need a flight from Warsaw to Munich on 2026-06-27", "intent": "flight_search", "slots": {"origin": "Warsaw", "destination": "Munich", "date": "2026-06-27"}}
+{"text": "Book a hotel in Rome for 2 adults and 1 child", "intent": "hotel_booking", "slots": {"city": "Rome", "adults": 2, "children": 1}}
+{"text": "Get me a flight from Frankfurt to Munich on 2025-07-27", "intent": "flight_search", "slots": {"origin": "Frankfurt", "destination": "Munich", "date": "2025-07-27"}}
+{"text": "Get me a flight from Brussels to Hamburg on July 15", "intent": "flight_search", "slots": {"origin": "Brussels", "destination": "Hamburg", "date": "July 15"}}
+{"text": "Looking for flights from Rome to Brussels next month", "intent": "flight_search", "slots": {"origin": "Rome", "destination": "Brussels", "date": "next month"}}
+{"text": "Show me attractions in Madrid", "intent": "attractions", "slots": {"city": "Madrid"}}
+{"text": "Show me flights from Amsterdam to Vienna tomorrow", "intent": "flight_search", "slots": {"origin": "Amsterdam", "destination": "Vienna", "date": "tomorrow"}}
+{"text": "Find flights from Paris to Amsterdam on 2026-03-01", "intent": "flight_search", "slots": {"origin": "Paris", "destination": "Amsterdam", "date": "2026-03-01"}}
+{"text": "Book accommodation in Madrid", "intent": "hotel_booking", "slots": {"city": "Madrid"}}
+{"text": "Places to visit in Vienna", "intent": "attractions", "slots": {"city": "Vienna"}}
+{"text": "Tourist attractions in Berlin", "intent": "attractions", "slots": {"city": "Berlin"}}
+{"text": "What's the weather in London from December 16 to December 23?", "intent": "weather", "slots": {"city": "London", "start_date": "2025-12-16", "end_date": "2025-12-23"}}
+{"text": "Get me a flight from Copenhagen to London on 2025-07-04", "intent": "flight_search", "slots": {"origin": "Copenhagen", "destination": "London", "date": "2025-07-04"}}
+{"text": "I need a flight from Berlin to Zurich next month", "intent": "flight_search", "slots": {"origin": "Berlin", "destination": "Zurich", "date": "next month"}}
+{"text": "Is it raining in London?", "intent": "weather", "slots": {"city": "London"}}
+{"text": "Buche ein Hotel in London für 2 Erwachsene", "intent": "hotel_booking", "slots": {"city": "London", "adults": 2}}
+{"text": "Book a flight from Hamburg to Vienna next month", "intent": "flight_search", "slots": {"origin": "Hamburg", "destination": "Vienna", "date": "next month"}}
+{"text": "Buche ein Hotel in Madrid für 2 Erwachsene", "intent": "hotel_booking", "slots": {"city": "Madrid", "adults": 2}}
+{"text": "Hotel in London für 2 Erwachsene und 1 Kind", "intent": "hotel_booking", "slots": {"city": "London", "adults": 2, "children": 1}}
+{"text": "Weather forecast for Paris from September 20 to September 25", "intent": "weather", "slots": {"city": "Paris", "start_date": "2025-09-20", "end_date": "2025-09-25"}}
+{"text": "Sehenswürdigkeiten in Berlin", "intent": "attractions", "slots": {"city": "Berlin"}}
+{"text": "Find hotels in Rome from January 10 to January 15", "intent": "hotel_search", "slots": {"city": "Rome", "start_date": "2025-01-10", "end_date": "2025-01-15"}}
+{"text": "What's the weather in Berlin?", "intent": "weather", "slots": {"city": "Berlin"}}
+{"text": "I need a flight from Hamburg to Madrid on July 15", "intent": "flight_search", "slots": {"origin": "Hamburg", "destination": "Madrid", "date": "July 15"}}
+{"text": "Best sights in Rome", "intent": "attractions", "slots": {"city": "Rome"}}
+{"text": "Weather forecast for Rome from August 5 to August 10", "intent": "weather", "slots": {"city": "Rome", "start_date": "2025-08-05", "end_date": "2025-08-10"}}
+{"text": "Looking for flights from Zurich to Paris next week", "intent": "flight_search", "slots": {"origin": "Zurich", "destination": "Paris", "date": "next week"}}
+{"text": "What's the weather in Prague from August 5 to August 10?", "intent": "weather", "slots": {"city": "Prague", "start_date": "2025-08-05", "end_date": "2025-08-10"}}
+{"text": "Book a flight from Budapest to Munich next month", "intent": "flight_search", "slots": {"origin": "Budapest", "destination": "Munich", "date": "next month"}}
+{"text": "Find flights from Frankfurt to Zurich next month", "intent": "flight_search", "slots": {"origin": "Frankfurt", "destination": "Zurich", "date": "next month"}}
+{"text": "Hotels in Rome for families", "intent": "hotel_search", "slots": {"city": "Rome"}}
+{"text": "Book a hotel in Rome from March 15 to March 20", "intent": "hotel_booking", "slots": {"city": "Rome", "start_date": "2025-03-15", "end_date": "2025-03-20"}}
+{"text": "I need accommodation in Berlin from January 10 to January 15", "intent": "hotel_booking", "slots": {"city": "Berlin", "start_date": "2025-01-10", "end_date": "2025-01-15"}}
+{"text": "Weather forecast for London", "intent": "weather", "slots": {"city": "London"}}
+{"text": "Brauche ein Hotel in Paris", "intent": "hotel_booking", "slots": {"city": "Paris"}}
+{"text": "Regnet es in London?", "intent": "weather", "slots": {"city": "London"}}
+{"text": "Attraktionen in Munich", "intent": "attractions", "slots": {"city": "Munich"}}
+{"text": "Was kann man in Madrid sehen?", "intent": "attractions", "slots": {"city": "Madrid"}}
+{"text": "Any flights from Prague to Frankfurt? on 2025-08-27", "intent": "flight_search", "slots": {"origin": "Prague", "destination": "Frankfurt", "date": "2025-08-27"}}
+{"text": "What's the weather in Rome?", "intent": "weather", "slots": {"city": "Rome"}}
+{"text": "Book a hotel in Prague from September 20 to September 25", "intent": "hotel_booking", "slots": {"city": "Prague", "start_date": "2025-09-20", "end_date": "2025-09-25"}}
+{"text": "What's the weather in Prague from January 10 to January 15?", "intent": "weather", "slots": {"city": "Prague", "start_date": "2025-01-10", "end_date": "2025-01-15"}}
+{"text": "Book a hotel in Madrid from July 1 to July 10", "intent": "hotel_booking", "slots": {"city": "Madrid", "start_date": "2025-07-01", "end_date": "2025-07-10"}}
+{"text": "Book a hotel in Paris from July 1 to July 10", "intent": "hotel_booking", "slots": {"city": "Paris", "start_date": "2025-07-01", "end_date": "2025-07-10"}}
+{"text": "Show me flights from Brussels to Barcelona tomorrow", "intent": "flight_search", "slots": {"origin": "Brussels", "destination": "Barcelona", "date": "tomorrow"}}
+{"text": "Looking for flights from Budapest to Prague tomorrow", "intent": "flight_search", "slots": {"origin": "Budapest", "destination": "Prague", "date": "tomorrow"}}
+{"text": "What to see in Madrid?", "intent": "attractions", "slots": {"city": "Madrid"}}
+{"text": "Search for flights from Brussels to Prague tomorrow", "intent": "flight_search", "slots": {"origin": "Brussels", "destination": "Prague", "date": "tomorrow"}}
+{"text": "Find hotels in Berlin from October 10 to October 15", "intent": "hotel_search", "slots": {"city": "Berlin", "start_date": "2025-10-10", "end_date": "2025-10-15"}}
+{"text": "What's the weather in Prague from December 16 to December 23?", "intent": "weather", "slots": {"city": "Prague", "start_date": "2025-12-16", "end_date": "2025-12-23"}}
+{"text": "Show me flights from London to Amsterdam next month", "intent": "flight_search", "slots": {"origin": "London", "destination": "Amsterdam", "date": "next month"}}
+{"text": "List attractions in London", "intent": "attractions", "slots": {"city": "London"}}
+{"text": "Find hotels in Rome from September 20 to September 25", "intent": "hotel_search", "slots": {"city": "Rome", "start_date": "2025-09-20", "end_date": "2025-09-25"}}
+{"text": "Book a hotel in Berlin from August 5 to August 10", "intent": "hotel_booking", "slots": {"city": "Berlin", "start_date": "2025-08-05", "end_date": "2025-08-10"}}
+{"text": "Weather forecast for Berlin from October 10 to October 15", "intent": "weather", "slots": {"city": "Berlin", "start_date": "2025-10-10", "end_date": "2025-10-15"}}
+{"text": "Find hotels in Vienna for 2 adults", "intent": "hotel_search", "slots": {"city": "Vienna", "adults": 2}}
+{"text": "What's the weather in Rome from June 1 to June 7?", "intent": "weather", "slots": {"city": "Rome", "start_date": "2025-06-01", "end_date": "2025-06-07"}}
+{"text": "Search for flights from Budapest to Rome next month", "intent": "flight_search", "slots": {"origin": "Budapest", "destination": "Rome", "date": "next month"}}
+{"text": "Attraktionen in Berlin", "intent": "attractions", "slots": {"city": "Berlin"}}
+{"text": "How's the weather in Vienna?", "intent": "weather", "slots": {"city": "Vienna"}}
+{"text": "I need a hotel in Munich", "intent": "hotel_booking", "slots": {"city": "Munich"}}
+{"text": "Book a hotel in Vienna from January 10 to January 15", "intent": "hotel_booking", "slots": {"city": "Vienna", "start_date": "2025-01-10", "end_date": "2025-01-15"}}
+{"text": "Find hotels in Paris from July 1 to July 10", "intent": "hotel_search", "slots": {"city": "Paris", "start_date": "2025-07-01", "end_date": "2025-07-10"}}
+{"text": "Things to do in Rome", "intent": "attractions", "slots": {"city": "Rome"}}
+{"text": "Find hotels in Rome from June 1 to June 7", "intent": "hotel_search", "slots": {"city": "Rome", "start_date": "2025-06-01", "end_date": "2025-06-07"}}
+{"text": "Find hotels in Madrid from December 16 to December 23", "intent": "hotel_search", "slots": {"city": "Madrid", "start_date": "2025-12-16", "end_date": "2025-12-23"}}
+{"text": "How's the weather in Berlin?", "intent": "weather", "slots": {"city": "Berlin"}}
+{"text": "What's the weather in Prague from July 1 to July 10?", "intent": "weather", "slots": {"city": "Prague", "start_date": "2025-07-01", "end_date": "2025-07-10"}}
+{"text": "Current weather in Hamburg", "intent": "weather", "slots": {"city": "Hamburg"}}
+{"text": "What to see in Vienna?", "intent": "attractions", "slots": {"city": "Vienna"}}
+{"text": "Looking for flights from Vienna to Amsterdam next week", "intent": "flight_search", "slots": {"origin": "Vienna", "destination": "Amsterdam", "date": "next week"}}
+{"text": "Book a hotel in Berlin from December 16 to December 23", "intent": "hotel_booking", "slots": {"city": "Berlin", "start_date": "2025-12-16", "end_date": "2025-12-23"}}
+{"text": "What's the weather in Vienna from July 1 to July 10?", "intent": "weather", "slots": {"city": "Vienna", "start_date": "2025-07-01", "end_date": "2025-07-10"}}
+{"text": "I need a flight from Frankfurt to Barcelona next month", "intent": "flight_search", "slots": {"origin": "Frankfurt", "destination": "Barcelona", "date": "next month"}}
+{"text": "I need accommodation in Paris from June 1 to June 7", "intent": "hotel_booking", "slots": {"city": "Paris", "start_date": "2025-06-01", "end_date": "2025-06-07"}}
+{"text": "Wetter in Rome", "intent": "weather", "slots": {"city": "Rome"}}
+{"text": "Book a flight from Madrid to Warsaw on 2026-03-23", "intent": "flight_search", "slots": {"origin": "Madrid", "destination": "Warsaw", "date": "2026-03-23"}}
+{"text": "Search for flights from Warsaw to Paris", "intent": "flight_search", "slots": {"origin": "Warsaw", "destination": "Paris"}}
+{"text": "Looking for flights from Munich to Oslo from July 1 to July 10", "intent": "flight_search", "slots": {"origin": "Munich", "destination": "Oslo", "start_date": "July 1", "end_date": "July 10"}}
+{"text": "What's the weather in London?", "intent": "weather", "slots": {"city": "London"}}
+{"text": "Any flights from Madrid to Brussels? from 2025-10-24 to 2025-11-07", "intent": "flight_search", "slots": {"origin": "Madrid", "destination": "Brussels", "start_date": "2025-10-24", "end_date": "2025-11-07"}}
+{"text": "Find hotels in Paris for 2 adults", "intent": "hotel_search", "slots": {"city": "Paris", "adults": 2}}
+{"text": "Wettervorhersage für Vienna", "intent": "weather", "slots": {"city": "Vienna"}}
+{"text": "How's the weather in Madrid?", "intent": "weather", "slots": {"city": "Madrid"}}
+{"text": "What's the weather in Paris from December 16 to December 23?", "intent": "weather", "slots": {"city": "Paris", "start_date": "2025-12-16", "end_date": "2025-12-23"}}
+{"text": "List attractions in Paris", "intent": "attractions", "slots": {"city": "Paris"}}
+{"text": "Book a flight from Prague to Budapest", "intent": "flight_search", "slots": {"origin": "Prague", "destination": "Budapest"}}
+{"text": "Tourist attractions in London", "intent": "attractions", "slots": {"city": "London"}}
+{"text": "Show me flights from Warsaw to Oslo from July 1 to July 10", "intent": "flight_search", "slots": {"origin": "Warsaw", "destination": "Oslo", "start_date": "July 1", "end_date": "July 10"}}
+{"text": "Show me parks in Amsterdam", "intent": "attractions", "slots": {"city": "Amsterdam"}}
+{"text": "Find hotels in London from June 1 to June 7", "intent": "hotel_search", "slots": {"city": "London", "start_date": "2025-06-01", "end_date": "2025-06-07"}}
+{"text": "Sightseeing in Berlin", "intent": "attractions", "slots": {"city": "Berlin"}}
+{"text": "Looking for flights from Budapest to Amsterdam on July 15", "intent": "flight_search", "slots": {"origin": "Budapest", "destination": "Amsterdam", "date": "July 15"}}
+{"text": "Wettervorhersage für Rome", "intent": "weather", "slots": {"city": "Rome"}}
+{"text": "Book a hotel in Madrid from December 16 to December 23", "intent": "hotel_booking", "slots": {"city": "Madrid", "start_date": "2025-12-16", "end_date": "2025-12-23"}}
+{"text": "What's the weather in London from September 20 to September 25?", "intent": "weather", "slots": {"city": "London", "start_date": "2025-09-20", "end_date": "2025-09-25"}}
+{"text": "What's the weather in London from July 1 to July 10?", "intent": "weather", "slots": {"city": "London", "start_date": "2025-07-01", "end_date": "2025-07-10"}}
+{"text": "Flights from Rome to Paris please from 2025-11-26 to 2025-12-10", "intent": "flight_search", "slots": {"origin": "Rome", "destination": "Paris", "start_date": "2025-11-26", "end_date": "2025-12-10"}}
+{"text": "I need accommodation in Prague from October 10 to October 15", "intent": "hotel_booking", "slots": {"city": "Prague", "start_date": "2025-10-10", "end_date": "2025-10-15"}}
+{"text": "Find hotels in Berlin from March 15 to March 20", "intent": "hotel_search", "slots": {"city": "Berlin", "start_date": "2025-03-15", "end_date": "2025-03-20"}}
+{"text": "Looking for flights from Stockholm to Munich tomorrow", "intent": "flight_search", "slots": {"origin": "Stockholm", "destination": "Munich", "date": "tomorrow"}}
+{"text": "Find hotels in Berlin from July 1 to July 10", "intent": "hotel_search", "slots": {"city": "Berlin", "start_date": "2025-07-01", "end_date": "2025-07-10"}}
+{"text": "Looking for flights from Prague to Stockholm on July 15", "intent": "flight_search", "slots": {"origin": "Prague", "destination": "Stockholm", "date": "July 15"}}
+{"text": "Find hotels in London from July 1 to July 10", "intent": "hotel_search", "slots": {"city": "London", "start_date": "2025-07-01", "end_date": "2025-07-10"}}
+{"text": "I need a flight from Paris to Frankfurt tomorrow", "intent": "flight_search", "slots": {"origin": "Paris", "destination": "Frankfurt", "date": "tomorrow"}}
+{"text": "Show me parks in London", "intent": "attractions", "slots": {"city": "London"}}
+{"text": "Temperature in Vienna", "intent": "weather", "slots": {"city": "Vienna"}}
+{"text": "Book a flight from Munich to Oslo next week", "intent": "flight_search", "slots": {"origin": "Munich", "destination": "Oslo", "date": "next week"}}
+{"text": "Weather forecast for Madrid from January 10 to January 15", "intent": "weather", "slots": {"city": "Madrid", "start_date": "2025-01-10", "end_date": "2025-01-15"}}
+{"text": "I need a flight from Warsaw to Rome next month", "intent": "flight_search", "slots": {"origin": "Warsaw", "destination": "Rome", "date": "next month"}}
+{"text": "List attractions in Munich", "intent": "attractions", "slots": {"city": "Munich"}}
+{"text": "List attractions in Vienna", "intent": "attractions", "slots": {"city": "Vienna"}}
+{"text": "Looking for flights from Stockholm to Berlin tomorrow", "intent": "flight_search", "slots": {"origin": "Stockholm", "destination": "Berlin", "date": "tomorrow"}}
+{"text": "Weather forecast for Vienna from September 20 to September 25", "intent": "weather", "slots": {"city": "Vienna", "start_date": "2025-09-20", "end_date": "2025-09-25"}}
+{"text": "Show me flights from London to Munich", "intent": "flight_search", "slots": {"origin": "London", "destination": "Munich"}}
+{"text": "Wetter in London", "intent": "weather", "slots": {"city": "London"}}
+{"text": "Zeig mir Parks in Paris", "intent": "attractions", "slots": {"city": "Paris"}}
+{"text": "Show me flights from Hamburg to London from July 1 to July 10", "intent": "flight_search", "slots": {"origin": "Hamburg", "destination": "London", "start_date": "July 1", "end_date": "July 10"}}
+{"text": "Current weather in Munich", "intent": "weather", "slots": {"city": "Munich"}}
+{"text": "Weather forecast for Vienna", "intent": "weather", "slots": {"city": "Vienna"}}
+{"text": "Show me parks in Munich", "intent": "attractions", "slots": {"city": "Munich"}}
+{"text": "Show me parks in Paris", "intent": "attractions", "slots": {"city": "Paris"}}
+{"text": "Weather forecast for Hamburg", "intent": "weather", "slots": {"city": "Hamburg"}}
+{"text": "Temperature in Hamburg", "intent": "weather", "slots": {"city": "Hamburg"}}
+{"text": "I need accommodation in Madrid from September 20 to September 25", "intent": "hotel_booking", "slots": {"city": "Madrid", "start_date": "2025-09-20", "end_date": "2025-09-25"}}
+{"text": "Is it raining in Hamburg?", "intent": "weather", "slots": {"city": "Hamburg"}}
+{"text": "Find cheap flights from Oslo to Berlin from 2026-06-05 to 2026-06-12", "intent": "flight_search", "slots": {"origin": "Oslo", "destination": "Berlin", "start_date": "2026-06-05", "end_date": "2026-06-12"}}
+{"text": "I need accommodation in Paris from March 15 to March 20", "intent": "hotel_booking", "slots": {"city": "Paris", "start_date": "2025-03-15", "end_date": "2025-03-20"}}
+{"text": "Find cheap flights from Munich to Paris from July 1 to July 10", "intent": "flight_search", "slots": {"origin": "Munich", "destination": "Paris", "start_date": "July 1", "end_date": "July 10"}}
+{"text": "Book a flight from Barcelona to Prague", "intent": "flight_search", "slots": {"origin": "Barcelona", "destination": "Prague"}}
+{"text": "Search for flights from Amsterdam to Paris next week", "intent": "flight_search", "slots": {"origin": "Amsterdam", "destination": "Paris", "date": "next week"}}
+{"text": "Was kann man in Berlin sehen?", "intent": "attractions", "slots": {"city": "Berlin"}}
+{"text": "Search for flights from Stockholm to Paris next week", "intent": "flight_search", "slots": {"origin": "Stockholm", "destination": "Paris", "date": "next week"}}
+{"text": "Sightseeing in Munich", "intent": "attractions", "slots": {"city": "Munich"}}
+{"text": "Show me attractions in Vienna", "intent": "attractions", "slots": {"city": "Vienna"}}
+{"text": "Current weather in Madrid", "intent": "weather", "slots": {"city": "Madrid"}}
+{"text": "How's the weather in Hamburg?", "intent": "weather", "slots": {"city": "Hamburg"}}
+{"text": "Temperatur in Vienna", "intent": "weather", "slots": {"city": "Vienna"}}
+{"text": "Attraktionen in Paris", "intent": "attractions", "slots": {"city": "Paris"}}
+{"text": "Get me a flight from Copenhagen to Vienna next week", "intent": "flight_search", "slots": {"origin": "Copenhagen", "destination": "Vienna", "date": "next week"}}
+{"text": "Current weather in Paris", "intent": "weather", "slots": {"city": "Paris"}}
+{"text": "Book a hotel in Vienna from March 15 to March 20", "intent": "hotel_booking", "slots": {"city": "Vienna", "start_date": "2025-03-15", "end_date": "2025-03-20"}}
+{"text": "Was kann man in Paris sehen?", "intent": "attractions", "slots": {"city": "Paris"}}
+{"text": "Wie ist das Wetter in Paris?", "intent": "weather", "slots": {"city": "Paris"}}
+{"text": "I need accommodation in Prague from July 1 to July 10", "intent": "hotel_booking", "slots": {"city": "Prague", "start_date": "2025-07-01", "end_date": "2025-07-10"}}
+{"text": "Find hotels in Madrid from July 1 to July 10", "intent": "hotel_search", "slots": {"city": "Madrid", "start_date": "2025-07-01", "end_date": "2025-07-10"}}
+{"text": "Museen in Berlin", "intent": "attractions", "slots": {"city": "Berlin"}}
+{"text": "Looking for flights from Barcelona to Prague on 2025-07-19", "intent": "flight_search", "slots": {"origin": "Barcelona", "destination": "Prague", "date": "2025-07-19"}}
+{"text": "Book accommodation in Rome", "intent": "hotel_booking", "slots": {"city": "Rome"}}
+{"text": "Temperatur in Munich", "intent": "weather", "slots": {"city": "Munich"}}
+{"text": "Find flights from Amsterdam to Rome from July 1 to July 10", "intent": "flight_search", "slots": {"origin": "Amsterdam", "destination": "Rome", "start_date": "July 1", "end_date": "July 10"}}
+{"text": "Book a hotel in Paris from January 10 to January 15", "intent": "hotel_booking", "slots": {"city": "Paris", "start_date": "2025-01-10", "end_date": "2025-01-15"}}
+{"text": "What's the weather in Paris from June 1 to June 7?", "intent": "weather", "slots": {"city": "Paris", "start_date": "2025-06-01", "end_date": "2025-06-07"}}
+{"text": "Tell me the weather in Rome", "intent": "weather", "slots": {"city": "Rome"}}
+{"text": "Book a hotel in Berlin from March 15 to March 20", "intent": "hotel_booking", "slots": {"city": "Berlin", "start_date": "2025-03-15", "end_date": "2025-03-20"}}
+{"text": "Hotels in Paris for families", "intent": "hotel_search", "slots": {"city": "Paris"}}
+{"text": "Show me attractions in Paris", "intent": "attractions", "slots": {"city": "Paris"}}
+{"text": "Book a hotel in London from October 10 to October 15", "intent": "hotel_booking", "slots": {"city": "London", "start_date": "2025-10-10", "end_date": "2025-10-15"}}
+{"text": "What's the weather in Prague from October 10 to October 15?", "intent": "weather", "slots": {"city": "Prague", "start_date": "2025-10-10", "end_date": "2025-10-15"}}
+{"text": "Find hotels in Madrid from October 10 to October 15", "intent": "hotel_search", "slots": {"city": "Madrid", "start_date": "2025-10-10", "end_date": "2025-10-15"}}
+{"text": "Book a hotel in London from January 10 to January 15", "intent": "hotel_booking", "slots": {"city": "London", "start_date": "2025-01-10", "end_date": "2025-01-15"}}
+{"text": "I need a hotel in London", "intent": "hotel_booking", "slots": {"city": "London"}}
+{"text": "What's the weather in Madrid from July 1 to July 10?", "intent": "weather", "slots": {"city": "Madrid", "start_date": "2025-07-01", "end_date": "2025-07-10"}}
+{"text": "Flights from Barcelona to Paris please from 2026-06-09 to 2026-06-12", "intent": "flight_search", "slots": {"origin": "Barcelona", "destination": "Paris", "start_date": "2026-06-09", "end_date": "2026-06-12"}}
+{"text": "Brauche ein Hotel in Madrid", "intent": "hotel_booking", "slots": {"city": "Madrid"}}
+{"text": "Book a hotel in Paris from December 16 to December 23", "intent": "hotel_booking", "slots": {"city": "Paris", "start_date": "2025-12-16", "end_date": "2025-12-23"}}
+{"text": "Find cheap flights from Prague to Madrid next week", "intent": "flight_search", "slots": {"origin": "Prague", "destination": "Madrid", "date": "next week"}}
+{"text": "Weather forecast for Madrid from July 1 to July 10", "intent": "weather", "slots": {"city": "Madrid", "start_date": "2025-07-01", "end_date": "2025-07-10"}}
+{"text": "Looking for flights from London to Warsaw tomorrow", "intent": "flight_search", "slots": {"origin": "London", "destination": "Warsaw", "date": "tomorrow"}}
+{"text": "Book a hotel in Vienna from September 20 to September 25", "intent": "hotel_booking", "slots": {"city": "Vienna", "start_date": "2025-09-20", "end_date": "2025-09-25"}}
+{"text": "Accommodation in Madrid", "intent": "hotel_search", "slots": {"city": "Madrid"}}
+{"text": "What's the weather in Vienna from January 10 to January 15?", "intent": "weather", "slots": {"city": "Vienna", "start_date": "2025-01-10", "end_date": "2025-01-15"}}
+{"text": "I need a flight from Brussels to London next week", "intent": "flight_search", "slots": {"origin": "Brussels", "destination": "London", "date": "next week"}}
+{"text": "Show me flights from London to Vienna tomorrow", "intent": "flight_search", "slots": {"origin": "London", "destination": "Vienna", "date": "tomorrow"}}
+{"text": "Show me flights from Berlin to Rome from 2026-01-25 to 2026-02-06", "intent": "flight_search", "slots": {"origin": "Berlin", "destination": "Rome", "start_date": "2026-01-25", "end_date": "2026-02-06"}}
+{"text": "Museen in Paris", "intent": "attractions", "slots": {"city": "Paris"}}
+{"text": "Find parks in Vienna", "intent": "attractions", "slots": {"city": "Vienna"}}
+{"text": "What parks are in Madrid?", "intent": "attractions", "slots": {"city": "Madrid"}}
+{"text": "Get me a flight from Prague to Brussels tomorrow", "intent": "flight_search", "slots": {"origin": "Prague", "destination": "Brussels", "date": "tomorrow"}}
+{"text": "Find cheap flights from Hamburg to Barcelona from July 1 to July 10", "intent": "flight_search", "slots": {"origin": "Hamburg", "destination": "Barcelona", "start_date": "July 1", "end_date": "July 10"}}
+{"text": "Zeig mir Parks in Vienna", "intent": "attractions", "slots": {"city": "Vienna"}}
+{"text": "Temperature in Berlin", "intent": "weather", "slots": {"city": "Berlin"}}
+{"text": "I need accommodation in Vienna from July 1 to July 10", "intent": "hotel_booking", "slots": {"city": "Vienna", "start_date": "2025-07-01", "end_date": "2025-07-10"}}
+{"text": "Book a hotel in Paris for 2 adults and 1 child", "intent": "hotel_booking", "slots": {"city": "Paris", "adults": 2, "children": 1}}
+{"text": "Book a hotel in Madrid from March 15 to March 20", "intent": "hotel_booking", "slots": {"city": "Madrid", "start_date": "2025-03-15", "end_date": "2025-03-20"}}
+{"text": "I need accommodation in Berlin from September 20 to September 25", "intent": "hotel_booking", "slots": {"city": "Berlin", "start_date": "2025-09-20", "end_date": "2025-09-25"}}
+{"text": "Was kann man in Amsterdam sehen?", "intent": "attractions", "slots": {"city": "Amsterdam"}}
+{"text": "Book a hotel in Madrid for 2 adults and 1 child", "intent": "hotel_booking", "slots": {"city": "Madrid", "adults": 2, "children": 1}}
+{"text": "What's the weather in Rome from July 1 to July 10?", "intent": "weather", "slots": {"city": "Rome", "start_date": "2025-07-01", "end_date": "2025-07-10"}}
+{"text": "Show me flights from Stockholm to Copenhagen tomorrow", "intent": "flight_search", "slots": {"origin": "Stockholm", "destination": "Copenhagen", "date": "tomorrow"}}
+{"text": "Find cheap flights from Warsaw to Brussels on 2026-02-09", "intent": "flight_search", "slots": {"origin": "Warsaw", "destination": "Brussels", "date": "2026-02-09"}}
+{"text": "Find hotels in Paris from August 5 to August 10", "intent": "hotel_search", "slots": {"city": "Paris", "start_date": "2025-08-05", "end_date": "2025-08-10"}}
+{"text": "Any flights from Budapest to Warsaw? tomorrow", "intent": "flight_search", "slots": {"origin": "Budapest", "destination": "Warsaw", "date": "tomorrow"}}
+{"text": "I need accommodation in Paris from July 1 to July 10", "intent": "hotel_booking", "slots": {"city": "Paris", "start_date": "2025-07-01", "end_date": "2025-07-10"}}
+{"text": "Show me parks in Vienna", "intent": "attractions", "slots": {"city": "Vienna"}}
+{"text": "Weather forecast for Paris from July 1 to July 10", "intent": "weather", "slots": {"city": "Paris", "start_date": "2025-07-01", "end_date": "2025-07-10"}}
+{"text": "Search for flights from Paris to Amsterdam", "intent": "flight_search", "slots": {"origin": "Paris", "destination": "Amsterdam"}}
+{"text": "Book a flight from Prague to Zurich next week", "intent": "flight_search", "slots": {"origin": "Prague", "destination": "Zurich", "date": "next week"}}
+{"text": "Book a hotel in Prague from June 1 to June 7", "intent": "hotel_booking", "slots": {"city": "Prague", "start_date": "2025-06-01", "end_date": "2025-06-07"}}
+{"text": "What's the weather in Madrid from September 20 to September 25?", "intent": "weather", "slots": {"city": "Madrid", "start_date": "2025-09-20", "end_date": "2025-09-25"}}
+{"text": "I need accommodation in London from December 16 to December 23", "intent": "hotel_booking", "slots": {"city": "London", "start_date": "2025-12-16", "end_date": "2025-12-23"}}
+{"text": "Wettervorhersage für Munich", "intent": "weather", "slots": {"city": "Munich"}}
+{"text": "How's the weather in Munich?", "intent": "weather", "slots": {"city": "Munich"}}
+{"text": "What's the weather in Prague from June 1 to June 7?", "intent": "weather", "slots": {"city": "Prague", "start_date": "2025-06-01", "end_date": "2025-06-07"}}
+{"text": "Weather forecast for Prague from July 1 to July 10", "intent": "weather", "slots": {"city": "Prague", "start_date": "2025-07-01", "end_date": "2025-07-10"}}
+{"text": "Hotel in Munich für 2 Erwachsene und 1 Kind", "intent": "hotel_booking", "slots": {"city": "Munich", "adults": 2, "children": 1}}
+{"text": "Looking for flights from Vienna to Copenhagen on 2026-05-29", "intent": "flight_search", "slots": {"origin": "Vienna", "destination": "Copenhagen", "date": "2026-05-29"}}
+{"text": "Parks in Munich", "intent": "attractions", "slots": {"city": "Munich"}}
+{"text": "Find flights from Brussels to Prague from July 1 to July 10", "intent": "flight_search", "slots": {"origin": "Brussels", "destination": "Prague", "start_date": "July 1", "end_date": "July 10"}}
+{"text": "Parks in Rome", "intent": "attractions", "slots": {"city": "Rome"}}
+{"text": "What's the weather in London from June 1 to June 7?", "intent": "weather", "slots": {"city": "London", "start_date": "2025-06-01", "end_date": "2025-06-07"}}
+{"text": "I need accommodation in London from June 1 to June 7", "intent": "hotel_booking", "slots": {"city": "London", "start_date": "2025-06-01", "end_date": "2025-06-07"}}
+{"text": "Regnet es in Vienna?", "intent": "weather", "slots": {"city": "Vienna"}}
+{"text": "Places to visit in Paris", "intent": "attractions", "slots": {"city": "Paris"}}
+{"text": "Book a hotel in Rome from July 1 to July 10", "intent": "hotel_booking", "slots": {"city": "Rome", "start_date": "2025-07-01", "end_date": "2025-07-10"}}
+{"text": "What's the weather in Vienna from August 5 to August 10?", "intent": "weather", "slots": {"city": "Vienna", "start_date": "2025-08-05", "end_date": "2025-08-10"}}
+{"text": "Temperatur in Paris", "intent": "weather", "slots": {"city": "Paris"}}
+{"text": "How's the weather in London?", "intent": "weather", "slots": {"city": "London"}}
+{"text": "Flights from Stockholm to Copenhagen please next week", "intent": "flight_search", "slots": {"origin": "Stockholm", "destination": "Copenhagen", "date": "next week"}}
+{"text": "Tourist attractions in Munich", "intent": "attractions", "slots": {"city": "Munich"}}
+{"text": "Book a hotel in Prague from October 10 to October 15", "intent": "hotel_booking", "slots": {"city": "Prague", "start_date": "2025-10-10", "end_date": "2025-10-15"}}
+{"text": "I need accommodation in Madrid from August 5 to August 10", "intent": "hotel_booking", "slots": {"city": "Madrid", "start_date": "2025-08-05", "end_date": "2025-08-10"}}
+{"text": "Any flights from Amsterdam to Vienna? next month", "intent": "flight_search", "slots": {"origin": "Amsterdam", "destination": "Vienna", "date": "next month"}}
+{"text": "Sehenswürdigkeiten in Amsterdam", "intent": "attractions", "slots": {"city": "Amsterdam"}}
+{"text": "Places to visit in Berlin", "intent": "attractions", "slots": {"city": "Berlin"}}
+{"text": "I need accommodation in Madrid from July 1 to July 10", "intent": "hotel_booking", "slots": {"city": "Madrid", "start_date": "2025-07-01", "end_date": "2025-07-10"}}
+{"text": "What's the weather in Berlin from October 10 to October 15?", "intent": "weather", "slots": {"city": "Berlin", "start_date": "2025-10-10", "end_date": "2025-10-15"}}
+{"text": "Book a hotel in Rome from October 10 to October 15", "intent": "hotel_booking", "slots": {"city": "Rome", "start_date": "2025-10-10", "end_date": "2025-10-15"}}
+{"text": "Find hotels in Madrid from January 10 to January 15", "intent": "hotel_search", "slots": {"city": "Madrid", "start_date": "2025-01-10", "end_date": "2025-01-15"}}
+{"text": "Book a hotel in Prague from March 15 to March 20", "intent": "hotel_booking", "slots": {"city": "Prague", "start_date": "2025-03-15", "end_date": "2025-03-20"}}
+{"text": "Find hotels in London from December 16 to December 23", "intent": "hotel_search", "slots": {"city": "London", "start_date": "2025-12-16", "end_date": "2025-12-23"}}
+{"text": "What's the weather in London from October 10 to October 15?", "intent": "weather", "slots": {"city": "London", "start_date": "2025-10-10", "end_date": "2025-10-15"}}
+{"text": "Temperature in Rome", "intent": "weather", "slots": {"city": "Rome"}}
+{"text": "Looking for flights from Madrid to Oslo", "intent": "flight_search", "slots": {"origin": "Madrid", "destination": "Oslo"}}
+{"text": "I need accommodation in Paris from August 5 to August 10", "intent": "hotel_booking", "slots": {"city": "Paris", "start_date": "2025-08-05", "end_date": "2025-08-10"}}
+{"text": "Temperature in London", "intent": "weather", "slots": {"city": "London"}}
+{"text": "I need accommodation in Paris from October 10 to October 15", "intent": "hotel_booking", "slots": {"city": "Paris", "start_date": "2025-10-10", "end_date": "2025-10-15"}}
+{"text": "Zeig mir Parks in London", "intent": "attractions", "slots": {"city": "London"}}
+{"text": "I need accommodation in Rome from August 5 to August 10", "intent": "hotel_booking", "slots": {"city": "Rome", "start_date": "2025-08-05", "end_date": "2025-08-10"}}
+{"text": "Tell me the weather in Munich", "intent": "weather", "slots": {"city": "Munich"}}
+{"text": "Find hotels in Berlin from June 1 to June 7", "intent": "hotel_search", "slots": {"city": "Berlin", "start_date": "2025-06-01", "end_date": "2025-06-07"}}
+{"text": "What's the weather in Madrid from October 10 to October 15?", "intent": "weather", "slots": {"city": "Madrid", "start_date": "2025-10-10", "end_date": "2025-10-15"}}
+{"text": "Flights from Copenhagen to Berlin please from 2025-10-10 to 2025-10-18", "intent": "flight_search", "slots": {"origin": "Copenhagen", "destination": "Berlin", "start_date": "2025-10-10", "end_date": "2025-10-18"}}
+{"text": "Best sights in London", "intent": "attractions", "slots": {"city": "London"}}
+{"text": "Find flights from Barcelona to Stockholm from July 1 to July 10", "intent": "flight_search", "slots": {"origin": "Barcelona", "destination": "Stockholm", "start_date": "July 1", "end_date": "July 10"}}
+{"text": "Find cheap flights from Prague to Amsterdam on July 15", "intent": "flight_search", "slots": {"origin": "Prague", "destination": "Amsterdam", "date": "July 15"}}
+{"text": "Search for flights from Copenhagen to Barcelona next week", "intent": "flight_search", "slots": {"origin": "Copenhagen", "destination": "Barcelona", "date": "next week"}}
+{"text": "Book a hotel in Berlin from January 10 to January 15", "intent": "hotel_booking", "slots": {"city": "Berlin", "start_date": "2025-01-10", "end_date": "2025-01-15"}}
+{"text": "Book a hotel in Madrid from January 10 to January 15", "intent": "hotel_booking", "slots": {"city": "Madrid", "start_date": "2025-01-10", "end_date": "2025-01-15"}}
+{"text": "Sightseeing in London", "intent": "attractions", "slots": {"city": "London"}}
+{"text": "What to see in Munich?", "intent": "attractions", "slots": {"city": "Munich"}}
+{"text": "Zeig mir Parks in Rome", "intent": "attractions", "slots": {"city": "Rome"}}
+{"text": "Book a hotel in London from December 16 to December 23", "intent": "hotel_booking", "slots": {"city": "London", "start_date": "2025-12-16", "end_date": "2025-12-23"}}
+{"text": "Museums in Madrid", "intent": "attractions", "slots": {"city": "Madrid"}}
+{"text": "Weather forecast for Paris from October 10 to October 15", "intent": "weather", "slots": {"city": "Paris", "start_date": "2025-10-10", "end_date": "2025-10-15"}}
+{"text": "Find hotels in Rome from March 15 to March 20", "intent": "hotel_search", "slots": {"city": "Rome", "start_date": "2025-03-15", "end_date": "2025-03-20"}}
+{"text": "Find cheap flights from Copenhagen to Munich next month", "intent": "flight_search", "slots": {"origin": "Copenhagen", "destination": "Munich", "date": "next month"}}
+{"text": "I need accommodation in Prague from March 15 to March 20", "intent": "hotel_booking", "slots": {"city": "Prague", "start_date": "2025-03-15", "end_date": "2025-03-20"}}
+{"text": "Best sights in Munich", "intent": "attractions", "slots": {"city": "Munich"}}
+{"text": "Book a hotel in Rome from June 1 to June 7", "intent": "hotel_booking", "slots": {"city": "Rome", "start_date": "2025-06-01", "end_date": "2025-06-07"}}
+{"text": "Wie ist das Wetter in London?", "intent": "weather", "slots": {"city": "London"}}
+{"text": "I need accommodation in London from March 15 to March 20", "intent": "hotel_booking", "slots": {"city": "London", "start_date": "2025-03-15", "end_date": "2025-03-20"}}
+{"text": "Find cheap flights from Vienna to Zurich from 2025-12-18 to 2025-12-19", "intent": "flight_search", "slots": {"origin": "Vienna", "destination": "Zurich", "start_date": "2025-12-18", "end_date": "2025-12-19"}}
+{"text": "Attraktionen in Amsterdam", "intent": "attractions", "slots": {"city": "Amsterdam"}}
+{"text": "Find hotels in Vienna from August 5 to August 10", "intent": "hotel_search", "slots": {"city": "Vienna", "start_date": "2025-08-05", "end_date": "2025-08-10"}}
+{"text": "Book a hotel in Paris from October 10 to October 15", "intent": "hotel_booking", "slots": {"city": "Paris", "start_date": "2025-10-10", "end_date": "2025-10-15"}}
+{"text": "Find cheap flights from Oslo to Madrid on 2025-12-19", "intent": "flight_search", "slots": {"origin": "Oslo", "destination": "Madrid", "date": "2025-12-19"}}
+{"text": "Book a hotel in Berlin from October 10 to October 15", "intent": "hotel_booking", "slots": {"city": "Berlin", "start_date": "2025-10-10", "end_date": "2025-10-15"}}
+{"text": "I need accommodation in London from July 1 to July 10", "intent": "hotel_booking", "slots": {"city": "London", "start_date": "2025-07-01", "end_date": "2025-07-10"}}
+{"text": "Find hotels in Vienna from December 16 to December 23", "intent": "hotel_search", "slots": {"city": "Vienna", "start_date": "2025-12-16", "end_date": "2025-12-23"}}
+{"text": "Regnet es in Munich?", "intent": "weather", "slots": {"city": "Munich"}}
+{"text": "Things to do in Munich", "intent": "attractions", "slots": {"city": "Munich"}}
+{"text": "I need accommodation in Rome from October 10 to October 15", "intent": "hotel_booking", "slots": {"city": "Rome", "start_date": "2025-10-10", "end_date": "2025-10-15"}}
+{"text": "Things to do in Berlin", "intent": "attractions", "slots": {"city": "Berlin"}}
+{"text": "Any flights from Barcelona to Frankfurt? on July 15", "intent": "flight_search", "slots": {"origin": "Barcelona", "destination": "Frankfurt", "date": "July 15"}}
+{"text": "Find hotels in Munich for 2 adults", "intent": "hotel_search", "slots": {"city": "Munich", "adults": 2}}
+{"text": "Was kann man in Munich sehen?", "intent": "attractions", "slots": {"city": "Munich"}}
+{"text": "Book a hotel in London for 2 adults and 1 child", "intent": "hotel_booking", "slots": {"city": "London", "adults": 2, "children": 1}}
+{"text": "Show me flights from Zurich to Copenhagen tomorrow", "intent": "flight_search", "slots": {"origin": "Zurich", "destination": "Copenhagen", "date": "tomorrow"}}
+{"text": "Hotel in Paris für 2 Erwachsene und 1 Kind", "intent": "hotel_booking", "slots": {"city": "Paris", "adults": 2, "children": 1}}
+{"text": "Weather forecast for Munich", "intent": "weather", "slots": {"city": "Munich"}}
+{"text": "Book a hotel in Vienna from October 10 to October 15", "intent": "hotel_booking", "slots": {"city": "Vienna", "start_date": "2025-10-10", "end_date": "2025-10-15"}}
+{"text": "Museen in Rome", "intent": "attractions", "slots": {"city": "Rome"}}
+{"text": "List attractions in Amsterdam", "intent": "attractions", "slots": {"city": "Amsterdam"}}
+{"text": "Book a flight from Barcelona to Berlin next month", "intent": "flight_search", "slots": {"origin": "Barcelona", "destination": "Berlin", "date": "next month"}}
+{"text": "Book accommodation in Berlin", "intent": "hotel_booking", "slots": {"city": "Berlin"}}
+{"text": "Wie ist das Wetter in Munich?", "intent": "weather", "slots": {"city": "Munich"}}
+{"text": "Any flights from Berlin to Stockholm? next week", "intent": "flight_search", "slots": {"origin": "Berlin", "destination": "Stockholm", "date": "next week"}}
+{"text": "I need accommodation in Berlin from March 15 to March 20", "intent": "hotel_booking", "slots": {"city": "Berlin", "start_date": "2025-03-15", "end_date": "2025-03-20"}}
+{"text": "Zeig mir Parks in Munich", "intent": "attractions", "slots": {"city": "Munich"}}
+{"text": "I need a flight from Copenhagen to Brussels", "intent": "flight_search", "slots": {"origin": "Copenhagen", "destination": "Brussels"}}
+{"text": "What to see in Paris?", "intent": "attractions", "slots": {"city": "Paris"}}
+{"text": "Museen in Amsterdam", "intent": "attractions", "slots": {"city": "Amsterdam"}}
+{"text": "Weather in Madrid", "intent": "weather", "slots": {"city": "Madrid"}}
+{"text": "I need accommodation in London from August 5 to August 10", "intent": "hotel_booking", "slots": {"city": "London", "start_date": "2025-08-05", "end_date": "2025-08-10"}}
+{"text": "Sehenswürdigkeiten in Munich", "intent": "attractions", "slots": {"city": "Munich"}}
+{"text": "What's the weather in Madrid from August 5 to August 10?", "intent": "weather", "slots": {"city": "Madrid", "start_date": "2025-08-05", "end_date": "2025-08-10"}}
+{"text": "I need accommodation in Madrid from October 10 to October 15", "intent": "hotel_booking", "slots": {"city": "Madrid", "start_date": "2025-10-10", "end_date": "2025-10-15"}}
+{"text": "Book a hotel in Paris from March 15 to March 20", "intent": "hotel_booking", "slots": {"city": "Paris", "start_date": "2025-03-15", "end_date": "2025-03-20"}}
+{"text": "Find hotels in Madrid for 2 adults", "intent": "hotel_search", "slots": {"city": "Madrid", "adults": 2}}
+{"text": "Book a flight from Budapest to Frankfurt next week", "intent": "flight_search", "slots": {"origin": "Budapest", "destination": "Frankfurt", "date": "next week"}}
+{"text": "Tell me the weather in Madrid", "intent": "weather", "slots": {"city": "Madrid"}}
+{"text": "Accommodation in Berlin", "intent": "hotel_search", "slots": {"city": "Berlin"}}
+{"text": "Things to do in Madrid", "intent": "attractions", "slots": {"city": "Madrid"}}
+{"text": "Book a hotel in Paris from August 5 to August 10", "intent": "hotel_booking", "slots": {"city": "Paris", "start_date": "2025-08-05", "end_date": "2025-08-10"}}
+{"text": "Get me a flight from Hamburg to Munich next week", "intent": "flight_search", "slots": {"origin": "Hamburg", "destination": "Munich", "date": "next week"}}
+{"text": "Weather forecast for London from July 1 to July 10", "intent": "weather", "slots": {"city": "London", "start_date": "2025-07-01", "end_date": "2025-07-10"}}
+{"text": "Weather forecast for Vienna from March 15 to March 20", "intent": "weather", "slots": {"city": "Vienna", "start_date": "2025-03-15", "end_date": "2025-03-20"}}
+{"text": "What's the weather in Madrid from December 16 to December 23?", "intent": "weather", "slots": {"city": "Madrid", "start_date": "2025-12-16", "end_date": "2025-12-23"}}
+{"text": "Book a hotel in Madrid from September 20 to September 25", "intent": "hotel_booking", "slots": {"city": "Madrid", "start_date": "2025-09-20", "end_date": "2025-09-25"}}
+{"text": "Museums in Rome", "intent": "attractions", "slots": {"city": "Rome"}}
+{"text": "What to see in London?", "intent": "attractions", "slots": {"city": "London"}}
+{"text": "Book a flight from Hamburg to Zurich next month", "intent": "flight_search", "slots": {"origin": "Hamburg", "destination": "Zurich", "date": "next month"}}
+{"text": "Tell me the weather in London", "intent": "weather", "slots": {"city": "London"}}
+{"text": "Wie ist das Wetter in Madrid?", "intent": "weather", "slots": {"city": "Madrid"}}
+{"text": "Weather forecast for Prague from August 5 to August 10", "intent": "weather", "slots": {"city": "Prague", "start_date": "2025-08-05", "end_date": "2025-08-10"}}
+{"text": "Weather forecast for Vienna from January 10 to January 15", "intent": "weather", "slots": {"city": "Vienna", "start_date": "2025-01-10", "end_date": "2025-01-15"}}
+{"text": "Find hotels in London from January 10 to January 15", "intent": "hotel_search", "slots": {"city": "London", "start_date": "2025-01-10", "end_date": "2025-01-15"}}
+{"text": "Was kann man in Vienna sehen?", "intent": "attractions", "slots": {"city": "Vienna"}}
+{"text": "What parks are in Munich?", "intent": "attractions", "slots": {"city": "Munich"}}
+{"text": "Find hotels in Paris from June 1 to June 7", "intent": "hotel_search", "slots": {"city": "Paris", "start_date": "2025-06-01", "end_date": "2025-06-07"}}
+{"text": "I need a flight from Copenhagen to Vienna on 2025-09-21", "intent": "flight_search", "slots": {"origin": "Copenhagen", "destination": "Vienna", "date": "2025-09-21"}}
+{"text": "What's the weather in Paris from July 1 to July 10?", "intent": "weather", "slots": {"city": "Paris", "start_date": "2025-07-01", "end_date": "2025-07-10"}}
+{"text": "Looking for flights from Stockholm to Hamburg next month", "intent": "flight_search", "slots": {"origin": "Stockholm", "destination": "Hamburg", "date": "next month"}}
+{"text": "Weather forecast for Prague from December 16 to December 23", "intent": "weather", "slots": {"city": "Prague", "start_date": "2025-12-16", "end_date": "2025-12-23"}}
+{"text": "Show me flights from Madrid to Frankfurt from 2025-09-09 to 2025-09-17", "intent": "flight_search", "slots": {"origin": "Madrid", "destination": "Frankfurt", "start_date": "2025-09-09", "end_date": "2025-09-17"}}
+{"text": "Find hotels in Rome from October 10 to October 15", "intent": "hotel_search", "slots": {"city": "Rome", "start_date": "2025-10-10", "end_date": "2025-10-15"}}
+{"text": "Flights from Copenhagen to Prague please on 2025-12-17", "intent": "flight_search", "slots": {"origin": "Copenhagen", "destination": "Prague", "date": "2025-12-17"}}
+{"text": "Book a hotel in London from August 5 to August 10", "intent": "hotel_booking", "slots": {"city": "London", "start_date": "2025-08-05", "end_date": "2025-08-10"}}
+{"text": "I need a flight from Prague to Vienna on July 15", "intent": "flight_search", "slots": {"origin": "Prague", "destination": "Vienna", "date": "July 15"}}
+{"text": "Find hotels in Rome for 2 adults", "intent": "hotel_search", "slots": {"city": "Rome", "adults": 2}}
+{"text": "What's the weather in Berlin from March 15 to March 20?", "intent": "weather", "slots": {"city": "Berlin", "start_date": "2025-03-15", "end_date": "2025-03-20"}}
+{"text": "Find flights from Stockholm to Munich next month", "intent": "flight_search", "slots": {"origin": "Stockholm", "destination": "Munich", "date": "next month"}}
+{"text": "Hotels in Paris", "intent": "hotel_search", "slots": {"city": "Paris"}}
+{"text": "I need accommodation in Vienna from January 10 to January 15", "intent": "hotel_booking", "slots": {"city": "Vienna", "start_date": "2025-01-10", "end_date": "2025-01-15"}}
+{"text": "What parks are in London?", "intent": "attractions", "slots": {"city": "London"}}
+{"text": "Temperatur in Madrid", "intent": "weather", "slots": {"city": "Madrid"}}
+{"text": "Things to do in Paris", "intent": "attractions", "slots": {"city": "Paris"}}
+{"text": "Things to do in London", "intent": "attractions", "slots": {"city": "London"}}
+{"text": "Find hotels in Rome from December 16 to December 23", "intent": "hotel_search", "slots": {"city": "Rome", "start_date": "2025-12-16", "end_date": "2025-12-23"}}
+{"text": "What's the weather in Paris from September 20 to September 25?", "intent": "weather", "slots": {"city": "Paris", "start_date": "2025-09-20", "end_date": "2025-09-25"}}
+{"text": "List attractions in Berlin", "intent": "attractions", "slots": {"city": "Berlin"}}
+{"text": "Find cheap flights from Hamburg to Warsaw next week", "intent": "flight_search", "slots": {"origin": "Hamburg", "destination": "Warsaw", "date": "next week"}}
+{"text": "Hotels in Munich", "intent": "hotel_search", "slots": {"city": "Munich"}}
+{"text": "Tourist attractions in Rome", "intent": "attractions", "slots": {"city": "Rome"}}
+{"text": "Weather forecast for Berlin from September 20 to September 25", "intent": "weather", "slots": {"city": "Berlin", "start_date": "2025-09-20", "end_date": "2025-09-25"}}
+{"text": "Wettervorhersage für Berlin", "intent": "weather", "slots": {"city": "Berlin"}}
+{"text": "Show me flights from Hamburg to Copenhagen", "intent": "flight_search", "slots": {"origin": "Hamburg", "destination": "Copenhagen"}}
+{"text": "Brauche ein Hotel in Berlin", "intent": "hotel_booking", "slots": {"city": "Berlin"}}
+{"text": "Book a flight from Brussels to Budapest from July 1 to July 10", "intent": "flight_search", "slots": {"origin": "Brussels", "destination": "Budapest", "start_date": "July 1", "end_date": "July 10"}}
+{"text": "Weather forecast for Vienna from December 16 to December 23", "intent": "weather", "slots": {"city": "Vienna", "start_date": "2025-12-16", "end_date": "2025-12-23"}}
+{"text": "What's the weather in Paris from August 5 to August 10?", "intent": "weather", "slots": {"city": "Paris", "start_date": "2025-08-05", "end_date": "2025-08-10"}}
+{"text": "What's the weather in Berlin from January 10 to January 15?", "intent": "weather", "slots": {"city": "Berlin", "start_date": "2025-01-10", "end_date": "2025-01-15"}}
+{"text": "Find hotels in Berlin from September 20 to September 25", "intent": "hotel_search", "slots": {"city": "Berlin", "start_date": "2025-09-20", "end_date": "2025-09-25"}}
+{"text": "Book a hotel in Paris from September 20 to September 25", "intent": "hotel_booking", "slots": {"city": "Paris", "start_date": "2025-09-20", "end_date": "2025-09-25"}}
+{"text": "Find parks in Amsterdam", "intent": "attractions", "slots": {"city": "Amsterdam"}}
+{"text": "What's the weather in Rome from December 16 to December 23?", "intent": "weather", "slots": {"city": "Rome", "start_date": "2025-12-16", "end_date": "2025-12-23"}}
+{"text": "Book a hotel in Berlin from September 20 to September 25", "intent": "hotel_booking", "slots": {"city": "Berlin", "start_date": "2025-09-20", "end_date": "2025-09-25"}}
+{"text": "Find flights from Munich to Stockholm from 2026-02-11 to 2026-02-22", "intent": "flight_search", "slots": {"origin": "Munich", "destination": "Stockholm", "start_date": "2026-02-11", "end_date": "2026-02-22"}}
+{"text": "Find hotels in Prague from March 15 to March 20", "intent": "hotel_search", "slots": {"city": "Prague", "start_date": "2025-03-15", "end_date": "2025-03-20"}}
+{"text": "Zeig mir Parks in Berlin", "intent": "attractions", "slots": {"city": "Berlin"}}
+{"text": "I need accommodation in Rome from January 10 to January 15", "intent": "hotel_booking", "slots": {"city": "Rome", "start_date": "2025-01-10", "end_date": "2025-01-15"}}
+{"text": "Museums in Berlin", "intent": "attractions", "slots": {"city": "Berlin"}}
+{"text": "Attraktionen in Madrid", "intent": "attractions", "slots": {"city": "Madrid"}}
+{"text": "Book accommodation in Paris", "intent": "hotel_booking", "slots": {"city": "Paris"}}
+{"text": "Sightseeing in Rome", "intent": "attractions", "slots": {"city": "Rome"}}
+{"text": "Find hotels in London from March 15 to March 20", "intent": "hotel_search", "slots": {"city": "London", "start_date": "2025-03-15", "end_date": "2025-03-20"}}
+{"text": "How's the weather in Rome?", "intent": "weather", "slots": {"city": "Rome"}}
+{"text": "Book a hotel in London from March 15 to March 20", "intent": "hotel_booking", "slots": {"city": "London", "start_date": "2025-03-15", "end_date": "2025-03-20"}}
+{"text": "Accommodation in Munich", "intent": "hotel_search", "slots": {"city": "Munich"}}
+{"text": "Museums in Munich", "intent": "attractions", "slots": {"city": "Munich"}}
+{"text": "Search for flights from Brussels to Munich from July 1 to July 10", "intent": "flight_search", "slots": {"origin": "Brussels", "destination": "Munich", "start_date": "July 1", "end_date": "July 10"}}
+{"text": "Zeig mir Parks in Madrid", "intent": "attractions", "slots": {"city": "Madrid"}}
+{"text": "Book a hotel in Prague from July 1 to July 10", "intent": "hotel_booking", "slots": {"city": "Prague", "start_date": "2025-07-01", "end_date": "2025-07-10"}}
+{"text": "What parks are in Rome?", "intent": "attractions", "slots": {"city": "Rome"}}
+{"text": "Is it raining in Rome?", "intent": "weather", "slots": {"city": "Rome"}}
+{"text": "Find hotels in Madrid from September 20 to September 25", "intent": "hotel_search", "slots": {"city": "Madrid", "start_date": "2025-09-20", "end_date": "2025-09-25"}}
+{"text": "List attractions in Madrid", "intent": "attractions", "slots": {"city": "Madrid"}}
+{"text": "Current weather in Berlin", "intent": "weather", "slots": {"city": "Berlin"}}
+{"text": "Places to visit in London", "intent": "attractions", "slots": {"city": "London"}}
+{"text": "Is it raining in Paris?", "intent": "weather", "slots": {"city": "Paris"}}
+{"text": "I need a flight from Amsterdam to Zurich tomorrow", "intent": "flight_search", "slots": {"origin": "Amsterdam", "destination": "Zurich", "date": "tomorrow"}}
+{"text": "Find hotels in Rome from August 5 to August 10", "intent": "hotel_search", "slots": {"city": "Rome", "start_date": "2025-08-05", "end_date": "2025-08-10"}}
+{"text": "I need accommodation in Paris from September 20 to September 25", "intent": "hotel_booking", "slots": {"city": "Paris", "start_date": "2025-09-20", "end_date": "2025-09-25"}}
+{"text": "Show me flights from Vienna to London on 2025-07-27", "intent": "flight_search", "slots": {"origin": "Vienna", "destination": "London", "date": "2025-07-27"}}
+{"text": "Show me attractions in Amsterdam", "intent": "attractions", "slots": {"city": "Amsterdam"}}
+{"text": "Book a hotel in Madrid from October 10 to October 15", "intent": "hotel_booking", "slots": {"city": "Madrid", "start_date": "2025-10-10", "end_date": "2025-10-15"}}
+{"text": "Wetter in Munich", "intent": "weather", "slots": {"city": "Munich"}}
