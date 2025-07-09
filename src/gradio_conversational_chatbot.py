@@ -10,6 +10,7 @@ import re
 import datetime
 import os
 import sys
+import subprocess
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 from data_extraction import openweathermap_fetcher, flightapi_fetcher
@@ -476,28 +477,36 @@ chat_history = {}
 import subprocess
 
 def extract_intent_and_slots(text):
-    # Call intent model
+    # Get the Python executable path from environment
+    python_path = "/Users/osamaalabaji/Apps/project-assignment-reisegruppe/.venv/bin/python"
+    
+    # Call enhanced intent model
     intent = None
     try:
         result = subprocess.run([
-            "python3", "src/infer_intent_slot.py", text
+            python_path, "src/infer_enhanced_intent.py", text
         ], capture_output=True, text=True)
         for line in result.stdout.splitlines():
             if line.startswith("Intent:"):
                 intent = line.split(":", 1)[1].strip()
-    except Exception:
+    except Exception as e:
+        print(f"Error in intent inference: {e}")
         intent = None
-    # Call slot NER model
+    
+    # Call enhanced slot NER model
     slots = {}
     try:
         result = subprocess.run([
-            "python3", "src/infer_slot_ner.py", text
+            python_path, "src/infer_enhanced_slot_ner.py", text
         ], capture_output=True, text=True)
         for line in result.stdout.splitlines():
             if line.startswith("Slots:"):
                 slots = eval(line.split(":", 1)[1].strip())
-    except Exception:
+    except Exception as e:
+        print(f"Error in slot inference: {e}")
         slots = {}
+    
+    print(f"DEBUG: intent={intent}, slots={slots}")
     return intent, slots
 
 def normalize_dates_from_slots(slots, text=None):

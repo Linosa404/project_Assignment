@@ -1,0 +1,224 @@
+[
+  {
+    "source": "https://www.booking.com/articles/en-gb/tips-for-travelling-with-pets.html",
+    "text": "Booking.com is part of Booking Holdings Inc., the world leader in online travel and related services.",
+    "type": "booking"
+  },
+  {
+    "source": "https://www.booking.com/articles/en-gb/tips-for-travelling-with-pets.html",
+    "text": "We have more than 70 million property reviews, all fromreal, verified guests.",
+    "type": "booking"
+  },
+  {
+    "source": "https://www.booking.com/articles/en-gb/tips-for-travelling-with-pets.html",
+    "text": "The only way to leave a review is to first make a booking. That's how we know our reviews come from real guests who have stayed at the property.",
+    "type": "booking"
+  },
+  {
+    "source": "https://www.booking.com/articles/en-gb/tips-for-travelling-with-pets.html",
+    "text": "When guests stay at the property, they check out how quiet the room is, how friendly the staff is, and more.",
+    "type": "booking"
+  },
+  {
+    "source": "https://www.booking.com/articles/en-gb/tips-for-travelling-with-pets.html",
+    "text": "After their trip, guests tell us about their stay. We check for naughty words and verify the authenticity of all guest reviews before adding them to our site.",
+    "type": "booking"
+  },
+  {
+    "source": "https://www.booking.com/articles/en-gb/tips-for-travelling-with-pets.html",
+    "text": "If you booked through us and want to leave a review, please sign in first.",
+    "type": "booking"
+  },
+  {
+    "source": "https://www.tripadvisor.com/Travel-g191-c18213/United-States:Tips.For.Traveling.With.Pets.html",
+    "text": "Try not to get too stressed worrying about tipping. Some restaurant bills or bar tabs have a suggested tip, e.g. 15%, 18%, 20%. I only give 20% for exceptional service or for a Taxi from the airport. You don't have to tip for retail, fast food outlets, or public transport.",
+    "type": "tripadvisor"
+  },
+  {
+    "source": "https://www.tripadvisor.com/Travel-g191-c18213/United-States:Tips.For.Traveling.With.Pets.html",
+    "text": "For overseas tourists, I learned it is unwise to enter into debates about contentious issues with Americans. It may end in tears! Most New Yorkers and San Franciscans seem to be more liberal in outlook, but there are a lot of more conservative folks out there. Our views on Second Amendment rights and the current President are unwelcome to many. It may be more respectful to avoid the subjects, after all, it is their country.",
+    "type": "tripadvisor"
+  },
+  {
+    "source": "https://www.tripadvisor.com/Travel-g191-c18213/United-States:Tips.For.Traveling.With.Pets.html",
+    "text": "Any time: The United States is a year-round destination. The summer months are often the busiest for city sightseeing, however, visiting in spring or autumn can mean fewer crowds. For winter travelers, cities like New York are magical over the holidays, but you could also hit the ski slopes in Colorado or Vermont, or escape to the sunny shores of Florida or Hawaii.",
+    "type": "tripadvisor"
+  },
+  {
+    "source": "https://www.tripadvisor.com/Travel-g191-c18213/United-States:Tips.For.Traveling.With.Pets.html",
+    "text": "Flying is by far the quickest way to travel around the U.S. It\u2019s often more expensive than public transport but there are good deals to be found if you book in advance and travel outside of peak times.",
+    "type": "tripadvisor"
+  },
+  {
+    "source": "https://www.tripadvisor.com/Travel-g191-c18213/United-States:Tips.For.Traveling.With.Pets.html",
+    "text": "Sales tax is added to goods and services purchased throughout the United States, although each state sets its own rate and some states, such as Delaware, have no sales tax. This is not shown on sales tags and prices; instead, it\u2019s added to the bill when you pay. To avoid any nasty surprises when the time comes to pay, expect an added 10% to anything that you buy.",
+    "type": "tripadvisor"
+  },
+  {
+    "source": "https://www.tripadvisor.com/Travel-g191-c18213/United-States:Tips.For.Traveling.With.Pets.html",
+    "text": "Tipping is essential in the United States as many staff in the service industry rely on tips to make a living wage. Unlike in other countries, it is deemed unacceptable and rude to not tip, even if the service was not up to standard (although you can choose to tip less or make a complaint). It is not customary to tip at fast-food restaurants.",
+    "type": "tripadvisor"
+  },
+  {
+    "source": "https://www.tripadvisor.com/Travel-g191-c18213/United-States:Tips.For.Traveling.With.Pets.html",
+    "text": "Many travelers comment that the portion sizes in the U.S. are larger than they are used to back home. Don\u2019t worry; it is not considered impolite to leave a meal unfinished and often you can ask for your leftover food to be boxed up to go.",
+    "type": "tripadvisor"
+  },
+  {
+    "city": "London",
+    "weather": {
+      "coord": {
+        "lon": -0.1257,
+        "lat": 51.5085
+      },
+      "weather": [
+        {
+          "id": 800,
+          "main": "Clear",
+          "description": "clear sky",
+          "icon": "01d"
+        }
+      ],
+      "base": "stations",
+      "main": {
+        "temp": 25.55,
+        "feels_like": 25.39,
+        "temp_min": 23.98,
+        "temp_max": 26.54,
+        "pressure": 1027,
+        "humidity": 47,
+        "sea_level": 1027,
+        "grnd_level": 1022
+      },
+      "visibility": 10000,
+      "wind": {
+        "speed": 3.6,
+        "deg": 260
+      },
+      "clouds": {
+        "all": 6
+      },
+      "dt": 1750083339,
+      "sys": {
+        "type": 2,
+        "id": 2075535,
+        "country": "GB",
+        "sunrise": 1750045363,
+        "sunset": 1750105188
+      },
+      "timezone": 3600,
+      "id": 2643743,
+      "name": "London",
+      "cod": 200
+    },
+    "type": "weather"
+  },
+  {
+    "city": "Berlin",
+    "weather": {
+      "coord": {
+        "lon": 13.4105,
+        "lat": 52.5244
+      },
+      "weather": [
+        {
+          "id": 801,
+          "main": "Clouds",
+          "description": "few clouds",
+          "icon": "02d"
+        }
+      ],
+      "base": "stations",
+      "main": {
+        "temp": 22.19,
+        "feels_like": 21.82,
+        "temp_min": 21.61,
+        "temp_max": 22.81,
+        "pressure": 1023,
+        "humidity": 52,
+        "sea_level": 1023,
+        "grnd_level": 1019
+      },
+      "visibility": 10000,
+      "wind": {
+        "speed": 7.6,
+        "deg": 291,
+        "gust": 12.96
+      },
+      "clouds": {
+        "all": 20
+      },
+      "dt": 1750083426,
+      "sys": {
+        "type": 2,
+        "id": 2011538,
+        "country": "DE",
+        "sunrise": 1750041763,
+        "sunset": 1750102289
+      },
+      "timezone": 7200,
+      "id": 2950159,
+      "name": "Berlin",
+      "cod": 200
+    },
+    "type": "weather"
+  },
+  {
+    "city": "Tokyo",
+    "weather": {
+      "coord": {
+        "lon": 139.6917,
+        "lat": 35.6895
+      },
+      "weather": [
+        {
+          "id": 800,
+          "main": "Clear",
+          "description": "clear sky",
+          "icon": "01n"
+        }
+      ],
+      "base": "stations",
+      "main": {
+        "temp": 26.86,
+        "feels_like": 29.18,
+        "temp_min": 25.34,
+        "temp_max": 27.57,
+        "pressure": 1003,
+        "humidity": 77,
+        "sea_level": 1003,
+        "grnd_level": 1001
+      },
+      "visibility": 10000,
+      "wind": {
+        "speed": 6.69,
+        "deg": 190
+      },
+      "clouds": {
+        "all": 0
+      },
+      "dt": 1750083007,
+      "sys": {
+        "type": 2,
+        "id": 268395,
+        "country": "JP",
+        "sunrise": 1750015499,
+        "sunset": 1750067930
+      },
+      "timezone": 32400,
+      "id": 1850144,
+      "name": "Tokyo",
+      "cod": 200
+    },
+    "type": "weather"
+  },
+  {
+    "origin": "LON",
+    "destination": "BER",
+    "date": "2025-07-01",
+    "flight": {
+      "error": "404 Client Error: Not Found for url: https://api.flightapi.io/search/flight"
+    },
+    "type": "flight"
+  }
+]

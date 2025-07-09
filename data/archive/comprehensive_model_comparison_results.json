@@ -1,0 +1,1240 @@
+{
+  "intent_models": {
+    "Original Intent Model": {
+      "model_name": "Original Intent Model",
+      "model_path": "intent_model",
+      "accuracy": 0.0,
+      "f1_macro": 0.0,
+      "f1_weighted": 0.0,
+      "inference_time": 4.032348155975342,
+      "avg_time_per_query": 0.02016174077987671,
+      "classification_report": {
+        "LABEL_0": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 0.0
+        },
+        "LABEL_1": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 0.0
+        },
+        "LABEL_2": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 0.0
+        },
+        "LABEL_3": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 0.0
+        },
+        "LABEL_4": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 0.0
+        },
+        "book_flight": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 37.0
+        },
+        "book_hotel": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 32.0
+        },
+        "cancel_booking": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 41.0
+        },
+        "modify_booking": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 27.0
+        },
+        "search_flights": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 31.0
+        },
+        "search_hotels": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 32.0
+        },
+        "accuracy": 0.0,
+        "macro avg": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 200.0
+        },
+        "weighted avg": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 200.0
+        }
+      },
+      "num_test_queries": 200
+    },
+    "Enhanced Intent Model": {
+      "model_name": "Enhanced Intent Model",
+      "model_path": "intent_model_enhanced",
+      "accuracy": 0.0,
+      "f1_macro": 0.0,
+      "f1_weighted": 0.0,
+      "inference_time": 4.1162261962890625,
+      "avg_time_per_query": 0.020581130981445313,
+      "classification_report": {
+        "LABEL_0": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 0.0
+        },
+        "LABEL_1": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 0.0
+        },
+        "LABEL_2": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 0.0
+        },
+        "LABEL_3": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 0.0
+        },
+        "LABEL_4": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 0.0
+        },
+        "book_flight": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 37.0
+        },
+        "book_hotel": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 32.0
+        },
+        "cancel_booking": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 41.0
+        },
+        "modify_booking": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 27.0
+        },
+        "search_flights": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 31.0
+        },
+        "search_hotels": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 32.0
+        },
+        "accuracy": 0.0,
+        "macro avg": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 200.0
+        },
+        "weighted avg": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 200.0
+        }
+      },
+      "num_test_queries": 200
+    }
+  },
+  "ner_models": {
+    "Original NER Model": {
+      "model_name": "Original NER Model",
+      "model_path": "slot_ner_model",
+      "entity_detection_rate": 1.62,
+      "entities_found": 324,
+      "total_queries": 200,
+      "inference_time": 8.386340141296387,
+      "avg_time_per_query": 0.04193170070648193,
+      "num_test_queries": 200
+    },
+    "Improved NER Model": {
+      "model_name": "Improved NER Model",
+      "model_path": "slot_ner_model_improved",
+      "entity_detection_rate": 1.915,
+      "entities_found": 383,
+      "total_queries": 200,
+      "inference_time": 4.363200902938843,
+      "avg_time_per_query": 0.021816004514694214,
+      "num_test_queries": 200
+    },
+    "Enhanced NER Model": {
+      "model_name": "Enhanced NER Model",
+      "model_path": "slot_ner_model_enhanced",
+      "entity_detection_rate": 1.69,
+      "entities_found": 338,
+      "total_queries": 200,
+      "inference_time": 4.7964348793029785,
+      "avg_time_per_query": 0.023982174396514892,
+      "num_test_queries": 200
+    }
+  },
+  "test_queries": [
+    {
+      "text": "Find hotels in Bangkok for May 25",
+      "intent": "search_hotels",
+      "id": 1
+    },
+    {
+      "text": "I want to stay at a hotel in Sydney for 2 days",
+      "intent": "book_hotel",
+      "id": 2
+    },
+    {
+      "text": "I want to change my hotel reservation",
+      "intent": "modify_booking",
+      "id": 3
+    },
+    {
+      "text": "Can you help me book a flight from Madrid to Sydney departing May 25",
+      "intent": "book_flight",
+      "id": 4
+    },
+    {
+      "text": "Find me flights from Madrid to Los Angeles for December 15",
+      "intent": "book_flight",
+      "id": 5
+    },
+    {
+      "text": "I'd like to reserve a flight from London to Singapore on January 20",
+      "intent": "book_flight",
+      "id": 6
+    },
+    {
+      "text": "Find me flights from Berlin to Singapore for November 30",
+      "intent": "book_flight",
+      "id": 7
+    },
+    {
+      "text": "What are the best hotels in Los Angeles",
+      "intent": "search_hotels",
+      "id": 8
+    },
+    {
+      "text": "Cancel my flight booking",
+      "intent": "cancel_booking",
+      "id": 9
+    },
+    {
+      "text": "Find budget hotels in Cairo",
+      "intent": "search_hotels",
+      "id": 10
+    },
+    {
+      "text": "Modify my booking to Seoul",
+      "intent": "modify_booking",
+      "id": 11
+    },
+    {
+      "text": "Check flight prices from Amsterdam to Sydney",
+      "intent": "search_flights",
+      "id": 12
+    },
+    {
+      "text": "I need to cancel my booking",
+      "intent": "cancel_booking",
+      "id": 13
+    },
+    {
+      "text": "Find flights to Los Angeles from Paris",
+      "intent": "search_flights",
+      "id": 14
+    },
+    {
+      "text": "Cancel all my bookings",
+      "intent": "cancel_booking",
+      "id": 15
+    },
+    {
+      "text": "Book a Singapore Airlines flight from Berlin to Istanbul on May 25",
+      "intent": "book_flight",
+      "id": 16
+    },
+    {
+      "text": "Book me a Marriott in Istanbul for 3 adults",
+      "intent": "book_hotel",
+      "id": 17
+    },
+    {
+      "text": "Look for hotels near city center in Istanbul",
+      "intent": "search_hotels",
+      "id": 18
+    },
+    {
+      "text": "Book the Radisson in Miami for 3 nights",
+      "intent": "book_hotel",
+      "id": 19
+    },
+    {
+      "text": "Find budget hotels in Singapore",
+      "intent": "search_hotels",
+      "id": 20
+    },
+    {
+      "text": "Book a hotel in Miami for 6 nights",
+      "intent": "book_hotel",
+      "id": 21
+    },
+    {
+      "text": "Look for hotels near city center in Sydney",
+      "intent": "search_hotels",
+      "id": 22
+    },
+    {
+      "text": "Find budget hotels in Istanbul",
+      "intent": "search_hotels",
+      "id": 23
+    },
+    {
+      "text": "I need accommodation in Dubai for 5 days",
+      "intent": "book_hotel",
+      "id": 24
+    },
+    {
+      "text": "Please cancel my flight to Singapore",
+      "intent": "cancel_booking",
+      "id": 25
+    },
+    {
+      "text": "Find me flights from London to Cairo for March 10",
+      "intent": "book_flight",
+      "id": 26
+    },
+    {
+      "text": "I want to travel from Rome to Mumbai on March 10 by plane",
+      "intent": "book_flight",
+      "id": 27
+    },
+    {
+      "text": "Look for hotels near train station in Cairo",
+      "intent": "search_hotels",
+      "id": 28
+    },
+    {
+      "text": "Book a Air France flight from Madrid to Los Angeles on November 30",
+      "intent": "book_flight",
+      "id": 29
+    },
+    {
+      "text": "I want to cancel my reservation",
+      "intent": "cancel_booking",
+      "id": 30
+    },
+    {
+      "text": "Show me hotels in Bangkok",
+      "intent": "search_hotels",
+      "id": 31
+    },
+    {
+      "text": "Find me flights from Paris to Los Angeles for October 5",
+      "intent": "book_flight",
+      "id": 32
+    },
+    {
+      "text": "Find hotels in Dubai for October 5",
+      "intent": "search_hotels",
+      "id": 33
+    },
+    {
+      "text": "Book a hotel in Bangkok for 2 nights",
+      "intent": "book_hotel",
+      "id": 34
+    },
+    {
+      "text": "Please cancel my flight to Los Angeles",
+      "intent": "cancel_booking",
+      "id": 35
+    },
+    {
+      "text": "Book a Emirates flight from London to Singapore on August 14",
+      "intent": "book_flight",
+      "id": 36
+    },
+    {
+      "text": "I need to cancel my booking",
+      "intent": "cancel_booking",
+      "id": 37
+    },
+    {
+      "text": "Cancel my KLM flight",
+      "intent": "cancel_booking",
+      "id": 38
+    },
+    {
+      "text": "Book me a flight to Los Angeles from Madrid for May 25",
+      "intent": "book_flight",
+      "id": 39
+    },
+    {
+      "text": "I want to cancel my reservation",
+      "intent": "cancel_booking",
+      "id": 40
+    },
+    {
+      "text": "Update my hotel stay to 10 nights",
+      "intent": "modify_booking",
+      "id": 41
+    },
+    {
+      "text": "Look for hotels near train station in Seoul",
+      "intent": "search_hotels",
+      "id": 42
+    },
+    {
+      "text": "Find me flights from Rome to Singapore for January 20",
+      "intent": "book_flight",
+      "id": 43
+    },
+    {
+      "text": "Look for KLM flights from New York to Los Angeles",
+      "intent": "search_flights",
+      "id": 44
+    },
+    {
+      "text": "Update my flight from Madrid to Bangkok",
+      "intent": "modify_booking",
+      "id": 45
+    },
+    {
+      "text": "I need to cancel my booking",
+      "intent": "cancel_booking",
+      "id": 46
+    },
+    {
+      "text": "Book me a flight to Singapore from Barcelona for January 20",
+      "intent": "book_flight",
+      "id": 47
+    },
+    {
+      "text": "Book me a Hilton in Cairo for 1 adults",
+      "intent": "book_hotel",
+      "id": 48
+    },
+    {
+      "text": "What are the best hotels in Istanbul",
+      "intent": "search_hotels",
+      "id": 49
+    },
+    {
+      "text": "Book a Lufthansa flight from Vienna to Los Angeles on May 25",
+      "intent": "book_flight",
+      "id": 50
+    },
+    {
+      "text": "Find budget hotels in Istanbul",
+      "intent": "search_hotels",
+      "id": 51
+    },
+    {
+      "text": "Change my travel dates",
+      "intent": "modify_booking",
+      "id": 52
+    },
+    {
+      "text": "Change my booking for 3 adults",
+      "intent": "modify_booking",
+      "id": 53
+    },
+    {
+      "text": "Find me flights from Tokyo to Miami for May 25",
+      "intent": "book_flight",
+      "id": 54
+    },
+    {
+      "text": "Can you help me book a flight from New York to Cairo departing March 10",
+      "intent": "book_flight",
+      "id": 55
+    },
+    {
+      "text": "I want to book a flight from Madrid to Miami on January 20",
+      "intent": "book_flight",
+      "id": 56
+    },
+    {
+      "text": "Cancel my British Airways flight",
+      "intent": "cancel_booking",
+      "id": 57
+    },
+    {
+      "text": "What are the cheapest flights from Tokyo to Singapore",
+      "intent": "search_flights",
+      "id": 58
+    },
+    {
+      "text": "Find budget hotels in Dubai",
+      "intent": "search_hotels",
+      "id": 59
+    },
+    {
+      "text": "Book the InterContinental in Miami for 6 nights",
+      "intent": "book_hotel",
+      "id": 60
+    },
+    {
+      "text": "Book a hotel in Seoul for 2 nights",
+      "intent": "book_hotel",
+      "id": 61
+    },
+    {
+      "text": "Reserve a room in Los Angeles for 2 nights",
+      "intent": "book_hotel",
+      "id": 62
+    },
+    {
+      "text": "I want to stay at a hotel in Sydney for 10 days",
+      "intent": "book_hotel",
+      "id": 63
+    },
+    {
+      "text": "I need to fly from Tokyo to Cairo on November 30",
+      "intent": "book_flight",
+      "id": 64
+    },
+    {
+      "text": "What flights are available from Barcelona to Istanbul on August 14",
+      "intent": "search_flights",
+      "id": 65
+    },
+    {
+      "text": "Search for accommodation in Miami",
+      "intent": "search_hotels",
+      "id": 66
+    },
+    {
+      "text": "I need to fly from New York to Sydney on August 14",
+      "intent": "book_flight",
+      "id": 67
+    },
+    {
+      "text": "Show me Marriott options in Sydney",
+      "intent": "search_hotels",
+      "id": 68
+    },
+    {
+      "text": "Cancel my flight booking",
+      "intent": "cancel_booking",
+      "id": 69
+    },
+    {
+      "text": "Book me a Sheraton in Cairo for 4 adults",
+      "intent": "book_hotel",
+      "id": 70
+    },
+    {
+      "text": "Look for hotels near city center in Los Angeles",
+      "intent": "search_hotels",
+      "id": 71
+    },
+    {
+      "text": "Please cancel my flight to Los Angeles",
+      "intent": "cancel_booking",
+      "id": 72
+    },
+    {
+      "text": "Look for hotels near city center in Cairo",
+      "intent": "search_hotels",
+      "id": 73
+    },
+    {
+      "text": "Change my flight date to November 30",
+      "intent": "modify_booking",
+      "id": 74
+    },
+    {
+      "text": "Update my flight from Rome to Istanbul",
+      "intent": "modify_booking",
+      "id": 75
+    },
+    {
+      "text": "I want to change my hotel reservation",
+      "intent": "modify_booking",
+      "id": 76
+    },
+    {
+      "text": "What hotels are available in Los Angeles",
+      "intent": "search_hotels",
+      "id": 77
+    },
+    {
+      "text": "Update my flight from Vienna to Singapore",
+      "intent": "modify_booking",
+      "id": 78
+    },
+    {
+      "text": "Can you help me book a flight from Berlin to Los Angeles departing March 10",
+      "intent": "book_flight",
+      "id": 79
+    },
+    {
+      "text": "Book a hotel in Bangkok for 10 nights",
+      "intent": "book_hotel",
+      "id": 80
+    },
+    {
+      "text": "Find flights to Bangkok from New York",
+      "intent": "search_flights",
+      "id": 81
+    },
+    {
+      "text": "Compare flights from Berlin to Singapore on October 5",
+      "intent": "search_flights",
+      "id": 82
+    },
+    {
+      "text": "Book me a flight to Singapore from Amsterdam for August 14",
+      "intent": "book_flight",
+      "id": 83
+    },
+    {
+      "text": "Can you help me book a flight from Rome to Miami departing March 10",
+      "intent": "book_flight",
+      "id": 84
+    },
+    {
+      "text": "Find hotels in Istanbul for January 20",
+      "intent": "search_hotels",
+      "id": 85
+    },
+    {
+      "text": "What flights are available from Barcelona to Istanbul on May 25",
+      "intent": "search_flights",
+      "id": 86
+    },
+    {
+      "text": "Please cancel my flight to Dubai",
+      "intent": "cancel_booking",
+      "id": 87
+    },
+    {
+      "text": "What are the best hotels in Singapore",
+      "intent": "search_hotels",
+      "id": 88
+    },
+    {
+      "text": "Change my travel dates",
+      "intent": "modify_booking",
+      "id": 89
+    },
+    {
+      "text": "Modify my booking to Miami",
+      "intent": "modify_booking",
+      "id": 90
+    },
+    {
+      "text": "What flights are available from Tokyo to Sydney on March 10",
+      "intent": "search_flights",
+      "id": 91
+    },
+    {
+      "text": "Remove my hotel reservation in Los Angeles",
+      "intent": "cancel_booking",
+      "id": 92
+    },
+    {
+      "text": "Modify my Singapore Airlines flight",
+      "intent": "modify_booking",
+      "id": 93
+    },
+    {
+      "text": "Book me a flight to Singapore from Vienna for August 14",
+      "intent": "book_flight",
+      "id": 94
+    },
+    {
+      "text": "Change my flight date to March 10",
+      "intent": "modify_booking",
+      "id": 95
+    },
+    {
+      "text": "Can you help me book a flight from London to Seoul departing August 14",
+      "intent": "book_flight",
+      "id": 96
+    },
+    {
+      "text": "Look for hotels near city center in Los Angeles",
+      "intent": "search_hotels",
+      "id": 97
+    },
+    {
+      "text": "Find flights to Miami from Paris",
+      "intent": "search_flights",
+      "id": 98
+    },
+    {
+      "text": "Please cancel my flight to Los Angeles",
+      "intent": "cancel_booking",
+      "id": 99
+    },
+    {
+      "text": "Find accommodation in Los Angeles from January 20",
+      "intent": "book_hotel",
+      "id": 100
+    },
+    {
+      "text": "Can you help me book a flight from Rome to Los Angeles departing November 30",
+      "intent": "book_flight",
+      "id": 101
+    },
+    {
+      "text": "Update my hotel stay to 10 nights",
+      "intent": "modify_booking",
+      "id": 102
+    },
+    {
+      "text": "I need to fly from Paris to Dubai on August 14",
+      "intent": "book_flight",
+      "id": 103
+    },
+    {
+      "text": "Book the Marriott in Istanbul for 6 nights",
+      "intent": "book_hotel",
+      "id": 104
+    },
+    {
+      "text": "Look for Turkish Airlines flights from Paris to Mumbai",
+      "intent": "search_flights",
+      "id": 105
+    },
+    {
+      "text": "Cancel my hotel booking in Cairo",
+      "intent": "cancel_booking",
+      "id": 106
+    },
+    {
+      "text": "Find budget hotels in Mumbai",
+      "intent": "search_hotels",
+      "id": 107
+    },
+    {
+      "text": "I want to travel from Rome to Sydney on November 30 by plane",
+      "intent": "book_flight",
+      "id": 108
+    },
+    {
+      "text": "Please cancel my flight to Bangkok",
+      "intent": "cancel_booking",
+      "id": 109
+    },
+    {
+      "text": "What flights are available from Madrid to Cairo on December 15",
+      "intent": "search_flights",
+      "id": 110
+    },
+    {
+      "text": "Find me flights from Berlin to Mumbai for January 20",
+      "intent": "book_flight",
+      "id": 111
+    },
+    {
+      "text": "Search for flights from Rome to Mumbai",
+      "intent": "search_flights",
+      "id": 112
+    },
+    {
+      "text": "Remove my hotel reservation in Seoul",
+      "intent": "cancel_booking",
+      "id": 113
+    },
+    {
+      "text": "What are the cheapest flights from Berlin to Sydney",
+      "intent": "search_flights",
+      "id": 114
+    },
+    {
+      "text": "Book the Hyatt in Bangkok for 3 nights",
+      "intent": "book_hotel",
+      "id": 115
+    },
+    {
+      "text": "What hotels are available in Mumbai",
+      "intent": "search_hotels",
+      "id": 116
+    },
+    {
+      "text": "Find hotels in Singapore for October 5",
+      "intent": "search_hotels",
+      "id": 117
+    },
+    {
+      "text": "Cancel all my bookings",
+      "intent": "cancel_booking",
+      "id": 118
+    },
+    {
+      "text": "I want to change my hotel reservation",
+      "intent": "modify_booking",
+      "id": 119
+    },
+    {
+      "text": "I want to change my hotel reservation",
+      "intent": "modify_booking",
+      "id": 120
+    },
+    {
+      "text": "Compare flights from Berlin to Seoul on March 10",
+      "intent": "search_flights",
+      "id": 121
+    },
+    {
+      "text": "I'd like to reserve a flight from Berlin to Miami on November 30",
+      "intent": "book_flight",
+      "id": 122
+    },
+    {
+      "text": "Search for flights from Vienna to Seoul",
+      "intent": "search_flights",
+      "id": 123
+    },
+    {
+      "text": "Find budget hotels in Seoul",
+      "intent": "search_hotels",
+      "id": 124
+    },
+    {
+      "text": "Show me flights from Amsterdam to Bangkok",
+      "intent": "search_flights",
+      "id": 125
+    },
+    {
+      "text": "Book the Sheraton in Los Angeles for 2 nights",
+      "intent": "book_hotel",
+      "id": 126
+    },
+    {
+      "text": "Can you help me book a flight from London to Mumbai departing November 30",
+      "intent": "book_flight",
+      "id": 127
+    },
+    {
+      "text": "Update my hotel stay to 6 nights",
+      "intent": "modify_booking",
+      "id": 128
+    },
+    {
+      "text": "Modify my Emirates flight",
+      "intent": "modify_booking",
+      "id": 129
+    },
+    {
+      "text": "I need to cancel my booking",
+      "intent": "cancel_booking",
+      "id": 130
+    },
+    {
+      "text": "Search for flights from Tokyo to Seoul",
+      "intent": "search_flights",
+      "id": 131
+    },
+    {
+      "text": "Reserve a room in Mumbai for 4 nights",
+      "intent": "book_hotel",
+      "id": 132
+    },
+    {
+      "text": "I want to change my hotel reservation",
+      "intent": "modify_booking",
+      "id": 133
+    },
+    {
+      "text": "Cancel all my bookings",
+      "intent": "cancel_booking",
+      "id": 134
+    },
+    {
+      "text": "Show me hotels in Seoul",
+      "intent": "search_hotels",
+      "id": 135
+    },
+    {
+      "text": "Find me a hotel in Mumbai from January 20 to March 15",
+      "intent": "book_hotel",
+      "id": 136
+    },
+    {
+      "text": "Book the Sheraton in Singapore for 5 nights",
+      "intent": "book_hotel",
+      "id": 137
+    },
+    {
+      "text": "Find hotels in Los Angeles for October 5",
+      "intent": "search_hotels",
+      "id": 138
+    },
+    {
+      "text": "Find me a hotel in Mumbai from January 20 to March 15",
+      "intent": "book_hotel",
+      "id": 139
+    },
+    {
+      "text": "Book me a Radisson in Mumbai for 3 adults",
+      "intent": "book_hotel",
+      "id": 140
+    },
+    {
+      "text": "Check flight prices from Madrid to Miami",
+      "intent": "search_flights",
+      "id": 141
+    },
+    {
+      "text": "Book a hotel in Los Angeles for 6 nights",
+      "intent": "book_hotel",
+      "id": 142
+    },
+    {
+      "text": "Change my booking for 3 adults",
+      "intent": "modify_booking",
+      "id": 143
+    },
+    {
+      "text": "Check flight prices from Paris to Miami",
+      "intent": "search_flights",
+      "id": 144
+    },
+    {
+      "text": "Find accommodation in Sydney from March 10",
+      "intent": "book_hotel",
+      "id": 145
+    },
+    {
+      "text": "Cancel my hotel booking in Cairo",
+      "intent": "cancel_booking",
+      "id": 146
+    },
+    {
+      "text": "I need to fly from Barcelona to Mumbai on March 10",
+      "intent": "book_flight",
+      "id": 147
+    },
+    {
+      "text": "I need accommodation in Dubai for 3 days",
+      "intent": "book_hotel",
+      "id": 148
+    },
+    {
+      "text": "What are the cheapest flights from Vienna to Istanbul",
+      "intent": "search_flights",
+      "id": 149
+    },
+    {
+      "text": "Remove my hotel reservation in Seoul",
+      "intent": "cancel_booking",
+      "id": 150
+    },
+    {
+      "text": "I'd like to reserve a flight from Barcelona to Miami on March 10",
+      "intent": "book_flight",
+      "id": 151
+    },
+    {
+      "text": "I want to book a flight from Barcelona to Seoul on March 10",
+      "intent": "book_flight",
+      "id": 152
+    },
+    {
+      "text": "Compare flights from Paris to Dubai on May 25",
+      "intent": "search_flights",
+      "id": 153
+    },
+    {
+      "text": "I'd like to reserve a flight from New York to Cairo on August 14",
+      "intent": "book_flight",
+      "id": 154
+    },
+    {
+      "text": "Change my travel dates",
+      "intent": "modify_booking",
+      "id": 155
+    },
+    {
+      "text": "I want to cancel my reservation",
+      "intent": "cancel_booking",
+      "id": 156
+    },
+    {
+      "text": "Cancel my Qatar Airways flight",
+      "intent": "cancel_booking",
+      "id": 157
+    },
+    {
+      "text": "Cancel my flight booking",
+      "intent": "cancel_booking",
+      "id": 158
+    },
+    {
+      "text": "Reserve a room in Seoul for 6 nights",
+      "intent": "book_hotel",
+      "id": 159
+    },
+    {
+      "text": "I'd like to reserve a flight from New York to Bangkok on August 14",
+      "intent": "book_flight",
+      "id": 160
+    },
+    {
+      "text": "Find accommodation in Mumbai from December 15",
+      "intent": "book_hotel",
+      "id": 161
+    },
+    {
+      "text": "Cancel all my bookings",
+      "intent": "cancel_booking",
+      "id": 162
+    },
+    {
+      "text": "Cancel all my bookings",
+      "intent": "cancel_booking",
+      "id": 163
+    },
+    {
+      "text": "Cancel my hotel booking in Miami",
+      "intent": "cancel_booking",
+      "id": 164
+    },
+    {
+      "text": "Book me a flight to Dubai from Rome for November 30",
+      "intent": "book_flight",
+      "id": 165
+    },
+    {
+      "text": "Cancel my Singapore Airlines flight",
+      "intent": "cancel_booking",
+      "id": 166
+    },
+    {
+      "text": "Cancel my flight booking",
+      "intent": "cancel_booking",
+      "id": 167
+    },
+    {
+      "text": "Book the Sheraton in Seoul for 10 nights",
+      "intent": "book_hotel",
+      "id": 168
+    },
+    {
+      "text": "Search for flights from Vienna to Mumbai",
+      "intent": "search_flights",
+      "id": 169
+    },
+    {
+      "text": "Search for accommodation in Istanbul",
+      "intent": "search_hotels",
+      "id": 170
+    },
+    {
+      "text": "Please cancel my flight to Mumbai",
+      "intent": "cancel_booking",
+      "id": 171
+    },
+    {
+      "text": "Change my travel dates",
+      "intent": "modify_booking",
+      "id": 172
+    },
+    {
+      "text": "What flights are available from Vienna to Seoul on August 14",
+      "intent": "search_flights",
+      "id": 173
+    },
+    {
+      "text": "Cancel my flight booking",
+      "intent": "cancel_booking",
+      "id": 174
+    },
+    {
+      "text": "What are the cheapest flights from Madrid to Istanbul",
+      "intent": "search_flights",
+      "id": 175
+    },
+    {
+      "text": "Change my flight date to March 10",
+      "intent": "modify_booking",
+      "id": 176
+    },
+    {
+      "text": "Check flight prices from Madrid to Dubai",
+      "intent": "search_flights",
+      "id": 177
+    },
+    {
+      "text": "Remove my hotel reservation in Istanbul",
+      "intent": "cancel_booking",
+      "id": 178
+    },
+    {
+      "text": "What are the cheapest flights from Madrid to Miami",
+      "intent": "search_flights",
+      "id": 179
+    },
+    {
+      "text": "Please cancel my flight to Cairo",
+      "intent": "cancel_booking",
+      "id": 180
+    },
+    {
+      "text": "Look for Emirates flights from Amsterdam to Dubai",
+      "intent": "search_flights",
+      "id": 181
+    },
+    {
+      "text": "Look for hotels near old town in Miami",
+      "intent": "search_hotels",
+      "id": 182
+    },
+    {
+      "text": "I want to change my hotel reservation",
+      "intent": "modify_booking",
+      "id": 183
+    },
+    {
+      "text": "Show me flights from Tokyo to Miami",
+      "intent": "search_flights",
+      "id": 184
+    },
+    {
+      "text": "Book a hotel in Sydney for 10 nights",
+      "intent": "book_hotel",
+      "id": 185
+    },
+    {
+      "text": "Book me a flight to Miami from Vienna for March 10",
+      "intent": "book_flight",
+      "id": 186
+    },
+    {
+      "text": "Book a hotel in Los Angeles for 4 nights",
+      "intent": "book_hotel",
+      "id": 187
+    },
+    {
+      "text": "Modify my British Airways flight",
+      "intent": "modify_booking",
+      "id": 188
+    },
+    {
+      "text": "I want to cancel my reservation",
+      "intent": "cancel_booking",
+      "id": 189
+    },
+    {
+      "text": "I want to cancel my reservation",
+      "intent": "cancel_booking",
+      "id": 190
+    },
+    {
+      "text": "Please cancel my flight to Istanbul",
+      "intent": "cancel_booking",
+      "id": 191
+    },
+    {
+      "text": "Modify my booking to Miami",
+      "intent": "modify_booking",
+      "id": 192
+    },
+    {
+      "text": "What are the best hotels in Mumbai",
+      "intent": "search_hotels",
+      "id": 193
+    },
+    {
+      "text": "Cancel all my bookings",
+      "intent": "cancel_booking",
+      "id": 194
+    },
+    {
+      "text": "Reserve a room in Dubai for 2 nights",
+      "intent": "book_hotel",
+      "id": 195
+    },
+    {
+      "text": "Find budget hotels in Sydney",
+      "intent": "search_hotels",
+      "id": 196
+    },
+    {
+      "text": "Find accommodation in Seoul from March 10",
+      "intent": "book_hotel",
+      "id": 197
+    },
+    {
+      "text": "Look for British Airways flights from Rome to Los Angeles",
+      "intent": "search_flights",
+      "id": 198
+    },
+    {
+      "text": "Cancel my Air France flight",
+      "intent": "cancel_booking",
+      "id": 199
+    },
+    {
+      "text": "Compare flights from Amsterdam to Mumbai on May 25",
+      "intent": "search_flights",
+      "id": 200
+    }
+  ],
+  "recommendations": {
+    "best_intent_model": {
+      "name": null,
+      "accuracy": 0,
+      "path": null
+    },
+    "best_ner_model": {
+      "name": "Improved NER Model",
+      "entity_detection_rate": 1.915,
+      "path": "slot_ner_model_improved"
+    },
+    "recommended_pipeline": {
+      "intent_model": null,
+      "ner_model": "Improved NER Model",
+      "expected_performance": {
+        "intent_accuracy": 0,
+        "entity_detection_rate": 1.915
+      }
+    }
+  }
+}

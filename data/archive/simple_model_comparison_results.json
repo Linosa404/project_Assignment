@@ -1,0 +1,906 @@
+{
+  "intent_models": {
+    "Original Intent Model": {
+      "model_name": "Original Intent Model",
+      "accuracy": 0.735,
+      "f1_weighted": 0.7125302861358389,
+      "avg_confidence": 0.9195095407962799,
+      "avg_time_per_query": 0.020212105512619018,
+      "predictions_sample": [
+        [
+          "flight_search",
+          "flight_search",
+          0.9999423027038574
+        ],
+        [
+          "flight_search",
+          "flight_price",
+          0.782238245010376
+        ],
+        [
+          "flight_price",
+          "flight_price",
+          0.9981167316436768
+        ],
+        [
+          "flight_search",
+          "flight_search",
+          0.9999912977218628
+        ],
+        [
+          "flight_search",
+          "flight_search",
+          0.9999786615371704
+        ]
+      ]
+    },
+    "Enhanced Intent Model": {
+      "model_name": "Enhanced Intent Model",
+      "accuracy": 0.5,
+      "f1_weighted": 0.36455240429505137,
+      "avg_confidence": 0.9813063955307006,
+      "avg_time_per_query": 0.020914485454559328,
+      "predictions_sample": [
+        [
+          "flight_search",
+          "flight_search",
+          0.9998555183410645
+        ],
+        [
+          "flight_search",
+          "flight_price",
+          0.9998432397842407
+        ],
+        [
+          "flight_search",
+          "flight_price",
+          0.9998148083686829
+        ],
+        [
+          "flight_search",
+          "flight_search",
+          0.9998552799224854
+        ],
+        [
+          "flight_search",
+          "flight_search",
+          0.9998557567596436
+        ]
+      ]
+    }
+  },
+  "ner_models": {
+    "Original NER Model": {
+      "model_name": "Original NER Model",
+      "f1_score": 0.3496153846153846,
+      "precision": 0.38846153846153847,
+      "entities_found": 260,
+      "correct_entities": 101,
+      "avg_time_per_query": 0.04153992533683777
+    },
+    "Improved NER Model": {
+      "model_name": "Improved NER Model",
+      "f1_score": 0.39193548387096777,
+      "precision": 0.43548387096774194,
+      "entities_found": 248,
+      "correct_entities": 108,
+      "avg_time_per_query": 0.02246857523918152
+    },
+    "Enhanced NER Model": {
+      "model_name": "Enhanced NER Model",
+      "f1_score": 0.35867158671586713,
+      "precision": 0.3985239852398524,
+      "entities_found": 271,
+      "correct_entities": 108,
+      "avg_time_per_query": 0.022205569744110108
+    }
+  },
+  "test_queries": [
+    {
+      "text": "Look for flights from Tokyo to Los Angeles",
+      "intent": "flight_search"
+    },
+    {
+      "text": "Cost of flights to London",
+      "intent": "flight_price"
+    },
+    {
+      "text": "What is the price of flights to London",
+      "intent": "flight_price"
+    },
+    {
+      "text": "Show me flights from London to Rome",
+      "intent": "flight_search"
+    },
+    {
+      "text": "Check flights from Tokyo to Miami",
+      "intent": "flight_search"
+    },
+    {
+      "text": "Do I need a visa for Miami",
+      "intent": "restrictions"
+    },
+    {
+      "text": "Weather forecast for Berlin",
+      "intent": "weather"
+    },
+    {
+      "text": "Reserve a hotel room in Singapore",
+      "intent": "hotel_booking"
+    },
+    {
+      "text": "Check weather in Bangkok",
+      "intent": "weather"
+    },
+    {
+      "text": "Weather forecast for Bangkok",
+      "intent": "weather"
+    },
+    {
+      "text": "Look for flights from Singapore to New York",
+      "intent": "flight_search"
+    },
+    {
+      "text": "Find flights from Paris to Los Angeles",
+      "intent": "flight_search"
+    },
+    {
+      "text": "What is the weather like in New York",
+      "intent": "weather"
+    },
+    {
+      "text": "Weather conditions in Berlin",
+      "intent": "weather"
+    },
+    {
+      "text": "How much does a flight cost from Tokyo to Los Angeles",
+      "intent": "flight_price"
+    },
+    {
+      "text": "Find hotels in Madrid",
+      "intent": "hotel_search"
+    },
+    {
+      "text": "What is the price of flights to Cairo",
+      "intent": "flight_price"
+    },
+    {
+      "text": "What is the price of flights to Rome",
+      "intent": "flight_price"
+    },
+    {
+      "text": "What documents do I need for Cairo",
+      "intent": "restrictions"
+    },
+    {
+      "text": "Find hotels in Miami",
+      "intent": "hotel_search"
+    },
+    {
+      "text": "I want to book accommodation in London",
+      "intent": "hotel_booking"
+    },
+    {
+      "text": "What documents do I need for Berlin",
+      "intent": "restrictions"
+    },
+    {
+      "text": "What flights are available from New York to New York",
+      "intent": "flight_search"
+    },
+    {
+      "text": "Weather forecast for London",
+      "intent": "weather"
+    },
+    {
+      "text": "Find hotels in Miami",
+      "intent": "hotel_search"
+    },
+    {
+      "text": "Check flight prices from Madrid to Cairo",
+      "intent": "flight_price"
+    },
+    {
+      "text": "Look for accommodation in Los Angeles",
+      "intent": "hotel_search"
+    },
+    {
+      "text": "I want to book accommodation in Madrid",
+      "intent": "hotel_booking"
+    },
+    {
+      "text": "Show me flights from Miami to Miami",
+      "intent": "flight_search"
+    },
+    {
+      "text": "Travel requirements for Bangkok",
+      "intent": "restrictions"
+    },
+    {
+      "text": "Weather conditions in Dubai",
+      "intent": "weather"
+    },
+    {
+      "text": "Find flights from Cairo to London",
+      "intent": "flight_search"
+    },
+    {
+      "text": "Search for hotels in Miami",
+      "intent": "hotel_search"
+    },
+    {
+      "text": "Check weather in Berlin",
+      "intent": "weather"
+    },
+    {
+      "text": "Look for accommodation in Bangkok",
+      "intent": "hotel_search"
+    },
+    {
+      "text": "Search flights from Berlin to Paris",
+      "intent": "flight_search"
+    },
+    {
+      "text": "Check flight prices from Singapore to Rome",
+      "intent": "flight_price"
+    },
+    {
+      "text": "What's the weather in Bangkok",
+      "intent": "weather"
+    },
+    {
+      "text": "Look for accommodation in New York",
+      "intent": "hotel_search"
+    },
+    {
+      "text": "How expensive are flights from Bangkok to Berlin",
+      "intent": "flight_price"
+    },
+    {
+      "text": "What is the price of flights to Los Angeles",
+      "intent": "flight_price"
+    },
+    {
+      "text": "Flight prices from New York to Los Angeles",
+      "intent": "flight_price"
+    },
+    {
+      "text": "Travel requirements for Singapore",
+      "intent": "restrictions"
+    },
+    {
+      "text": "Travel restrictions to New York",
+      "intent": "restrictions"
+    },
+    {
+      "text": "Weather conditions in Rome",
+      "intent": "weather"
+    },
+    {
+      "text": "I want to book accommodation in London",
+      "intent": "hotel_booking"
+    },
+    {
+      "text": "Check flights from Berlin to Tokyo",
+      "intent": "flight_search"
+    },
+    {
+      "text": "Travel restrictions to Cairo",
+      "intent": "restrictions"
+    },
+    {
+      "text": "Travel requirements for Miami",
+      "intent": "restrictions"
+    },
+    {
+      "text": "I want to book accommodation in New York",
+      "intent": "hotel_booking"
+    },
+    {
+      "text": "Check flights from London to New York",
+      "intent": "flight_search"
+    },
+    {
+      "text": "Reserve a room in New York",
+      "intent": "hotel_booking"
+    },
+    {
+      "text": "Flight prices from London to Berlin",
+      "intent": "flight_price"
+    },
+    {
+      "text": "Show me flights from Sydney to Los Angeles",
+      "intent": "flight_search"
+    },
+    {
+      "text": "What hotels are available in Rome",
+      "intent": "hotel_search"
+    },
+    {
+      "text": "How much does a flight cost from Bangkok to London",
+      "intent": "flight_price"
+    },
+    {
+      "text": "Travel restrictions to London",
+      "intent": "restrictions"
+    },
+    {
+      "text": "How is the weather in Paris",
+      "intent": "weather"
+    },
+    {
+      "text": "What hotels are available in Dubai",
+      "intent": "hotel_search"
+    },
+    {
+      "text": "Search flights from London to Cairo",
+      "intent": "flight_search"
+    },
+    {
+      "text": "Look for flights from London to Singapore",
+      "intent": "flight_search"
+    },
+    {
+      "text": "What hotels are available in Paris",
+      "intent": "hotel_search"
+    },
+    {
+      "text": "Cost of flights to Berlin",
+      "intent": "flight_price"
+    },
+    {
+      "text": "Do I need a visa for Dubai",
+      "intent": "restrictions"
+    },
+    {
+      "text": "What documents do I need for Sydney",
+      "intent": "restrictions"
+    },
+    {
+      "text": "Check flights from Cairo to Madrid",
+      "intent": "flight_search"
+    },
+    {
+      "text": "Show me flights from Los Angeles to Dubai",
+      "intent": "flight_search"
+    },
+    {
+      "text": "Find accommodation in Sydney",
+      "intent": "hotel_search"
+    },
+    {
+      "text": "What flights are available from Tokyo to Dubai",
+      "intent": "flight_search"
+    },
+    {
+      "text": "I want to book accommodation in Miami",
+      "intent": "hotel_booking"
+    },
+    {
+      "text": "I want to book accommodation in Singapore",
+      "intent": "hotel_booking"
+    },
+    {
+      "text": "How much does a flight cost from Singapore to Los Angeles",
+      "intent": "flight_price"
+    },
+    {
+      "text": "How much does a flight cost from Bangkok to Los Angeles",
+      "intent": "flight_price"
+    },
+    {
+      "text": "Do I need a visa for Paris",
+      "intent": "restrictions"
+    },
+    {
+      "text": "Cost of flights to Sydney",
+      "intent": "flight_price"
+    },
+    {
+      "text": "Check flights from Los Angeles to Bangkok",
+      "intent": "flight_search"
+    },
+    {
+      "text": "Book a hotel in Bangkok",
+      "intent": "hotel_booking"
+    },
+    {
+      "text": "Weather conditions in Berlin",
+      "intent": "weather"
+    },
+    {
+      "text": "Find flights from Madrid to Madrid",
+      "intent": "flight_search"
+    },
+    {
+      "text": "What's the weather in Sydney",
+      "intent": "weather"
+    },
+    {
+      "text": "Search for hotels in Tokyo",
+      "intent": "hotel_search"
+    },
+    {
+      "text": "How much does a flight cost from Paris to Dubai",
+      "intent": "flight_price"
+    },
+    {
+      "text": "Make a hotel reservation in Los Angeles",
+      "intent": "hotel_booking"
+    },
+    {
+      "text": "Entry requirements for Paris",
+      "intent": "restrictions"
+    },
+    {
+      "text": "What is the price of flights to Sydney",
+      "intent": "flight_price"
+    },
+    {
+      "text": "Search for hotels in New York",
+      "intent": "hotel_search"
+    },
+    {
+      "text": "Vaccination requirements for Sydney",
+      "intent": "restrictions"
+    },
+    {
+      "text": "Look for flights from London to Rome",
+      "intent": "flight_search"
+    },
+    {
+      "text": "Weather conditions in Sydney",
+      "intent": "weather"
+    },
+    {
+      "text": "Make a hotel reservation in Singapore",
+      "intent": "hotel_booking"
+    },
+    {
+      "text": "Weather forecast for Paris",
+      "intent": "weather"
+    },
+    {
+      "text": "Flight prices from Bangkok to Miami",
+      "intent": "flight_price"
+    },
+    {
+      "text": "Reserve a hotel room in Bangkok",
+      "intent": "hotel_booking"
+    },
+    {
+      "text": "Book a hotel in Paris",
+      "intent": "hotel_booking"
+    },
+    {
+      "text": "How expensive are flights from Dubai to Bangkok",
+      "intent": "flight_price"
+    },
+    {
+      "text": "What is the price of flights to Madrid",
+      "intent": "flight_price"
+    },
+    {
+      "text": "Vaccination requirements for Tokyo",
+      "intent": "restrictions"
+    },
+    {
+      "text": "Find hotels in Tokyo",
+      "intent": "hotel_search"
+    },
+    {
+      "text": "Reserve a room in Singapore",
+      "intent": "hotel_booking"
+    },
+    {
+      "text": "What's the weather in Tokyo",
+      "intent": "weather"
+    },
+    {
+      "text": "Vaccination requirements for Rome",
+      "intent": "restrictions"
+    },
+    {
+      "text": "Vaccination requirements for Rome",
+      "intent": "restrictions"
+    },
+    {
+      "text": "What is the price of flights to Los Angeles",
+      "intent": "flight_price"
+    },
+    {
+      "text": "Find flights from Miami to Madrid",
+      "intent": "flight_search"
+    },
+    {
+      "text": "Find hotels in Singapore",
+      "intent": "hotel_search"
+    },
+    {
+      "text": "Reserve a hotel room in New York",
+      "intent": "hotel_booking"
+    },
+    {
+      "text": "How is the weather in Tokyo",
+      "intent": "weather"
+    },
+    {
+      "text": "What is the price of flights to Bangkok",
+      "intent": "flight_price"
+    },
+    {
+      "text": "Reserve a room in Cairo",
+      "intent": "hotel_booking"
+    },
+    {
+      "text": "I want to book accommodation in London",
+      "intent": "hotel_booking"
+    },
+    {
+      "text": "Find accommodation in London",
+      "intent": "hotel_search"
+    },
+    {
+      "text": "Check flights from Singapore to Cairo",
+      "intent": "flight_search"
+    },
+    {
+      "text": "What flights are available from Berlin to Dubai",
+      "intent": "flight_search"
+    },
+    {
+      "text": "What is the weather like in Bangkok",
+      "intent": "weather"
+    },
+    {
+      "text": "Find accommodation in Madrid",
+      "intent": "hotel_search"
+    },
+    {
+      "text": "Find flights from Los Angeles to Rome",
+      "intent": "flight_search"
+    },
+    {
+      "text": "How is the weather in London",
+      "intent": "weather"
+    },
+    {
+      "text": "Look for accommodation in Cairo",
+      "intent": "hotel_search"
+    },
+    {
+      "text": "Do I need a visa for Paris",
+      "intent": "restrictions"
+    },
+    {
+      "text": "Make a hotel reservation in Tokyo",
+      "intent": "hotel_booking"
+    },
+    {
+      "text": "What hotels are available in Tokyo",
+      "intent": "hotel_search"
+    },
+    {
+      "text": "What's the weather in Madrid",
+      "intent": "weather"
+    },
+    {
+      "text": "Make a hotel reservation in Singapore",
+      "intent": "hotel_booking"
+    },
+    {
+      "text": "Do I need a visa for Rome",
+      "intent": "restrictions"
+    },
+    {
+      "text": "Weather forecast for Singapore",
+      "intent": "weather"
+    },
+    {
+      "text": "Travel requirements for Miami",
+      "intent": "restrictions"
+    },
+    {
+      "text": "Cost of flights to Miami",
+      "intent": "flight_price"
+    },
+    {
+      "text": "What hotels are available in Cairo",
+      "intent": "hotel_search"
+    },
+    {
+      "text": "I want to book accommodation in London",
+      "intent": "hotel_booking"
+    },
+    {
+      "text": "Entry requirements for New York",
+      "intent": "restrictions"
+    },
+    {
+      "text": "Show me hotels in Dubai",
+      "intent": "hotel_search"
+    },
+    {
+      "text": "What hotels are available in Rome",
+      "intent": "hotel_search"
+    },
+    {
+      "text": "Search flights from Singapore to Berlin",
+      "intent": "flight_search"
+    },
+    {
+      "text": "How is the weather in Sydney",
+      "intent": "weather"
+    },
+    {
+      "text": "Cost of flights to Dubai",
+      "intent": "flight_price"
+    },
+    {
+      "text": "Look for flights from Berlin to Miami",
+      "intent": "flight_search"
+    },
+    {
+      "text": "Show me flights from Tokyo to Tokyo",
+      "intent": "flight_search"
+    },
+    {
+      "text": "Check flight prices from Bangkok to Tokyo",
+      "intent": "flight_price"
+    },
+    {
+      "text": "Travel requirements for Bangkok",
+      "intent": "restrictions"
+    },
+    {
+      "text": "Flight prices from Bangkok to Cairo",
+      "intent": "flight_price"
+    },
+    {
+      "text": "Entry requirements for Madrid",
+      "intent": "restrictions"
+    },
+    {
+      "text": "Flight prices from Miami to Sydney",
+      "intent": "flight_price"
+    },
+    {
+      "text": "Search flights from Singapore to Tokyo",
+      "intent": "flight_search"
+    },
+    {
+      "text": "Make a hotel reservation in London",
+      "intent": "hotel_booking"
+    },
+    {
+      "text": "Show me hotels in London",
+      "intent": "hotel_search"
+    },
+    {
+      "text": "Book me a hotel in Cairo",
+      "intent": "hotel_booking"
+    },
+    {
+      "text": "Show me flights from Bangkok to Berlin",
+      "intent": "flight_search"
+    },
+    {
+      "text": "Flight prices from Tokyo to Sydney",
+      "intent": "flight_price"
+    },
+    {
+      "text": "What hotels are available in Tokyo",
+      "intent": "hotel_search"
+    },
+    {
+      "text": "Find hotels in Cairo",
+      "intent": "hotel_search"
+    },
+    {
+      "text": "Check flight prices from Rome to Singapore",
+      "intent": "flight_price"
+    },
+    {
+      "text": "Weather conditions in London",
+      "intent": "weather"
+    },
+    {
+      "text": "Show me hotels in Rome",
+      "intent": "hotel_search"
+    },
+    {
+      "text": "Find accommodation in Miami",
+      "intent": "hotel_search"
+    },
+    {
+      "text": "Reserve a room in Los Angeles",
+      "intent": "hotel_booking"
+    },
+    {
+      "text": "Weather forecast for Los Angeles",
+      "intent": "weather"
+    },
+    {
+      "text": "What is the weather like in Singapore",
+      "intent": "weather"
+    },
+    {
+      "text": "Travel restrictions to New York",
+      "intent": "restrictions"
+    },
+    {
+      "text": "How much does a flight cost from Sydney to Paris",
+      "intent": "flight_price"
+    },
+    {
+      "text": "Reserve a hotel room in New York",
+      "intent": "hotel_booking"
+    },
+    {
+      "text": "Weather forecast for Rome",
+      "intent": "weather"
+    },
+    {
+      "text": "What's the weather in Singapore",
+      "intent": "weather"
+    },
+    {
+      "text": "How is the weather in Madrid",
+      "intent": "weather"
+    },
+    {
+      "text": "Travel restrictions to Rome",
+      "intent": "restrictions"
+    },
+    {
+      "text": "I want to book accommodation in Sydney",
+      "intent": "hotel_booking"
+    },
+    {
+      "text": "How is the weather in Tokyo",
+      "intent": "weather"
+    },
+    {
+      "text": "What is the weather like in Berlin",
+      "intent": "weather"
+    },
+    {
+      "text": "Cost of flights to Sydney",
+      "intent": "flight_price"
+    },
+    {
+      "text": "Book a hotel in Rome",
+      "intent": "hotel_booking"
+    },
+    {
+      "text": "Show me hotels in Paris",
+      "intent": "hotel_search"
+    },
+    {
+      "text": "How expensive are flights from Rome to Madrid",
+      "intent": "flight_price"
+    },
+    {
+      "text": "Check flights from Sydney to Sydney",
+      "intent": "flight_search"
+    },
+    {
+      "text": "What's the weather in Dubai",
+      "intent": "weather"
+    },
+    {
+      "text": "Book me a hotel in Dubai",
+      "intent": "hotel_booking"
+    },
+    {
+      "text": "Find hotels in Los Angeles",
+      "intent": "hotel_search"
+    },
+    {
+      "text": "Reserve a hotel room in Sydney",
+      "intent": "hotel_booking"
+    },
+    {
+      "text": "Search for hotels in Cairo",
+      "intent": "hotel_search"
+    },
+    {
+      "text": "Entry requirements for New York",
+      "intent": "restrictions"
+    },
+    {
+      "text": "Reserve a hotel room in Cairo",
+      "intent": "hotel_booking"
+    },
+    {
+      "text": "Show me hotels in Singapore",
+      "intent": "hotel_search"
+    },
+    {
+      "text": "Book me a hotel in Bangkok",
+      "intent": "hotel_booking"
+    },
+    {
+      "text": "Find flights from Sydney to Berlin",
+      "intent": "flight_search"
+    },
+    {
+      "text": "Entry requirements for Paris",
+      "intent": "restrictions"
+    },
+    {
+      "text": "Make a hotel reservation in Tokyo",
+      "intent": "hotel_booking"
+    },
+    {
+      "text": "What's the weather in Sydney",
+      "intent": "weather"
+    },
+    {
+      "text": "Reserve a room in Dubai",
+      "intent": "hotel_booking"
+    },
+    {
+      "text": "Do I need a visa for Madrid",
+      "intent": "restrictions"
+    },
+    {
+      "text": "Show me flights from Madrid to Cairo",
+      "intent": "flight_search"
+    },
+    {
+      "text": "Look for accommodation in New York",
+      "intent": "hotel_search"
+    },
+    {
+      "text": "I want to book accommodation in Sydney",
+      "intent": "hotel_booking"
+    },
+    {
+      "text": "How much does a flight cost from Paris to Bangkok",
+      "intent": "flight_price"
+    },
+    {
+      "text": "Do I need a visa for Tokyo",
+      "intent": "restrictions"
+    },
+    {
+      "text": "Travel requirements for Cairo",
+      "intent": "restrictions"
+    },
+    {
+      "text": "Do I need a visa for Berlin",
+      "intent": "restrictions"
+    },
+    {
+      "text": "Entry requirements for Cairo",
+      "intent": "restrictions"
+    },
+    {
+      "text": "Travel restrictions to Paris",
+      "intent": "restrictions"
+    },
+    {
+      "text": "What is the weather like in Madrid",
+      "intent": "weather"
+    },
+    {
+      "text": "Weather forecast for Singapore",
+      "intent": "weather"
+    },
+    {
+      "text": "Check flights from London to New York",
+      "intent": "flight_search"
+    },
+    {
+      "text": "Find accommodation in Cairo",
+      "intent": "hotel_search"
+    }
+  ],
+  "recommendations": {
+    "best_intent_model": "Original Intent Model",
+    "best_intent_score": 0.735,
+    "best_ner_model": "Improved NER Model",
+    "best_ner_score": 0.39193548387096777
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "total_samples": 13886,
+  "total_tokens": 138499,
+  "label_distribution": {
+    "O": 76186,
+    "B-START_DATE": 10242,
+    "I-START_DATE": 10063,
+    "B-DESTINATION": 8738,
+    "B-ORIGIN": 8726,
+    "B-CITY": 4979,
+    "B-END_DATE": 4571,
+    "B-ADULTS": 4557,
+    "I-END_DATE": 4441,
+    "B-CHILDREN": 2374,
+    "I-ORIGIN": 771,
+    "I-DESTINATION": 737,
+    "I-CITY": 600,
+    "B-DURATION": 368,
+    "B-AIRLINE": 200,
+    "B-HOTEL": 199,
+    "B-COUNTRY": 169,
+    "B-MONTH": 165,
+    "B-LANDMARK": 130,
+    "I-AIRLINE": 94,
+    "I-HOTEL": 89,
+    "I-LANDMARK": 64,
+    "I-COUNTRY": 36
+  },
+  "unique_labels": 23,
+  "average_tokens_per_sample": 9.974002592539248
+}

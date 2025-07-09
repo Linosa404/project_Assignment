@@ -6,6 +6,11 @@ import torch
 from transformers import AutoTokenizer, AutoModelForTokenClassification
 import sys
 import os
+import logging
+from config import LOG_LEVEL
+
+logging.basicConfig(level=LOG_LEVEL)
+logger = logging.getLogger(__name__)
 
 MODEL_PATH = "slot_ner_model"
 
@@ -27,31 +32,36 @@ model = AutoModelForTokenClassification.from_pretrained(MODEL_PATH if os.path.ex
 
 
 def extract_slots(text):
-    inputs = tokenizer(text, return_tensors="pt", truncation=True, padding=True)
-    with torch.no_grad():
-        outputs = model(**inputs).logits
-        preds = torch.argmax(outputs, dim=2)[0].tolist()
-    tokens = tokenizer.convert_ids_to_tokens(inputs['input_ids'][0])
-    slots = {}
-    current_slot = None
-    current_value = []
-    for token, pred in zip(tokens, preds):
-        label = id2label.get(pred, "O")
-        if label.startswith("B-"):
-            if current_slot:
-                slots[current_slot] = tokenizer.convert_tokens_to_string(current_value).replace(' ##', '')
-            current_slot = label[2:]
-            current_value = [token]
-        elif label.startswith("I-") and current_slot:
-            current_value.append(token)
-        else:
-            if current_slot:
-                slots[current_slot] = tokenizer.convert_tokens_to_string(current_value).replace(' ##', '')
-                current_slot = None
-                current_value = []
-    if current_slot and current_value:
-        slots[current_slot] = tokenizer.convert_tokens_to_string(current_value).replace(' ##', '')
-    return slots
+    try:
+        logger.info(f"Extracting slots for: {text}")
+        inputs = tokenizer(text, return_tensors="pt", truncation=True, padding=True)
+        with torch.no_grad():
+            outputs = model(**inputs).logits
+            preds = torch.argmax(outputs, dim=2)[0].tolist()
+        tokens = tokenizer.convert_ids_to_tokens(inputs['input_ids'][0])
+        slots = {}
+        current_slot = None
+        current_value = []
+        for token, pred in zip(tokens, preds):
+            label = id2label.get(pred, "O")
+            if label.startswith("B-"):
+                if current_slot:
+                    slots[current_slot] = tokenizer.convert_tokens_to_string(current_value).replace(' ##', '')
+                current_slot = label[2:]
+                current_value = [token]
+            elif label.startswith("I-") and current_slot:
+                current_value.append(token)
+            else:
+                if current_slot:
+                    slots[current_slot] = tokenizer.convert_tokens_to_string(current_value).replace(' ##', '')
+                    current_slot = None
+                    current_value = []
+        if current_slot and current_value:
+            slots[current_slot] = tokenizer.convert_tokens_to_string(current_value).replace(' ##', '')
+        return slots
+    except Exception as e:
+        logger.error(f"Error during slot NER inference: {e}")
+        raise
 
 def debug_batch_predictions(dataset_path, n=5):
     with open(dataset_path) as f:

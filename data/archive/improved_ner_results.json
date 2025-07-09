@@ -1,0 +1,8 @@
+{
+  "test_f1": 0.9992728330424666,
+  "original_f1": 0.613,
+  "improvement": 38.62728330424666,
+  "target_achieved": true,
+  "test_samples": 2083,
+  "model_path": "slot_ner_model_improved"
+}

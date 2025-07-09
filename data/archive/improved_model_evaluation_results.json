@@ -1,0 +1,521 @@
+{
+  "model_path": "slot_ner_model_improved",
+  "evaluation_timestamp": "timestamp_unavailable",
+  "baseline_f1": 0.613,
+  "improved_f1": 0.0,
+  "improvement": -0.613,
+  "improvement_percentage": -100.0,
+  "target_achieved": "False",
+  "full_results": {
+    "overall_f1": 0.0,
+    "token_accuracy": 0.5483181967392494,
+    "entity_metrics": {
+      "ORIGIN": {
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "support": 14726
+      },
+      "DESTINATION": {
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "support": 14738
+      },
+      "START_DATE": {
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "support": 17289
+      },
+      "END_DATE": {
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "support": 7578
+      },
+      "ADULTS": {
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "support": 7771
+      },
+      "CHILDREN": {
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "support": 4024
+      },
+      "CITY": {
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "support": 7529
+      },
+      "HOTEL": {
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "support": 199
+      },
+      "DURATION": {
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "support": 368
+      },
+      "COUNTRY": {
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "support": 169
+      },
+      "AIRLINE": {
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "support": 200
+      },
+      "MONTH": {
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "support": 165
+      },
+      "LANDMARK": {
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "support": 130
+      }
+    },
+    "seqeval_report": {
+      "ADULTS": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": "7771"
+      },
+      "AIRLINE": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": "200"
+      },
+      "ANDMARK": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": "0"
+      },
+      "CHILDREN": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": "4024"
+      },
+      "CITY": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": "7529"
+      },
+      "COUNTRY": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": "169"
+      },
+      "DESTINATION": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": "14738"
+      },
+      "DULTS": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": "0"
+      },
+      "DURATION": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": "368"
+      },
+      "END_DATE": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": "7578"
+      },
+      "ESTINATION": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": "0"
+      },
+      "HILDREN": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": "0"
+      },
+      "HOTEL": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": "199"
+      },
+      "IRLINE": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": "0"
+      },
+      "ITY": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": "0"
+      },
+      "LANDMARK": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": "130"
+      },
+      "MONTH": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": "165"
+      },
+      "ND_DATE": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": "0"
+      },
+      "ONTH": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": "0"
+      },
+      "ORIGIN": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": "14726"
+      },
+      "OTEL": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": "0"
+      },
+      "OUNTRY": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": "0"
+      },
+      "START_DATE": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": "17289"
+      },
+      "TART_DATE": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": "0"
+      },
+      "URATION": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": "0"
+      },
+      "micro avg": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": "74886"
+      },
+      "macro avg": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": "74886"
+      },
+      "weighted avg": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": "74886"
+      }
+    },
+    "num_samples": 22436,
+    "total_tokens": 228475
+  },
+  "subset_results": {
+    "overall_f1": 0.0,
+    "token_accuracy": 0.5426545086119554,
+    "entity_metrics": {
+      "ORIGIN": {
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "support": 309
+      },
+      "DESTINATION": {
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "support": 309
+      },
+      "START_DATE": {
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "support": 366
+      },
+      "END_DATE": {
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "support": 156
+      },
+      "ADULTS": {
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "support": 167
+      },
+      "CHILDREN": {
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "support": 84
+      },
+      "CITY": {
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "support": 177
+      },
+      "HOTEL": {
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "support": 11
+      },
+      "DURATION": {
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "support": 25
+      },
+      "COUNTRY": {
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "support": 14
+      },
+      "AIRLINE": {
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "support": 4
+      },
+      "MONTH": {
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "support": 7
+      },
+      "LANDMARK": {
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "support": 3
+      }
+    },
+    "seqeval_report": {
+      "ADULTS": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": "167"
+      },
+      "AIRLINE": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": "4"
+      },
+      "ANDMARK": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": "0"
+      },
+      "CHILDREN": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": "84"
+      },
+      "CITY": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": "177"
+      },
+      "COUNTRY": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": "14"
+      },
+      "DESTINATION": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": "309"
+      },
+      "DULTS": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": "0"
+      },
+      "DURATION": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": "25"
+      },
+      "END_DATE": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": "156"
+      },
+      "ESTINATION": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": "0"
+      },
+      "HILDREN": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": "0"
+      },
+      "HOTEL": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": "11"
+      },
+      "IRLINE": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": "0"
+      },
+      "ITY": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": "0"
+      },
+      "LANDMARK": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": "3"
+      },
+      "MONTH": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": "7"
+      },
+      "ND_DATE": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": "0"
+      },
+      "ONTH": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": "0"
+      },
+      "ORIGIN": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": "309"
+      },
+      "OTEL": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": "0"
+      },
+      "OUNTRY": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": "0"
+      },
+      "START_DATE": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": "366"
+      },
+      "TART_DATE": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": "0"
+      },
+      "URATION": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": "0"
+      },
+      "micro avg": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": "1632"
+      },
+      "macro avg": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": "1632"
+      },
+      "weighted avg": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": "1632"
+      }
+    },
+    "num_samples": 500,
+    "total_tokens": 4935
+  }
+}

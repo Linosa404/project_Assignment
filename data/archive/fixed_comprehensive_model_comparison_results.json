@@ -1,0 +1,1307 @@
+{
+  "intent_models": {
+    "Original Intent Model": {
+      "model_name": "Original Intent Model",
+      "model_path": "intent_model",
+      "accuracy": 0.0,
+      "f1_macro": 0.0,
+      "f1_weighted": 0.0,
+      "avg_confidence": 0.0,
+      "inference_time": 4.388909101486206,
+      "avg_time_per_query": 0.02194454550743103,
+      "classification_report": {
+        "flight_price": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 34.0
+        },
+        "flight_search": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 34.0
+        },
+        "hotel_booking": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 33.0
+        },
+        "hotel_search": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 33.0
+        },
+        "restrictions": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 33.0
+        },
+        "unknown": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 0.0
+        },
+        "weather": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 33.0
+        },
+        "accuracy": 0.0,
+        "macro avg": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 200.0
+        },
+        "weighted avg": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 200.0
+        }
+      },
+      "num_test_queries": 200,
+      "predictions_sample": [
+        [
+          "unknown",
+          "flight_search",
+          0.0
+        ],
+        [
+          "unknown",
+          "flight_price",
+          0.0
+        ],
+        [
+          "unknown",
+          "hotel_booking",
+          0.0
+        ],
+        [
+          "unknown",
+          "weather",
+          0.0
+        ],
+        [
+          "unknown",
+          "flight_search",
+          0.0
+        ],
+        [
+          "unknown",
+          "restrictions",
+          0.0
+        ],
+        [
+          "unknown",
+          "weather",
+          0.0
+        ],
+        [
+          "unknown",
+          "hotel_booking",
+          0.0
+        ],
+        [
+          "unknown",
+          "restrictions",
+          0.0
+        ],
+        [
+          "unknown",
+          "restrictions",
+          0.0
+        ]
+      ]
+    },
+    "Enhanced Intent Model": {
+      "model_name": "Enhanced Intent Model",
+      "model_path": "intent_model_enhanced",
+      "accuracy": 0.0,
+      "f1_macro": 0.0,
+      "f1_weighted": 0.0,
+      "avg_confidence": 0.0,
+      "inference_time": 4.476563930511475,
+      "avg_time_per_query": 0.022382819652557374,
+      "classification_report": {
+        "flight_price": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 34.0
+        },
+        "flight_search": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 34.0
+        },
+        "hotel_booking": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 33.0
+        },
+        "hotel_search": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 33.0
+        },
+        "restrictions": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 33.0
+        },
+        "unknown": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 0.0
+        },
+        "weather": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 33.0
+        },
+        "accuracy": 0.0,
+        "macro avg": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 200.0
+        },
+        "weighted avg": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 200.0
+        }
+      },
+      "num_test_queries": 200,
+      "predictions_sample": [
+        [
+          "unknown",
+          "flight_search",
+          0.0
+        ],
+        [
+          "unknown",
+          "flight_price",
+          0.0
+        ],
+        [
+          "unknown",
+          "hotel_booking",
+          0.0
+        ],
+        [
+          "unknown",
+          "weather",
+          0.0
+        ],
+        [
+          "unknown",
+          "flight_search",
+          0.0
+        ],
+        [
+          "unknown",
+          "restrictions",
+          0.0
+        ],
+        [
+          "unknown",
+          "weather",
+          0.0
+        ],
+        [
+          "unknown",
+          "hotel_booking",
+          0.0
+        ],
+        [
+          "unknown",
+          "restrictions",
+          0.0
+        ],
+        [
+          "unknown",
+          "restrictions",
+          0.0
+        ]
+      ]
+    }
+  },
+  "ner_models": {
+    "Original NER Model": {
+      "model_name": "Original NER Model",
+      "model_path": "slot_ner_model",
+      "precision": 0.9928057553956835,
+      "recall": 0.9583333333333334,
+      "f1_score": 0.9752650176678445,
+      "entities_predicted": 278,
+      "entities_ground_truth": 288,
+      "correct_entities": 276,
+      "inference_time": 8.175204038619995,
+      "avg_time_per_query": 0.04087602019309997,
+      "num_test_queries": 200
+    },
+    "Improved NER Model": {
+      "model_name": "Improved NER Model",
+      "model_path": "slot_ner_model_improved",
+      "precision": 1.0,
+      "recall": 0.9409722222222222,
+      "f1_score": 0.9695885509838997,
+      "entities_predicted": 271,
+      "entities_ground_truth": 288,
+      "correct_entities": 271,
+      "inference_time": 4.44874382019043,
+      "avg_time_per_query": 0.022243719100952148,
+      "num_test_queries": 200
+    },
+    "Enhanced NER Model": {
+      "model_name": "Enhanced NER Model",
+      "model_path": "slot_ner_model_enhanced",
+      "precision": 0.9645390070921985,
+      "recall": 0.9444444444444444,
+      "f1_score": 0.9543859649122808,
+      "entities_predicted": 282,
+      "entities_ground_truth": 288,
+      "correct_entities": 272,
+      "inference_time": 4.261396884918213,
+      "avg_time_per_query": 0.021306984424591065,
+      "num_test_queries": 200
+    }
+  },
+  "test_queries": [
+    {
+      "text": "Search for flights to Los Angeles",
+      "intent": "flight_search",
+      "id": 27
+    },
+    {
+      "text": "What is the price of flights to Singapore",
+      "intent": "flight_price",
+      "id": 46
+    },
+    {
+      "text": "Book me a hotel in Los Angeles for 5 nights",
+      "intent": "hotel_booking",
+      "id": 80
+    },
+    {
+      "text": "Weather conditions in Miami",
+      "intent": "weather",
+      "id": 156
+    },
+    {
+      "text": "Search flights from London to Dubai",
+      "intent": "flight_search",
+      "id": 31
+    },
+    {
+      "text": "Entry requirements for Miami",
+      "intent": "restrictions",
+      "id": 193
+    },
+    {
+      "text": "What's the weather in Sydney",
+      "intent": "weather",
+      "id": 136
+    },
+    {
+      "text": "Reserve a room in Miami",
+      "intent": "hotel_booking",
+      "id": 94
+    },
+    {
+      "text": "Do I need a visa for Singapore",
+      "intent": "restrictions",
+      "id": 180
+    },
+    {
+      "text": "Travel requirements for Singapore",
+      "intent": "restrictions",
+      "id": 195
+    },
+    {
+      "text": "Is it sunny in Dubai",
+      "intent": "weather",
+      "id": 142
+    },
+    {
+      "text": "Check flights from Tokyo to Los Angeles",
+      "intent": "flight_search",
+      "id": 19
+    },
+    {
+      "text": "Cost of flights to Miami",
+      "intent": "flight_price",
+      "id": 61
+    },
+    {
+      "text": "Flight prices from Amsterdam to Istanbul",
+      "intent": "flight_price",
+      "id": 50
+    },
+    {
+      "text": "Entry requirements for Miami",
+      "intent": "restrictions",
+      "id": 168
+    },
+    {
+      "text": "I want to book accommodation in Sydney",
+      "intent": "hotel_booking",
+      "id": 97
+    },
+    {
+      "text": "Find hotels in Istanbul",
+      "intent": "hotel_search",
+      "id": 133
+    },
+    {
+      "text": "Entry requirements for Istanbul",
+      "intent": "restrictions",
+      "id": 189
+    },
+    {
+      "text": "Travel requirements for Dubai",
+      "intent": "restrictions",
+      "id": 178
+    },
+    {
+      "text": "How expensive are flights from Tokyo to Istanbul",
+      "intent": "flight_price",
+      "id": 66
+    },
+    {
+      "text": "Check flight prices from New York to Miami",
+      "intent": "flight_price",
+      "id": 41
+    },
+    {
+      "text": "Do I need a visa for Cairo",
+      "intent": "restrictions",
+      "id": 196
+    },
+    {
+      "text": "Show me hotels in Los Angeles",
+      "intent": "hotel_search",
+      "id": 106
+    },
+    {
+      "text": "Entry requirements for Sydney",
+      "intent": "restrictions",
+      "id": 170
+    },
+    {
+      "text": "Search for hotels in Cairo",
+      "intent": "hotel_search",
+      "id": 111
+    },
+    {
+      "text": "What hotels are available in Sydney",
+      "intent": "hotel_search",
+      "id": 134
+    },
+    {
+      "text": "Find me a flight from Berlin to Bangkok",
+      "intent": "flight_search",
+      "id": 24
+    },
+    {
+      "text": "Climate in Miami",
+      "intent": "weather",
+      "id": 135
+    },
+    {
+      "text": "Find flights from Rome to Dubai on December 15",
+      "intent": "flight_search",
+      "id": 3
+    },
+    {
+      "text": "What's the weather in Los Angeles",
+      "intent": "weather",
+      "id": 162
+    },
+    {
+      "text": "Flight prices from London to Los Angeles",
+      "intent": "flight_price",
+      "id": 36
+    },
+    {
+      "text": "Find flights from New York to Los Angeles on January 20",
+      "intent": "flight_search",
+      "id": 1
+    },
+    {
+      "text": "Search flights from Berlin to Dubai",
+      "intent": "flight_search",
+      "id": 34
+    },
+    {
+      "text": "Reserve a room in Singapore",
+      "intent": "hotel_booking",
+      "id": 79
+    },
+    {
+      "text": "Show me hotels in Istanbul",
+      "intent": "hotel_search",
+      "id": 115
+    },
+    {
+      "text": "Look for flights from Amsterdam to Miami",
+      "intent": "flight_search",
+      "id": 17
+    },
+    {
+      "text": "What do flights cost from Amsterdam to Sydney",
+      "intent": "flight_price",
+      "id": 68
+    },
+    {
+      "text": "Look for accommodation in Bangkok",
+      "intent": "hotel_search",
+      "id": 103
+    },
+    {
+      "text": "Price for flight from New York to Bangkok",
+      "intent": "flight_price",
+      "id": 42
+    },
+    {
+      "text": "Search flights from London to Cairo",
+      "intent": "flight_search",
+      "id": 12
+    },
+    {
+      "text": "Vaccination requirements for Cairo",
+      "intent": "restrictions",
+      "id": 185
+    },
+    {
+      "text": "Reserve a hotel room in Los Angeles",
+      "intent": "hotel_booking",
+      "id": 93
+    },
+    {
+      "text": "I want to book accommodation in Dubai",
+      "intent": "hotel_booking",
+      "id": 95
+    },
+    {
+      "text": "What is the weather like in Sydney",
+      "intent": "weather",
+      "id": 151
+    },
+    {
+      "text": "What flights are available from Madrid to Sydney",
+      "intent": "flight_search",
+      "id": 25
+    },
+    {
+      "text": "Do I need a visa for Singapore",
+      "intent": "restrictions",
+      "id": 171
+    },
+    {
+      "text": "Do I need a visa for Istanbul",
+      "intent": "restrictions",
+      "id": 173
+    },
+    {
+      "text": "Cost of flights to Singapore",
+      "intent": "flight_price",
+      "id": 37
+    },
+    {
+      "text": "Check flights from Tokyo to Singapore",
+      "intent": "flight_search",
+      "id": 30
+    },
+    {
+      "text": "Climate in Istanbul",
+      "intent": "weather",
+      "id": 165
+    },
+    {
+      "text": "Book a hotel in Istanbul",
+      "intent": "hotel_booking",
+      "id": 83
+    },
+    {
+      "text": "Look for flights from Rome to Cairo",
+      "intent": "flight_search",
+      "id": 29
+    },
+    {
+      "text": "Book a hotel in Bangkok",
+      "intent": "hotel_booking",
+      "id": 71
+    },
+    {
+      "text": "I want to book accommodation in Singapore",
+      "intent": "hotel_booking",
+      "id": 85
+    },
+    {
+      "text": "Show me hotels in Los Angeles",
+      "intent": "hotel_search",
+      "id": 114
+    },
+    {
+      "text": "Look for accommodation in Dubai",
+      "intent": "hotel_search",
+      "id": 102
+    },
+    {
+      "text": "Make a hotel reservation in Dubai",
+      "intent": "hotel_booking",
+      "id": 82
+    },
+    {
+      "text": "Look for accommodation in Istanbul",
+      "intent": "hotel_search",
+      "id": 109
+    },
+    {
+      "text": "Check weather in Bangkok",
+      "intent": "weather",
+      "id": 167
+    },
+    {
+      "text": "Price for flight from New York to Los Angeles",
+      "intent": "flight_price",
+      "id": 38
+    },
+    {
+      "text": "Is it sunny in Cairo",
+      "intent": "weather",
+      "id": 147
+    },
+    {
+      "text": "What documents do I need for Miami",
+      "intent": "restrictions",
+      "id": 199
+    },
+    {
+      "text": "Vaccination requirements for Bangkok",
+      "intent": "restrictions",
+      "id": 191
+    },
+    {
+      "text": "What hotels are available in Bangkok",
+      "intent": "hotel_search",
+      "id": 124
+    },
+    {
+      "text": "Search accommodation in Sydney",
+      "intent": "hotel_search",
+      "id": 130
+    },
+    {
+      "text": "Weather conditions in Cairo",
+      "intent": "weather",
+      "id": 159
+    },
+    {
+      "text": "Vaccination requirements for Singapore",
+      "intent": "restrictions",
+      "id": 183
+    },
+    {
+      "text": "What flights are available from New York to Miami",
+      "intent": "flight_search",
+      "id": 23
+    },
+    {
+      "text": "Show me hotels in Singapore",
+      "intent": "hotel_search",
+      "id": 127
+    },
+    {
+      "text": "Find flights from Paris to Sydney on January 20",
+      "intent": "flight_search",
+      "id": 20
+    },
+    {
+      "text": "Price for flight from Rome to Sydney",
+      "intent": "flight_price",
+      "id": 59
+    },
+    {
+      "text": "Weather conditions in Los Angeles",
+      "intent": "weather",
+      "id": 157
+    },
+    {
+      "text": "Flight prices from London to Sydney",
+      "intent": "flight_price",
+      "id": 56
+    },
+    {
+      "text": "Check weather in Sydney",
+      "intent": "weather",
+      "id": 158
+    },
+    {
+      "text": "Price for flight from New York to Bangkok",
+      "intent": "flight_price",
+      "id": 63
+    },
+    {
+      "text": "How much does a flight cost from London to Dubai",
+      "intent": "flight_price",
+      "id": 54
+    },
+    {
+      "text": "Do I need a visa for Los Angeles",
+      "intent": "restrictions",
+      "id": 190
+    },
+    {
+      "text": "How much does a flight cost from Tokyo to Bangkok",
+      "intent": "flight_price",
+      "id": 44
+    },
+    {
+      "text": "Weather forecast for Cairo",
+      "intent": "weather",
+      "id": 163
+    },
+    {
+      "text": "What flights are available from Madrid to Bangkok",
+      "intent": "flight_search",
+      "id": 9
+    },
+    {
+      "text": "Show me hotels in Dubai",
+      "intent": "hotel_search",
+      "id": 118
+    },
+    {
+      "text": "Is it sunny in Istanbul",
+      "intent": "weather",
+      "id": 164
+    },
+    {
+      "text": "I want to book accommodation in Istanbul",
+      "intent": "hotel_booking",
+      "id": 69
+    },
+    {
+      "text": "What is the price of flights to Istanbul",
+      "intent": "flight_price",
+      "id": 45
+    },
+    {
+      "text": "Search for hotels in Cairo",
+      "intent": "hotel_search",
+      "id": 132
+    },
+    {
+      "text": "What documents do I need for Sydney",
+      "intent": "restrictions",
+      "id": 177
+    },
+    {
+      "text": "Vaccination requirements for Cairo",
+      "intent": "restrictions",
+      "id": 200
+    },
+    {
+      "text": "Entry requirements for Sydney",
+      "intent": "restrictions",
+      "id": 188
+    },
+    {
+      "text": "Book me a hotel in Dubai for 4 nights",
+      "intent": "hotel_booking",
+      "id": 88
+    },
+    {
+      "text": "Check flight prices from London to Los Angeles",
+      "intent": "flight_price",
+      "id": 39
+    },
+    {
+      "text": "How is the weather in Los Angeles",
+      "intent": "weather",
+      "id": 143
+    },
+    {
+      "text": "Look for accommodation in Sydney",
+      "intent": "hotel_search",
+      "id": 107
+    },
+    {
+      "text": "Find flights from Paris to Singapore on May 25",
+      "intent": "flight_search",
+      "id": 32
+    },
+    {
+      "text": "Book a hotel in Dubai",
+      "intent": "hotel_booking",
+      "id": 81
+    },
+    {
+      "text": "I want to book accommodation in Cairo",
+      "intent": "hotel_booking",
+      "id": 89
+    },
+    {
+      "text": "Book a hotel in Cairo",
+      "intent": "hotel_booking",
+      "id": 76
+    },
+    {
+      "text": "Find flights from Rome to Bangkok on March 10",
+      "intent": "flight_search",
+      "id": 10
+    },
+    {
+      "text": "Search flights from Rome to Istanbul",
+      "intent": "flight_search",
+      "id": 26
+    },
+    {
+      "text": "Find hotels in Miami",
+      "intent": "hotel_search",
+      "id": 113
+    },
+    {
+      "text": "What is the price of flights to Sydney",
+      "intent": "flight_price",
+      "id": 51
+    },
+    {
+      "text": "How expensive are flights from Berlin to Cairo",
+      "intent": "flight_price",
+      "id": 49
+    },
+    {
+      "text": "Weather forecast for Los Angeles",
+      "intent": "weather",
+      "id": 149
+    },
+    {
+      "text": "Book me a hotel in Cairo for 3 nights",
+      "intent": "hotel_booking",
+      "id": 74
+    },
+    {
+      "text": "Weather conditions in Miami",
+      "intent": "weather",
+      "id": 146
+    },
+    {
+      "text": "Find flights from Tokyo to Sydney on August 14",
+      "intent": "flight_search",
+      "id": 4
+    },
+    {
+      "text": "Reserve a hotel room in Cairo",
+      "intent": "hotel_booking",
+      "id": 75
+    },
+    {
+      "text": "Vaccination requirements for Miami",
+      "intent": "restrictions",
+      "id": 184
+    },
+    {
+      "text": "Look for accommodation in Singapore",
+      "intent": "hotel_search",
+      "id": 131
+    },
+    {
+      "text": "Check weather in Los Angeles",
+      "intent": "weather",
+      "id": 144
+    },
+    {
+      "text": "Search for hotels in Bangkok",
+      "intent": "hotel_search",
+      "id": 105
+    },
+    {
+      "text": "What documents do I need for Sydney",
+      "intent": "restrictions",
+      "id": 175
+    },
+    {
+      "text": "Show me hotels in Sydney",
+      "intent": "hotel_search",
+      "id": 126
+    },
+    {
+      "text": "I need to book a hotel in Cairo",
+      "intent": "hotel_booking",
+      "id": 92
+    },
+    {
+      "text": "Reserve a room in Bangkok",
+      "intent": "hotel_booking",
+      "id": 96
+    },
+    {
+      "text": "Search accommodation in Dubai",
+      "intent": "hotel_search",
+      "id": 116
+    },
+    {
+      "text": "I need to book a hotel in Cairo",
+      "intent": "hotel_booking",
+      "id": 78
+    },
+    {
+      "text": "Weather conditions in Dubai",
+      "intent": "weather",
+      "id": 161
+    },
+    {
+      "text": "What do flights cost from Rome to Sydney",
+      "intent": "flight_price",
+      "id": 48
+    },
+    {
+      "text": "Make a hotel reservation in Bangkok",
+      "intent": "hotel_booking",
+      "id": 99
+    },
+    {
+      "text": "Show me hotels in Miami",
+      "intent": "hotel_search",
+      "id": 129
+    },
+    {
+      "text": "Is it sunny in Cairo",
+      "intent": "weather",
+      "id": 141
+    },
+    {
+      "text": "What is the price of flights to Bangkok",
+      "intent": "flight_price",
+      "id": 60
+    },
+    {
+      "text": "Search for flights to Sydney",
+      "intent": "flight_search",
+      "id": 28
+    },
+    {
+      "text": "Search accommodation in Dubai",
+      "intent": "hotel_search",
+      "id": 128
+    },
+    {
+      "text": "Reserve a room in Istanbul",
+      "intent": "hotel_booking",
+      "id": 73
+    },
+    {
+      "text": "What flights are available from Berlin to Bangkok",
+      "intent": "flight_search",
+      "id": 15
+    },
+    {
+      "text": "I want to book accommodation in Bangkok",
+      "intent": "hotel_booking",
+      "id": 86
+    },
+    {
+      "text": "Find accommodation in Dubai",
+      "intent": "hotel_search",
+      "id": 122
+    },
+    {
+      "text": "Are there any restrictions for traveling to Sydney",
+      "intent": "restrictions",
+      "id": 169
+    },
+    {
+      "text": "Cost of flights to Cairo",
+      "intent": "flight_price",
+      "id": 62
+    },
+    {
+      "text": "How expensive are flights from Paris to Miami",
+      "intent": "flight_price",
+      "id": 40
+    },
+    {
+      "text": "Travel restrictions to Bangkok",
+      "intent": "restrictions",
+      "id": 194
+    },
+    {
+      "text": "How expensive are flights from London to Miami",
+      "intent": "flight_price",
+      "id": 52
+    },
+    {
+      "text": "How much does a flight cost from Rome to Miami",
+      "intent": "flight_price",
+      "id": 64
+    },
+    {
+      "text": "What documents do I need for Istanbul",
+      "intent": "restrictions",
+      "id": 176
+    },
+    {
+      "text": "Check flights from Berlin to Dubai",
+      "intent": "flight_search",
+      "id": 11
+    },
+    {
+      "text": "Search for flights to Miami",
+      "intent": "flight_search",
+      "id": 18
+    },
+    {
+      "text": "Check flight prices from Amsterdam to Sydney",
+      "intent": "flight_price",
+      "id": 58
+    },
+    {
+      "text": "Make a hotel reservation in Los Angeles",
+      "intent": "hotel_booking",
+      "id": 90
+    },
+    {
+      "text": "What flights are available from London to Dubai",
+      "intent": "flight_search",
+      "id": 14
+    },
+    {
+      "text": "Is it sunny in Los Angeles",
+      "intent": "weather",
+      "id": 139
+    },
+    {
+      "text": "Show me flights from Tokyo to Cairo",
+      "intent": "flight_search",
+      "id": 5
+    },
+    {
+      "text": "Find hotels in Los Angeles",
+      "intent": "hotel_search",
+      "id": 121
+    },
+    {
+      "text": "Search flights from Rome to Los Angeles",
+      "intent": "flight_search",
+      "id": 21
+    },
+    {
+      "text": "What is the price of flights to Sydney",
+      "intent": "flight_price",
+      "id": 65
+    },
+    {
+      "text": "Vaccination requirements for Singapore",
+      "intent": "restrictions",
+      "id": 186
+    },
+    {
+      "text": "Book me a hotel in Singapore for 2 nights",
+      "intent": "hotel_booking",
+      "id": 72
+    },
+    {
+      "text": "Is it sunny in Bangkok",
+      "intent": "weather",
+      "id": 154
+    },
+    {
+      "text": "Are there any restrictions for traveling to Istanbul",
+      "intent": "restrictions",
+      "id": 174
+    },
+    {
+      "text": "How is the weather in Miami",
+      "intent": "weather",
+      "id": 153
+    },
+    {
+      "text": "Search for hotels in Bangkok",
+      "intent": "hotel_search",
+      "id": 117
+    },
+    {
+      "text": "How expensive are flights from London to Dubai",
+      "intent": "flight_price",
+      "id": 55
+    },
+    {
+      "text": "Reserve a hotel room in Dubai",
+      "intent": "hotel_booking",
+      "id": 84
+    },
+    {
+      "text": "Entry requirements for Sydney",
+      "intent": "restrictions",
+      "id": 192
+    },
+    {
+      "text": "Check flight prices from Rome to Singapore",
+      "intent": "flight_price",
+      "id": 67
+    },
+    {
+      "text": "Find flights from Berlin to Miami on August 14",
+      "intent": "flight_search",
+      "id": 13
+    },
+    {
+      "text": "Check flight prices from Amsterdam to Singapore",
+      "intent": "flight_price",
+      "id": 47
+    },
+    {
+      "text": "Find accommodation in Singapore",
+      "intent": "hotel_search",
+      "id": 119
+    },
+    {
+      "text": "What is the price of flights to Los Angeles",
+      "intent": "flight_price",
+      "id": 35
+    },
+    {
+      "text": "Look for accommodation in Dubai",
+      "intent": "hotel_search",
+      "id": 110
+    },
+    {
+      "text": "What flights are available from Madrid to Dubai",
+      "intent": "flight_search",
+      "id": 22
+    },
+    {
+      "text": "Weather forecast for Istanbul",
+      "intent": "weather",
+      "id": 166
+    },
+    {
+      "text": "What is the weather like in Bangkok",
+      "intent": "weather",
+      "id": 145
+    },
+    {
+      "text": "Is it sunny in Cairo",
+      "intent": "weather",
+      "id": 152
+    },
+    {
+      "text": "Reserve a hotel room in Istanbul",
+      "intent": "hotel_booking",
+      "id": 101
+    },
+    {
+      "text": "Show me flights from Paris to Cairo",
+      "intent": "flight_search",
+      "id": 7
+    },
+    {
+      "text": "Weather forecast for Dubai",
+      "intent": "weather",
+      "id": 137
+    },
+    {
+      "text": "Check weather in Los Angeles",
+      "intent": "weather",
+      "id": 160
+    },
+    {
+      "text": "Find flights from Rome to Cairo on August 14",
+      "intent": "flight_search",
+      "id": 33
+    },
+    {
+      "text": "Search accommodation in Singapore",
+      "intent": "hotel_search",
+      "id": 120
+    },
+    {
+      "text": "Flight prices from Berlin to Sydney",
+      "intent": "flight_price",
+      "id": 43
+    },
+    {
+      "text": "Show me hotels in Los Angeles",
+      "intent": "hotel_search",
+      "id": 104
+    },
+    {
+      "text": "What are the travel restrictions for Dubai",
+      "intent": "restrictions",
+      "id": 172
+    },
+    {
+      "text": "Book me a hotel in Cairo for 3 nights",
+      "intent": "hotel_booking",
+      "id": 87
+    },
+    {
+      "text": "Vaccination requirements for Istanbul",
+      "intent": "restrictions",
+      "id": 187
+    },
+    {
+      "text": "Check flights from Berlin to Singapore",
+      "intent": "flight_search",
+      "id": 8
+    },
+    {
+      "text": "Vaccination requirements for Dubai",
+      "intent": "restrictions",
+      "id": 181
+    },
+    {
+      "text": "Look for accommodation in Dubai",
+      "intent": "hotel_search",
+      "id": 112
+    },
+    {
+      "text": "I want to book accommodation in Dubai",
+      "intent": "hotel_booking",
+      "id": 70
+    },
+    {
+      "text": "Do I need a visa for Bangkok",
+      "intent": "restrictions",
+      "id": 182
+    },
+    {
+      "text": "Find accommodation in Cairo",
+      "intent": "hotel_search",
+      "id": 125
+    },
+    {
+      "text": "What do flights cost from Amsterdam to Sydney",
+      "intent": "flight_price",
+      "id": 57
+    },
+    {
+      "text": "What's the weather in Los Angeles",
+      "intent": "weather",
+      "id": 155
+    },
+    {
+      "text": "How is the weather in Los Angeles",
+      "intent": "weather",
+      "id": 140
+    },
+    {
+      "text": "Weather forecast for Cairo",
+      "intent": "weather",
+      "id": 138
+    },
+    {
+      "text": "Are there any restrictions for traveling to Cairo",
+      "intent": "restrictions",
+      "id": 198
+    },
+    {
+      "text": "Travel requirements for Sydney",
+      "intent": "restrictions",
+      "id": 197
+    },
+    {
+      "text": "I need to book a hotel in Istanbul",
+      "intent": "hotel_booking",
+      "id": 77
+    },
+    {
+      "text": "Book me a hotel in Miami for 5 nights",
+      "intent": "hotel_booking",
+      "id": 91
+    },
+    {
+      "text": "What flights are available from Paris to Bangkok",
+      "intent": "flight_search",
+      "id": 2
+    },
+    {
+      "text": "Find accommodation in Sydney",
+      "intent": "hotel_search",
+      "id": 123
+    },
+    {
+      "text": "I need to book a hotel in Singapore",
+      "intent": "hotel_booking",
+      "id": 98
+    },
+    {
+      "text": "How is the weather in Cairo",
+      "intent": "weather",
+      "id": 148
+    },
+    {
+      "text": "What flights are available from Amsterdam to Los Angeles",
+      "intent": "flight_search",
+      "id": 6
+    },
+    {
+      "text": "Are there any restrictions for traveling to Cairo",
+      "intent": "restrictions",
+      "id": 179
+    },
+    {
+      "text": "What is the weather like in Cairo",
+      "intent": "weather",
+      "id": 150
+    },
+    {
+      "text": "Book me a hotel in Miami for 7 nights",
+      "intent": "hotel_booking",
+      "id": 100
+    },
+    {
+      "text": "Find accommodation in Sydney",
+      "intent": "hotel_search",
+      "id": 108
+    },
+    {
+      "text": "How much does a flight cost from Tokyo to Sydney",
+      "intent": "flight_price",
+      "id": 53
+    },
+    {
+      "text": "What flights are available from London to Cairo",
+      "intent": "flight_search",
+      "id": 16
+    }
+  ],
+  "recommendations": {
+    "best_intent_model": {
+      "name": null,
+      "accuracy": 0,
+      "path": null
+    },
+    "best_ner_model": {
+      "name": "Original NER Model",
+      "f1_score": 0.9752650176678445,
+      "path": "slot_ner_model"
+    },
+    "recommended_pipeline": {
+      "intent_model": null,
+      "ner_model": "Original NER Model",
+      "expected_performance": {
+        "intent_accuracy": 0,
+        "ner_f1_score": 0.9752650176678445
+      }
+    }
+  }
+}

@@ -28,51 +28,93 @@ A sophisticated AI-powered travel assistant that understands natural language qu
 ```
 project-assignment-reisegruppe/
 ├── src/                          # Core application code
+│   ├── train.py                # Unified training script (intent/NER)
+│   ├── infer.py                # Unified inference script (intent/NER)
+│   ├── config.py               # Centralized config
 │   ├── gradio_conversational_chatbot.py  # Main chat interface
-│   ├── train_slot_ner_model.py          # NER model training
-│   ├── train_intent_slot_model.py       # Intent classification training
 │   ├── data_extraction/                 # API integration modules
 │   └── assistant/                       # Assistant logic and functions
-├── data/                         # Training datasets (JSONL format)
-├── slot_ner_model/              # Trained slot extraction model
-├── intent_model/                # Trained intent classification model
-├── documents/                   # Research reports and documentation
+├── data/                       # Only active datasets and models
+│   └── archive/                # Archived/unused data
+├── test/                       # Unit and integration tests
 ├── requirements.txt             # Python dependencies
-└── .env                        # API credentials (not committed)
+├── Makefile
+├── Dockerfile
+└── README.md
 ```
 
-## 🚀 Quick Start
+## 🚀 Quickstart
 
-### 1. Environment Setup
-```bash
-# Clone the repository
-git clone <repository-url>
-cd project-assignment-reisegruppe
+1. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-# Install dependencies
-pip install -r requirements.txt
+2. **Train a model**
+   ```bash
+   # Train intent model
+   make train-intent
+   # Train NER model
+   make train-ner
+   ```
 
-# Set up environment variables
-cp .env.example .env
-# Edit .env with your API keys
+3. **Run inference**
+   ```bash
+   # Intent inference
+   make infer-intent
+   # NER inference
+   make infer-ner
+   ```
+
+4. **Run tests**
+   ```bash
+   make test
+   ```
+
+5. **Docker (optional)**
+   ```bash
+   docker build -t travel-assistant .
+   docker run --rm -it travel-assistant
+   ```
+
+## 🗂️ Project Structure (Updated)
+
+```
+project-assignment-reisegruppe/
+├── src/
+│   ├── train.py                # Unified training script (intent/NER)
+│   ├── infer.py                # Unified inference script (intent/NER)
+│   ├── config.py               # Centralized config
+│   ├── gradio_conversational_chatbot.py
+│   ├── data_extraction/
+│   └── assistant/
+├── data/                       # Only active datasets and models
+│   └── archive/                # Archived/unused data
+├── test/                       # Unit and integration tests
+├── requirements.txt
+├── Makefile
+├── Dockerfile
+├── README.md
 ```
 
-### 2. API Configuration
-Add your API keys to `.env`:
-```env
-OPENWEATHER_API_KEY=your_openweather_key
-BOOKING_API_KEY=your_booking_key
-RAPIDAPI_KEY=your_rapidapi_key
-OPENAI_API_KEY=your_openai_key
-```
+## 📝 Usage Examples
 
-### 3. Run the Application
-```bash
-# Start the conversational chatbot
-python src/gradio_conversational_chatbot.py
-```
-
-The web interface will be available at `http://localhost:7860`
+- **Train intent model:**
+  ```bash
+  python src/train.py --task intent
+  ```
+- **Train NER model:**
+  ```bash
+  python src/train.py --task ner
+  ```
+- **Infer intent:**
+  ```bash
+  python src/infer.py --task intent --text "Book a hotel in Paris for 2 adults"
+  ```
+- **Infer NER:**
+  ```bash
+  python src/infer.py --task ner --text "Find flights from Berlin to Rome from July 1 to July 10"
+  ```
 
 ## 🎯 Usage Examples
 
